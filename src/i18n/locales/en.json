@@ -1,0 +1,51 @@
+{
+  "auth": {
+    "login": "Login",
+    "passport": "Passport Number",
+    "passportPlaceholder": "youremail@outlook.com",
+    "phone": "Phone Number",
+    "phonePlaceholder": "+97 XXX XXX XX XX",
+    "password": "Password",
+    "passwordPlaceholder": "Password",
+    "forgotPassword": "Forgot Password?",
+    "passportError": "Invalid passport number",
+    "phoneError": "Invalid phone number",
+    "passwordError": "Password is too short"
+  },
+  "forgot": {
+    "title": "Create Your New Password",
+    "newPassword": "Enter New Password",
+    "confirmPassword": "Re- Enter New Password",
+    "placeholder": "e.g Dynamos@123",
+    "validateName": "Must not contain your name or email",
+    "validateLength": "At least 8 characters",
+    "validateSymbol": "Contains a symbol or a number",
+    "continue": "Continue",
+    "back": "Go to Previous Page"
+  },
+  "success": {
+    "title": "Password Updated",
+    "message": "Your password has been updated successfully!",
+    "login": "Login"
+  },
+  "onboarding": {
+    "sos": {
+      "title": "SOS Button",
+      "subtitle": "If you feel lost or unwell, press SOS and help will come."
+    },
+    "health": {
+      "title": "Health Safety",
+      "subtitle": "Your medical information helps doctors treat you safely and quickly."
+    },
+    "guidance": {
+      "title": "Guidance",
+      "subtitle": "You will always know where you are and what to do next."
+    },
+    "support": {
+      "title": "Support",
+      "subtitle": "This app helps keep you safe, healthy, and guided during your journey."
+    },
+    "swipe": "Swipe >",
+    "continue": "Click anywhere to continue"
+  }
+}

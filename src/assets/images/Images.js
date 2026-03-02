@@ -1,0 +1,31 @@
+export const Images = {
+    splash: require('./splash.png'),
+    logo: require('./logo.png'),
+    commonBack: require('./commonback.png'),
+    tick: require('../icons/tick.png'),
+    toggle: require('../icons/toggle_on.png'),
+    toggleOn: require('../icons/toggle.png'),
+    updatePassword: require('./pass_update.png'),
+    onboarding1: require('./onboarding1.png'),
+    onboarding2: require('./onboarding2.png'),
+    onboarding3: require('./onbaording3.png'),
+    onboarding4: require('./onboarding4.png'),
+    home: require('../icons/home.png'),
+    group: require('../icons/group.png'),
+    rituals: require('../icons/rituals.png'),
+    map: require('../icons/map.png'),
+    health: require('../icons/health.png'),
+    homeback: require('./homeback.png'),
+    broadcast: require('../icons/broadcast.png'),
+    lost: require('../icons/lost.png'),
+    passport: require('../icons/passport.png'),
+    sos: require('../icons/sos.png'),
+    vaccine: require('../icons/vaccine.png'),
+    qr: require('../icons/qr.png'),
+    rightArrow: require('../icons/right-arrow.png'),
+    
+    
+
+    
+
+};

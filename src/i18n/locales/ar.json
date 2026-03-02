@@ -1,0 +1,51 @@
+{
+  "auth": {
+    "login": "تسجيل الدخول",
+    "passport": "رقم جواز السفر",
+    "passportPlaceholder": "youremail@outlook.com",
+    "phone": "رقم الهاتف",
+    "phonePlaceholder": "+97 XXX XXX XX XX",
+    "password": "كلمة المرور",
+    "passwordPlaceholder": "كلمة المرور",
+    "forgotPassword": "هل نسيت كلمة المرور؟",
+    "passportError": "رقم جواز سفر غير صالح",
+    "phoneError": "رقم هاتف غير صالح",
+    "passwordError": "كلمة المرور قصيرة جداً"
+  },
+  "forgot": {
+    "title": "أنشئ كلمة مرورك الجديدة",
+    "newPassword": "أدخل كلمة المرور الجديدة",
+    "confirmPassword": "أعد إدخال كلمة المرور الجديدة",
+    "placeholder": "مثال Dynamos@123",
+    "validateName": "يجب ألا تحتوي على اسمك أو بريدك الإلكتروني",
+    "validateLength": "8 أحرف على الأقل",
+    "validateSymbol": "تحتوي على رمز أو رقم",
+    "continue": "متابعة",
+    "back": "العودة للصفحة السابقة"
+  },
+  "success": {
+    "title": "تم تحديث كلمة المرور",
+    "message": "لقد تم تحديث كلمة مرورك بنجاح!",
+    "login": "تسجيل الدخول"
+  },
+  "onboarding": {
+    "sos": {
+      "title": "زر الاستغاثة",
+      "subtitle": "إذا شعرت بالضياع أو التعب، اضغط على زر الاستغاثة وسيصلك الدعم."
+    },
+    "health": {
+      "title": "الصحة والسلامة",
+      "subtitle": "معلوماتك الطبية تساعد الأطباء في علاجك بأمان وبسرعة."
+    },
+    "guidance": {
+      "title": "التوجيه",
+      "subtitle": "ستعرف دائماً مكان تواجدك وماذا تفعل لاحقاً."
+    },
+    "support": {
+      "title": "الدعم",
+      "subtitle": "هذا التطبيق يساعد في الحفاظ على سلامتك وصحتك وتوجيهك خلال رحلتك."
+    },
+    "swipe": "اسحب >",
+    "continue": "اضغط في أي مكان للمتابعة"
+  }
+}
