@@ -1,6 +1,7 @@
 export const Colors = {
   primary: '#dbe0dfff',
   background: '#27687E',
+  backgroundLight: '#F8F4EE',
   surface: '#112240',
   white: '#FFFFFF',
   border: '#233554',
@@ -24,5 +25,6 @@ export const Colors = {
   },
   yellow:"#F4C558",
   darkgray:"#959595",
-  lightgray:"#F3F3F3"
+  lightgray:"#F3F3F3",
+  lightgray3:"#ADADAD"
 };

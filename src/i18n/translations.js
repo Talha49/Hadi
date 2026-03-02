@@ -55,6 +55,44 @@ const translations = {
       rituals: "Rituals",
       health: "Health",
       group: "Group"
+    },
+    visa: {
+      title: "Your Visa",
+      surname: "Surname",
+      visaNumber: "Visa Number",
+      entries: "No. of Entries",
+      dateIssued: "Date Issued",
+      visaType: "Visa Type",
+      validity: "Validity"
+    },
+    passportDetail: {
+      title: "Your Passport",
+      surname: "Surname",
+      firstName: "First Name",
+      sex: "Sex",
+      nationality: "Nationality",
+      passportNumber: "Passport Number",
+      dob: "DOB"
+    },
+    vaccineDetail: {
+      title: "Vaccination Record",
+      vaccination: "Vaccination",
+      disease: "Disease(s) protected against:",
+      doseNumber: "Dose number:",
+      ageAtVaccination: "Age at vaccination:",
+      manufacturer: "Manufacturer:",
+      batchNumber: "Batch number:",
+      vaccinationCenter: "Vaccination center:",
+      nextDueDate: "Next due date:",
+      doctor: "Doctor / health authority:"
+    },
+    profile: {
+      title: "Profile",
+      edit: "Edit",
+      name: "Name",
+      phone: "Phone Number",
+      about: "About App",
+      logout: "Logout"
     }
   },
   ar: {
@@ -113,6 +151,44 @@ const translations = {
       rituals: "المناسك",
       health: "الصحة",
       group: "المجموعة"
+    },
+    visa: {
+      title: "تأشيرتك",
+      surname: "اللقب",
+      visaNumber: "رقم التأشيرة",
+      entries: "عدد المرات المسموح بها للدخول",
+      dateIssued: "تاريخ الإصدار",
+      visaType: "نوع التأشيرة",
+      validity: "الصلاحية"
+    },
+    passportDetail: {
+      title: "جواز سفرك",
+      surname: "اللقب",
+      firstName: "الاسم الأول",
+      sex: "الجنس",
+      nationality: "الجنسية",
+      passportNumber: "رقم جواز السفر",
+      dob: "تاريخ الميلاد"
+    },
+    vaccineDetail: {
+      title: "سجل التطعيمات",
+      vaccination: "التطعيم",
+      disease: "المرض (الأمراض) التي تم التحصين ضدها:",
+      doseNumber: "رقم الجرعة:",
+      ageAtVaccination: "العمر عند التطعيم:",
+      manufacturer: "الشركة المصنعة:",
+      batchNumber: "رقم التشغيلة:",
+      vaccinationCenter: "مركز التطعيم:",
+      nextDueDate: "موعد الجرعة التالية:",
+      doctor: "الطبيب / الجهة الصحية:"
+    },
+    profile: {
+      title: "الملف الشخصي",
+      edit: "تعديل",
+      name: "الاسم",
+      phone: "رقم الهاتف",
+      about: "عن التطبيق",
+      logout: "تسجيل الخروج"
     }
   }
 };

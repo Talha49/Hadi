@@ -1,7 +1,7 @@
 import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { Image, StyleSheet, View, Text } from 'react-native';
-import HomeScreen from '../../screens/Home/HomeScreen';
+import HomeStack from '../stacks/HomeStack';
 import MapScreen from '../../screens/Map/MapScreen';
 import RitualsScreen from '../../screens/Rituals/RitualsScreen';
 import HealthScreen from '../../screens/Health/HealthScreen';
@@ -45,7 +45,7 @@ const MainTabNavigator = () => {
         >
             <Tab.Screen
                 name="HomeTab"
-                component={HomeScreen}
+                component={HomeStack}
                 options={{
                     tabBarIcon: ({ focused }) => (
                         <TabBarIcon source={Images.home} focused={focused} label={t('tabs.home')} />

@@ -17,15 +17,19 @@ export const Images = {
     health: require('../icons/health.png'),
     homeback: require('./homeback.png'),
     broadcast: require('../icons/broadcast.png'),
+    profile: require('./profile.png'),
     lost: require('../icons/lost.png'),
     passport: require('../icons/passport.png'),
     sos: require('../icons/sos.png'),
     vaccine: require('../icons/vaccine.png'),
     qr: require('../icons/qr.png'),
     rightArrow: require('../icons/right-arrow.png'),
-    
-    
-
+    leftArrow: require('../icons/left-arrow.png'),
+    visa: require('./Visa.png'),
+    passport2: require('./passport2.png'),
+    headerImage: require('./headerback.png'),
+    info: require('../icons/info.png'),
+    logout: require('../icons/logout.png'),
     
 
 };

@@ -16,7 +16,7 @@ import { t } from '../../i18n/translations';
 import CommonBackground from '../../components/common/CommonBackground';
 import Button from '../../components/common/Button';
 
-const HomeScreen = () => {
+const HomeScreen = ({ navigation }) => {
     return (
 
         <CommonBackground source={Images.homeback}>
@@ -27,9 +27,9 @@ const HomeScreen = () => {
                         <Text style={styles.headerText}>Muhammad Ali</Text>
                         <Text style={styles.headerSubText}>2201880X</Text>
                     </View>
-                    <View>
+                    <TouchableOpacity onPress={() => navigation.navigate('Profile')}>
                         <Image source={Images.profile} style={styles.headerImage} />
-                    </View>
+                    </TouchableOpacity>
                 </View>
 
 
@@ -73,21 +73,21 @@ const HomeScreen = () => {
                             style={styles.actionButtonStyleSmall}
                             iconStyle={styles.actionIcon}
                             size="content"
-                            onPress={() => console.log('Passport pressed')}
+                            onPress={() => navigation.navigate('PassportDetail')}
                         />
                         <Button
                             icon={Images.sos}
                             style={styles.actionButtonStyleSmall}
                             iconStyle={styles.actionIcon}
                             size="content"
-                            onPress={() => console.log('SOS pressed')}
+                            onPress={() => navigation.navigate('Visa')}
                         />
                         <Button
                             icon={Images.vaccine}
                             style={styles.actionButtonStyleSmall}
                             iconStyle={styles.actionIcon}
                             size="content"
-                            onPress={() => console.log('Vaccine pressed')}
+                            onPress={() => navigation.navigate('VaccinationDetail')}
                         />
                     </View>
 
