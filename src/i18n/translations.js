@@ -13,6 +13,25 @@ const translations = {
       phoneError: "Invalid phone number",
       passwordError: "Password is too short"
     },
+    group: {
+      makkahCity: "Makkah City",
+      hotelName: "Makkah Royal\nClock Tower",
+      groupNumber: "Group\nNumber",
+      roomNumber: "Room\nNumber",
+      groupInformation: "Group Information",
+      roomInformation: "Room Information",
+      swipe: "Swipe",
+      roomTag: "Room",
+      groupTag: "Group",
+      contact: "Contact",
+      message: "Message",
+      messages: "Messages",
+      groupLeader: "Group Leader",
+      groupMember: "Group Member",
+      important: "Important",
+      reportTime: "Report at 10:00AM tomorrow.",
+      startTyping: "Start Typing..."
+    },
     forgot: {
       title: "Create Your New Password",
       newPassword: "Enter New Password",
@@ -108,6 +127,25 @@ const translations = {
       passportError: "رقم جواز سفر غير صالح",
       phoneError: "رقم هاتف غير صالح",
       passwordError: "كلمة المرور قصيرة جداً"
+    },
+    group: {
+      makkahCity: "مكة المكرمة",
+      hotelName: "برج الساعة\nمكة الملكي",
+      groupNumber: "رقم\nالمجموعة",
+      roomNumber: "رقم\nالقرية",
+      groupInformation: "معلومات المجموعة",
+      roomInformation: "معلومات الغرفة",
+      swipe: "سحب",
+      roomTag: "غرفة",
+      groupTag: "مجموعة",
+      contact: "اتصال",
+      message: "رسالة",
+      messages: "الرسائل",
+      groupLeader: "قائد المجموعة",
+      groupMember: "عضو المجموعة",
+      important: "هام",
+      reportTime: "التقرير في الساعة 10:00 صباحاً غداً.",
+      startTyping: "ابدأ الكتابة..."
     },
     forgot: {
       title: "أنشئ كلمة مرورك الجديدة",

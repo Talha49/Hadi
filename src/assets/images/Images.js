@@ -30,6 +30,11 @@ export const Images = {
     headerImage: require('./headerback.png'),
     info: require('../icons/info.png'),
     logout: require('../icons/logout.png'),
-    
+    groupmember: require('../icons/groupmember.png'),
+    hotel: require('../icons/hotel.png'),
+    key: require('../icons/key.png'),
+    groupback:require('./groubBack.png'),
+    sendmessage:require('../icons/sendmessage.png'),
+    mihrab:require('./mihrab.png'),
 
 };

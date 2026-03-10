@@ -22,7 +22,7 @@ const TabBarIcon = ({ source, focused, label }) => (
                 { tintColor: focused ? Colors.background : Colors.text.lightgray }
             ]}
             resizeMode="contain"
-        />
+        /> 
         <Text style={[
             styles.label,
             { color: focused ? Colors.background : Colors.text.lightgray }

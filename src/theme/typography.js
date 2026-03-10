@@ -2,6 +2,7 @@ import { moderateScale, sHeight } from '../utils/responsive';
 
 export const Typography = {
   size: {
+    xxss: moderateScale(8),
     xss: moderateScale(10),
     xs: moderateScale(12),
     s: moderateScale(14),

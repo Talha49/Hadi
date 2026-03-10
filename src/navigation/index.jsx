@@ -3,6 +3,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import AuthStack from './stacks/AuthStack';
 import MainTabNavigator from './navigators/MainTabNavigator';
+import ChatScreen from '../screens/Group/ChatScreen';
 
 const Stack = createNativeStackNavigator();
 
@@ -17,6 +18,7 @@ const RootNavigator = () => {
             <Stack.Navigator screenOptions={{ headerShown: false }}>
                 <Stack.Screen name="Auth" component={AuthStack} />
                 <Stack.Screen name="Main" component={MainTabNavigator} />
+                <Stack.Screen name="Chat" component={ChatScreen} />
             </Stack.Navigator>
         </NavigationContainer>
     );
