@@ -3,7 +3,7 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { Image, StyleSheet, View, Text } from 'react-native';
 import HomeStack from '../stacks/HomeStack';
 import MapScreen from '../../screens/Map/MapScreen';
-import RitualsScreen from '../../screens/Rituals/RitualsScreen';
+import RitualsStack from '../stacks/RitualsStack';
 import HealthScreen from '../../screens/Health/HealthScreen';
 import GroupScreen from '../../screens/Group/GroupScreen';
 import { Colors, Spacing, Typography } from '../../theme';
@@ -22,7 +22,7 @@ const TabBarIcon = ({ source, focused, label }) => (
                 { tintColor: focused ? Colors.background : Colors.text.lightgray }
             ]}
             resizeMode="contain"
-        /> 
+        />
         <Text style={[
             styles.label,
             { color: focused ? Colors.background : Colors.text.lightgray }
@@ -63,7 +63,7 @@ const MainTabNavigator = () => {
             />
             <Tab.Screen
                 name="RitualsTab"
-                component={RitualsScreen}
+                component={RitualsStack}
                 options={{
                     tabBarIcon: ({ focused }) => (
                         <TabBarIcon source={Images.rituals} focused={focused} label={t('tabs.rituals')} />

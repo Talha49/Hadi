@@ -42,6 +42,8 @@ const VaccinationScreen = ({ navigation }) => {
             <Header
                 title={t('vaccineDetail.title')}
                 onBackPress={() => navigation.goBack()}
+                showMihrab={true}
+                leftAlign={true}
             />
 
             <ScrollView showsVerticalScrollIndicator={false} contentContainerStyle={styles.scrollContent}>

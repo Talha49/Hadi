@@ -12,6 +12,8 @@ const PassportScreen = ({ navigation }) => {
             <Header
                 title={t('passportDetail.title')}
                 onBackPress={() => navigation.goBack()}
+                showMihrab={true}
+                leftAlign={true}
             />
 
             <ScrollView showsVerticalScrollIndicator={false} contentContainerStyle={styles.scrollContent}>

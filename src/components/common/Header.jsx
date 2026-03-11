@@ -4,7 +4,7 @@ import { Colors, Spacing, Typography } from '../../theme';
 import { Images } from '../../assets/images/Images';
 import { sWidth, sHeight } from '../../utils/responsive';
 
-const Header = ({ title, onBackPress, style, titleStyle, iconStyle, profileImage, subtitle, showMihrab }) => {
+const Header = ({ title, onBackPress, style, titleStyle, iconStyle, profileImage, subtitle, showMihrab, leftAlign }) => {
     return (
         <View style={[styles.header, style, showMihrab && styles.mihrabHeader]}>
             {showMihrab && (
@@ -22,18 +22,22 @@ const Header = ({ title, onBackPress, style, titleStyle, iconStyle, profileImage
                     </TouchableOpacity>
                 )}
 
-                <View style={styles.centerContent}>
+                <View style={[
+                    styles.centerContent,
+                    leftAlign && { alignItems: 'flex-start', paddingHorizontal: sWidth(60) }
+                ]}>
                     {profileImage && (
                         <View style={styles.avatarWrapper}>
                             <Image source={profileImage} style={styles.avatar} />
                         </View>
                     )}
-                    <Text style={[styles.headerTitle, titleStyle]}>{title}</Text>
+                    <Text style={[
+                        styles.headerTitle,
+                        titleStyle,
+                        leftAlign && { textAlign: 'left' }
+                    ]}>{title}</Text>
                     {subtitle && <Text style={styles.subtitle}>{subtitle}</Text>}
                 </View>
-
-                {/* Placeholder for symmetry */}
-                {onBackPress && <View style={styles.placeholder} />}
             </View>
         </View>
     );
@@ -46,22 +50,24 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
     },
     mihrabHeader: {
-        height: sHeight(160),
-        paddingTop: sHeight(40),
+        height: sHeight(123),
+        paddingTop: sHeight(35),
     },
     mihrabBg: {
         position: 'absolute',
-        top: sHeight(30),
+        top: 0,
         alignSelf: 'center',
-        width: sWidth(375),
-        height: sHeight(155),
+        width: sWidth(402), // Exact width requested
+        height: sHeight(123), // Exact height requested
     },
     contentRow: {
         flexDirection: 'row',
         alignItems: 'center',
-        paddingHorizontal: Spacing.layout.gap,
+        height: sHeight(60), // Fixed height for the row area
     },
     backButton: {
+        position: 'absolute',
+        left: Spacing.layout.gap,
         width: sWidth(40),
         height: sWidth(40),
         justifyContent: 'center',
@@ -76,22 +82,23 @@ const styles = StyleSheet.create({
         flex: 1,
         alignItems: 'center',
         justifyContent: 'center',
+        paddingHorizontal: sWidth(50), // Ensure text doesn't hit back button
     },
     avatarWrapper: {
-        width: sWidth(50),
-        height: sWidth(50),
-        borderRadius: sWidth(25),
+        width: sWidth(46), // Slightly smaller to match design
+        height: sWidth(46),
+        borderRadius: sWidth(23),
         borderWidth: 2,
         borderColor: Colors.yellow,
         overflow: 'hidden',
-        marginBottom: sHeight(8),
+        marginBottom: sHeight(4),
     },
     avatar: {
         width: '100%',
         height: '100%',
     },
     headerTitle: {
-        fontSize: sWidth(18),
+        fontSize: sWidth(20), // Slightly larger for better readability
         fontWeight: Typography.weight.bold,
         color: Colors.white,
         textAlign: 'center',
@@ -100,9 +107,6 @@ const styles = StyleSheet.create({
         fontSize: sWidth(12),
         color: 'rgba(255, 255, 255, 0.7)',
         marginTop: 2,
-    },
-    placeholder: {
-        width: sWidth(40),
     },
 });
 

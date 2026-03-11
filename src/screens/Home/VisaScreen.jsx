@@ -12,6 +12,8 @@ const VisaScreen = ({ navigation }) => {
             <Header
                 title={t('visa.title')}
                 onBackPress={() => navigation.goBack()}
+                showMihrab={true}
+                leftAlign={true}
             />
 
             <ScrollView showsVerticalScrollIndicator={false} contentContainerStyle={styles.scrollContent}>

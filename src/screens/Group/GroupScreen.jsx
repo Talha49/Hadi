@@ -5,6 +5,7 @@ import { sWidth, sHeight } from '../../utils/responsive';
 import { useNavigation } from '@react-navigation/native';
 import { t } from '../../i18n/translations';
 import InfoCard from '../../components/common/InfoCard';
+import HadiHeader from '../../components/common/HadiHeader';
 import MemberCard from '../../components/group/MemberCard';
 import MessageCard from '../../components/group/MessageCard';
 
@@ -94,32 +95,15 @@ const GroupScreen = () => {
 
     return (
         <ScrollView style={styles.container} bounces={false} showsVerticalScrollIndicator={false}>
-            <ImageBackground
-                source={Images.headerImage}
-                style={styles.header}
-                imageStyle={styles.headerBg}
-                resizeMode="cover"
-            >
-                <View style={styles.headerContent}>
-                    <View style={styles.topRow}>
-                        <Text style={styles.headerTitle}>Hadi Journey</Text>
-                        <TouchableOpacity
-                            onPress={() => navigation.navigate('Profile')}
-                            activeOpacity={0.8}
-                        >
-                            <Image source={Images.profile} style={styles.avatar} />
-                        </TouchableOpacity>
-                    </View>
-                </View>
-            </ImageBackground>
-
-            <View style={styles.content}>
+            <HadiHeader title={"Hadi Journey"}>
                 <View style={styles.cardsRow}>
                     {groupData.map((item, index) => (
                         <InfoCard key={index} {...item} />
                     ))}
                 </View>
+            </HadiHeader>
 
+            <View style={styles.content}>
                 <View style={styles.infoSection}>
                     <View style={styles.infoTitleRow}>
                         <Text style={styles.infoTitleRowText}>{t('group.groupInformation')}</Text>
@@ -178,45 +162,8 @@ const styles = StyleSheet.create({
         flex: 1,
         backgroundColor: Colors.backgroundLight,
     },
-    header: {
-        width: sWidth(404),
-        height: sHeight(259),
-        backgroundColor: Colors.background,
-    },
-    headerBg: {
-        position: 'absolute',
-        top: 50,
-        left: 0,
-        width: '100%',
-        height: '100%',
-        resizeMode: 'contain',
-    },
-    headerContent: {
-        flex: 1,
-        paddingHorizontal: Spacing.layout.gap,
-        paddingTop: sHeight(50),
-        paddingBottom: sHeight(70),
-    },
-    topRow: {
-        flexDirection: 'row',
-        justifyContent: 'space-between',
-        alignItems: 'center',
-    },
-    headerTitle: {
-        fontSize: sWidth(24),
-        fontWeight: Typography.weight.bold,
-        color: Colors.white,
-        letterSpacing: sWidth(-0.4),
-    },
-    avatar: {
-        width: sWidth(40),
-        height: sWidth(40),
-        borderRadius: sWidth(20),
-        borderWidth: 2,
-        borderColor: Colors.yellow,
-    },
     content: {
-        marginTop: -sHeight(20),
+        marginTop: sHeight(60),
         borderTopLeftRadius: sWidth(30),
         borderTopRightRadius: sWidth(30),
         paddingHorizontal: Spacing.layout.gap,
@@ -226,9 +173,9 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
         justifyContent: 'center',
         alignItems: 'center',
-        width: '100%',
+        width: sWidth(404),
         position: 'absolute',
-        top: -sHeight(37.5),
+        bottom: -sHeight(25),
         zIndex: 10,
         gap: 8,
         paddingHorizontal: Spacing.layout.gap,
@@ -271,6 +218,12 @@ const styles = StyleSheet.create({
     messageList: {
         gap: sHeight(2),
     },
+    infoTitleRow: {
+        flex: 1,
+        flexDirection: 'row',
+        alignItems: "center",
+        justifyContent: "space-between"
+    }
 });
 
 export default GroupScreen;
