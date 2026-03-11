@@ -51,4 +51,11 @@ export const Images = {
     tawafIfadah: require('./tawaf_al_ifadah.png'),
     stoningThree: require('./stoning_during_tashreeq.png'),
     tawafWada: require('./Tawaf_al_wadah.png'),
+    weight: require('../icons/weight.png'),
+    male: require('../icons/male.png'),
+    bloodGroup: require('../icons/blood_group.png'),
+    pill: require('../icons/pill.png'),
+    tick2: require('../icons/tick2.png'),
+    safety: require('../icons/safety.png')
+    
 };

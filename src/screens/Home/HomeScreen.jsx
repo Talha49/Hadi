@@ -15,6 +15,7 @@ import { sWidth, sHeight } from '../../utils/responsive';
 import { t } from '../../i18n/translations';
 import CommonBackground from '../../components/common/CommonBackground';
 import Button from '../../components/common/Button';
+import QRInfoCard from '../../components/common/QRInfoCard';
 
 const HomeScreen = ({ navigation }) => {
     return (
@@ -92,32 +93,16 @@ const HomeScreen = ({ navigation }) => {
                     </View>
 
                     {/* QR Code Card */}
-                    <TouchableOpacity style={styles.qrCard} activeOpacity={0.9}>
-                        <View style={styles.qrHeader}>
-                            <Text style={styles.qrTitle}>Pilgrim QR Code</Text>
-                            <Image source={Images.rightArrow} style={styles.qrArrowIcon} />
-                        </View>
-
-                        <View style={styles.qrContent}>
-                            <View style={styles.qrInfoList}>
-                                <View style={styles.infoItem}>
-                                    <Image source={Images.broadcast} style={styles.broadcastImage} />
-                                    <Text style={styles.infoItemText}>Muhammad Ali</Text>
-                                </View>
-                                <View style={styles.infoItem}>
-                                    <Image source={Images.broadcast} style={styles.broadcastImage} />
-                                    <Text style={styles.infoItemText}>Group A</Text>
-                                </View>
-                                <View style={styles.infoItem}>
-                                    <Image source={Images.broadcast} style={styles.broadcastImage} />
-                                    <Text style={styles.infoItemText}>Madinah Royal Ho....</Text>
-                                </View>
-                            </View>
-                            <View style={styles.qrImageContainer}>
-                                <Image source={Images.qr} style={styles.qrImage} />
-                            </View>
-                        </View>
-                    </TouchableOpacity>
+                    <QRInfoCard
+                        title="Pilgrim QR Code"
+                        qrImage={Images.qr}
+                        items={[
+                            { icon: Images.broadcast, text: "Muhammad Ali" },
+                            { icon: Images.broadcast, text: "Group A" },
+                            { icon: Images.broadcast, text: "Madinah Royal Ho...." },
+                        ]}
+                        onPress={() => console.log('QR Card pressed')}
+                    />
                 </View>
 
             </View>

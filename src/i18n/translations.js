@@ -105,6 +105,19 @@ const translations = {
       nextDueDate: "Next due date:",
       doctor: "Doctor / health authority:"
     },
+    health: {
+      title: "Hadi Health",
+      male: "Male",
+      female: "Female",
+      bodyWeight: "Body Weight (kg)",
+      bloodGroup: "Blood Group",
+      emergencyMedicalCard: "Emergency Medical Card",
+      medicationList: "Medication List",
+      medicationReminder: "Medication Reminder",
+      swipe: "Swipe >",
+      takeAfterMeals: "Take after meals.",
+      takeBeforeMeals: "Take before meals.",
+    },
     profile: {
       title: "Profile",
       edit: "Edit",
@@ -358,6 +371,19 @@ const translations = {
       vaccinationCenter: "مركز التطعيم:",
       nextDueDate: "موعد الجرعة التالية:",
       doctor: "الطبيب / الجهة الصحية:"
+    },
+    health: {
+      title: "هادي الصحي",
+      male: "ذكر",
+      female: "أنثى",
+      bodyWeight: "وزن الجسم (كجم)",
+      bloodGroup: "فصيلة الدم",
+      emergencyMedicalCard: "البطاقة الطبية الطارئة",
+      medicationList: "قائمة الأدوية",
+      medicationReminder: "تذكير الدواء",
+      swipe: "سحب >",
+      takeAfterMeals: "تناوله بعد الوجبات.",
+      takeBeforeMeals: "تناوله قبل الوجبات.",
     },
     profile: {
       title: "الملف الشخصي",
