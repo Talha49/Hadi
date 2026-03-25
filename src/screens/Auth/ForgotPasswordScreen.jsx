@@ -22,8 +22,25 @@ const ForgotPasswordScreen = ({ navigation }) => {
     const [newPassword, setNewPassword] = useState('');
     const [confirmPassword, setConfirmPassword] = useState('');
     const [loading, setLoading] = useState(false);
+    const [error, setError] = useState('');
+
+    const hasMinLength = newPassword.length >= 8;
+    const hasSymbolOrNumber = /[\d!@#$%^&*()_+{}\[\]:;"'<>,.?/\\|`~]/.test(newPassword);
+    const notNameOrEmail = newPassword.length > 0; // Simple check for demo
+
+    const isAllValid = hasMinLength && hasSymbolOrNumber && notNameOrEmail;
 
     const handleContinue = () => {
+        if (!isAllValid) {
+            setError(t('forgot.errorCriteria')); // Fallback if needed, but UI shows the red text already. Let's just use simple error.
+            return;
+        }
+        if (newPassword !== confirmPassword) {
+            setError("Passwords do not match");
+            return;
+        }
+
+        setError('');
         setLoading(true);
         // Simulate API call
         setTimeout(() => {
@@ -35,8 +52,10 @@ const ForgotPasswordScreen = ({ navigation }) => {
     const ValidationItem = ({ text, isValid }) => (
         <View style={styles.validationItem}>
             <View>
-                {/* Simulating checkmark with a small dot or nothing for now */}
-                <Image source={Images.tick} style={styles.checkInner} />
+                <Image 
+                    source={Images.tick} 
+                    style={[styles.checkInner, !isValid && { tintColor: Colors.text.lightgray }]} 
+                />
             </View>
             <Text style={[styles.validationText, isValid && styles.validationTextValid]}>
                 {t(text)}
@@ -59,6 +78,8 @@ const ForgotPasswordScreen = ({ navigation }) => {
                             <Text style={styles.title}>{t('forgot.title')}</Text>
 
                             <View style={styles.form}>
+                                {error ? <Text style={styles.errorText}>{error}</Text> : null}
+
                                 <Input
                                     label={t('forgot.newPassword')}
                                     placeholder={t('forgot.placeholder')}
@@ -78,9 +99,9 @@ const ForgotPasswordScreen = ({ navigation }) => {
                                 />
 
                                 <View style={styles.validationList}>
-                                    <ValidationItem text="forgot.validateName" isValid={true} />
-                                    <ValidationItem text="forgot.validateLength" isValid={true} />
-                                    <ValidationItem text="forgot.validateSymbol" isValid={true} />
+                                    <ValidationItem text="forgot.validateName" isValid={notNameOrEmail} />
+                                    <ValidationItem text="forgot.validateLength" isValid={hasMinLength} />
+                                    <ValidationItem text="forgot.validateSymbol" isValid={hasSymbolOrNumber} />
                                 </View>
 
                                 <Button
@@ -137,6 +158,12 @@ const styles = StyleSheet.create({
     form: {
         width: sWidth(337),
         alignItems: 'center',
+    },
+    errorText: {
+        color: 'red',
+        fontSize: Typography.size.s,
+        marginBottom: Spacing.m,
+        alignSelf: 'flex-start',
     },
     validationList: {
         width: sWidth(337),

@@ -19,7 +19,9 @@ const QRInfoCard = ({
     qrHeight = sWidth(91.67),
     qrTintColor,
     headerIcon,
-    showArrow = true
+    showArrow = true,
+    headerRightText,
+    rightTextColor = Colors.white
 }) => {
     return (
         <TouchableOpacity
@@ -28,18 +30,23 @@ const QRInfoCard = ({
             onPress={onPress}
         >
             <View style={styles.qrHeader}>
-                {headerIcon && (
-                    <Image
-                        source={headerIcon}
-                        style={[styles.headerIcon, { tintColor: titleColor }]}
-                    />
-                )}
-                <Text style={[styles.qrTitle, { color: titleColor }]}>{title}</Text>
-                {showArrow && (
-                    <Image
-                        source={Images.rightArrow}
-                        style={[styles.qrArrowIcon, { tintColor: arrowTintColor }]}
-                    />
+                <View style={styles.headerLeft}>
+                    {headerIcon && (
+                        <Image
+                            source={headerIcon}
+                            style={[styles.headerIcon, { tintColor: titleColor }]}
+                        />
+                    )}
+                    <Text style={[styles.qrTitle, { color: titleColor }]}>{title}</Text>
+                    {showArrow && (
+                        <Image
+                            source={Images.rightArrow}
+                            style={[styles.qrArrowIcon, { tintColor: arrowTintColor }]}
+                        />
+                    )}
+                </View>
+                {headerRightText && (
+                    <Text style={[styles.headerRightText, { color: rightTextColor }]}>{headerRightText}</Text>
                 )}
             </View>
 
@@ -86,8 +93,17 @@ const styles = StyleSheet.create({
     qrHeader: {
         flexDirection: 'row',
         alignItems: 'center',
-        gap: sWidth(10),
+        justifyContent: 'space-between',
         marginBottom: sHeight(15),
+    },
+    headerLeft: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        gap: sWidth(10),
+    },
+    headerRightText: {
+        fontSize: Typography.size.xss, // Around 10-12
+        fontWeight: Typography.weight.regular,
     },
     headerIcon: {
         width: sWidth(18),

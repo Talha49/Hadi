@@ -1,12 +1,10 @@
 import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { Image, StyleSheet, View, Text } from 'react-native';
-import HomeStack from '../stacks/HomeStack';
+import FieldworkerHomeStack from '../stacks/FieldworkerHomeStack';
 import MapScreen from '../../screens/Shared/Map/MapScreen';
-import RitualsStack from '../stacks/RitualsStack';
-import HealthScreen from '../../screens/Pilgrim/Health/HealthScreen';
-import GroupScreen from '../../screens/Pilgrim/Group/GroupScreen';
-import { Colors, Spacing, Typography } from '../../theme';
+import FieldworkerHealthStack from '../stacks/FieldworkerHealthStack';
+import { Colors, Typography } from '../../theme';
 import { Images } from '../../assets/images/Images';
 import { t } from '../../i18n/translations';
 import { sWidth, sHeight } from '../../utils/responsive';
@@ -32,7 +30,7 @@ const TabBarIcon = ({ source, focused, label }) => (
     </View>
 );
 
-const MainTabNavigator = () => {
+const FieldworkerTabNavigator = () => {
     return (
         <Tab.Navigator
             screenOptions={{
@@ -45,7 +43,7 @@ const MainTabNavigator = () => {
         >
             <Tab.Screen
                 name="HomeTab"
-                component={HomeStack}
+                component={FieldworkerHomeStack}
                 options={{
                     tabBarIcon: ({ focused }) => (
                         <TabBarIcon source={Images.home} focused={focused} label={t('tabs.home')} />
@@ -62,29 +60,11 @@ const MainTabNavigator = () => {
                 }}
             />
             <Tab.Screen
-                name="RitualsTab"
-                component={RitualsStack}
-                options={{
-                    tabBarIcon: ({ focused }) => (
-                        <TabBarIcon source={Images.rituals} focused={focused} label={t('tabs.rituals')} />
-                    ),
-                }}
-            />
-            <Tab.Screen
                 name="HealthTab"
-                component={HealthScreen}
+                component={FieldworkerHealthStack}
                 options={{
                     tabBarIcon: ({ focused }) => (
                         <TabBarIcon source={Images.health} focused={focused} label={t('tabs.health')} />
-                    ),
-                }}
-            />
-            <Tab.Screen
-                name="GroupTab"
-                component={GroupScreen}
-                options={{
-                    tabBarIcon: ({ focused }) => (
-                        <TabBarIcon source={Images.group} focused={focused} label={t('tabs.group')} />
                     ),
                 }}
             />
@@ -116,7 +96,7 @@ const styles = StyleSheet.create({
     iconContainer: {
         alignItems: 'center',
         justifyContent: 'center',
-        paddingTop: sHeight(8), // Subtle top padding for balance
+        paddingTop: sHeight(8), 
     },
     icon: {
         width: sWidth(22),
@@ -129,4 +109,4 @@ const styles = StyleSheet.create({
     },
 });
 
-export default MainTabNavigator;
+export default FieldworkerTabNavigator;

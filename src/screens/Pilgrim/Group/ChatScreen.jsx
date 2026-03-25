@@ -10,12 +10,12 @@ import {
     KeyboardAvoidingView,
     Platform,
 } from 'react-native';
-import { Colors, Spacing, Typography } from '../../theme';
-import { Images } from '../../assets/images/Images';
-import { sWidth, sHeight, moderateScale } from '../../utils/responsive';
-import Header from '../../components/common/Header';
+import { Colors, Spacing, Typography } from '../../../theme';
+import { Images } from '../../../assets/images/Images';
+import { sWidth, sHeight, moderateScale } from '../../../utils/responsive';
+import Header from '../../../components/common/Header';
 import { useRoute, useNavigation } from '@react-navigation/native';
-import { t } from '../../i18n/translations';
+import { t } from '../../../i18n/translations';
 
 const ChatScreen = () => {
     const route = useRoute();

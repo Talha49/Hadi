@@ -1,14 +1,14 @@
 import React from 'react';
 import { View, Text, StyleSheet, TouchableOpacity, Image, ScrollView } from 'react-native';
-import { Images } from '../../assets/images/Images';
-import { Typography, Colors, Spacing } from '../../theme';
-import { sWidth, sHeight } from '../../utils/responsive';
+import { Images } from '../../../assets/images/Images';
+import { Typography, Colors, Spacing } from '../../../theme';
+import { sWidth, sHeight } from '../../../utils/responsive';
 import { useNavigation } from '@react-navigation/native';
-import { t } from '../../i18n/translations';
-import HadiHeader from '../../components/common/HadiHeader';
-import InfoCard from '../../components/common/InfoCard';
-import ActivityCard from '../../components/rituals/ActivityCard';
-import ActivityDetailModal from '../../components/rituals/ActivityDetailModal';
+import { t } from '../../../i18n/translations';
+import HadiHeader from '../../../components/common/HadiHeader';
+import InfoCard from '../../../components/common/InfoCard';
+import ActivityCard from '../../../components/rituals/ActivityCard';
+import ActivityDetailModal from '../../../components/rituals/ActivityDetailModal';
 
 const RitualsScreen = () => {
     const navigation = useNavigation();

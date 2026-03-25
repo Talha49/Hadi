@@ -1,10 +1,10 @@
 import React from 'react';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import HomeScreen from '../../screens/Home/HomeScreen';
-import VisaScreen from '../../screens/Home/VisaScreen';
-import PassportScreen from '../../screens/Home/PassportScreen';
-import VaccinationScreen from '../../screens/Home/VaccinationScreen';
-import ProfileScreen from '../../screens/Home/ProfileScreen';
+import HomeScreen from '../../screens/Pilgrim/Home/HomeScreen';
+import VisaScreen from '../../screens/Pilgrim/Home/VisaScreen';
+import PassportScreen from '../../screens/Pilgrim/Home/PassportScreen';
+import VaccinationScreen from '../../screens/Pilgrim/Home/VaccinationScreen';
+import ProfileScreen from '../../screens/Shared/Profile/ProfileScreen';
 
 const Stack = createNativeStackNavigator();
 

@@ -9,13 +9,13 @@ import {
     StatusBar,
     ImageBackground,
 } from 'react-native';
-import { Colors, Spacing, Typography } from '../../theme';
-import { Images } from '../../assets/images/Images';
-import { sWidth, sHeight } from '../../utils/responsive';
-import { t } from '../../i18n/translations';
-import CommonBackground from '../../components/common/CommonBackground';
-import Button from '../../components/common/Button';
-import QRInfoCard from '../../components/common/QRInfoCard';
+import { Colors, Spacing, Typography } from '../../../theme';
+import { Images } from '../../../assets/images/Images';
+import { sWidth, sHeight } from '../../../utils/responsive';
+import { t } from '../../../i18n/translations';
+import CommonBackground from '../../../components/common/CommonBackground';
+import Button from '../../../components/common/Button';
+import QRInfoCard from '../../../components/common/QRInfoCard';
 
 const HomeScreen = ({ navigation }) => {
     return (
@@ -77,7 +77,7 @@ const HomeScreen = ({ navigation }) => {
                             onPress={() => navigation.navigate('PassportDetail')}
                         />
                         <Button
-                            icon={Images.sos}
+                            icon={Images.visa}
                             style={styles.actionButtonStyleSmall}
                             iconStyle={styles.actionIcon}
                             size="content"

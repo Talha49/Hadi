@@ -1,15 +1,15 @@
 import React from 'react';
 import { View, Text, StyleSheet, ScrollView, TouchableOpacity, Image } from 'react-native';
-import CommonBackground from '../../components/common/CommonBackground';
-import HadiHeader from '../../components/common/HadiHeader';
-import InfoCard from '../../components/common/InfoCard';
-import QRInfoCard from '../../components/common/QRInfoCard';
-import MedicationCard from '../../components/health/MedicationCard';
-import MedicationReminder from '../../components/health/MedicationReminder';
-import { Images } from '../../assets/images/Images';
-import { Typography, Colors, Spacing } from '../../theme';
-import { sWidth, sHeight } from '../../utils/responsive';
-import { t } from '../../i18n/translations';
+import CommonBackground from '../../../components/common/CommonBackground';
+import HadiHeader from '../../../components/common/HadiHeader';
+import InfoCard from '../../../components/common/InfoCard';
+import QRInfoCard from '../../../components/common/QRInfoCard';
+import MedicationCard from '../../../components/health/MedicationCard';
+import MedicationReminder from '../../../components/health/MedicationReminder';
+import { Images } from '../../../assets/images/Images';
+import { Typography, Colors, Spacing } from '../../../theme';
+import { sWidth, sHeight } from '../../../utils/responsive';
+import { t } from '../../../i18n/translations';
 
 const HealthScreen = () => {
     const infoData = [

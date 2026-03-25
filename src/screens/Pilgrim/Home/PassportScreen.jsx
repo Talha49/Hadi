@@ -1,16 +1,16 @@
 import React from 'react';
 import { StyleSheet, View, ScrollView, Image, Text } from 'react-native';
-import { Colors, Spacing, Typography } from '../../theme';
-import { Images } from '../../assets/images/Images';
-import { sWidth, sHeight } from '../../utils/responsive';
-import { t } from '../../i18n/translations';
-import Header from '../../components/common/Header';
+import { Colors, Spacing, Typography } from '../../../theme';
+import { Images } from '../../../assets/images/Images';
+import { sWidth, sHeight } from '../../../utils/responsive';
+import { t } from '../../../i18n/translations';
+import Header from '../../../components/common/Header';
 
-const VisaScreen = ({ navigation }) => {
+const PassportScreen = ({ navigation }) => {
     return (
         <View style={styles.container}>
             <Header
-                title={t('visa.title')}
+                title={t('passportDetail.title')}
                 onBackPress={() => navigation.goBack()}
                 showMihrab={true}
                 leftAlign={true}
@@ -21,43 +21,43 @@ const VisaScreen = ({ navigation }) => {
                 <View style={styles.infoCard}>
                     <View style={styles.infoColumn}>
                         <Text style={styles.infoValue} numberOfLines={1}>SAJID</Text>
-                        <Text style={styles.infoLabel}>{t('visa.surname')}</Text>
+                        <Text style={styles.infoLabel}>{t('passportDetail.surname')}</Text>
                     </View>
                     <View style={styles.divider} />
                     <View style={styles.infoColumn}>
-                        <Text style={styles.infoValue} numberOfLines={1}>FX589028028</Text>
-                        <Text style={styles.infoLabel}>{t('visa.visaNumber')}</Text>
+                        <Text style={styles.infoValue} numberOfLines={1}>Muhammad Mardan</Text>
+                        <Text style={styles.infoLabel}>{t('passportDetail.firstName')}</Text>
                     </View>
                     <View style={styles.divider} />
                     <View style={styles.infoColumn}>
-                        <Text style={styles.infoValue} numberOfLines={1}>Single</Text>
-                        <Text style={styles.infoLabel}>{t('visa.entries')}</Text>
+                        <Text style={styles.infoValue} numberOfLines={1}>M</Text>
+                        <Text style={styles.infoLabel}>{t('passportDetail.sex')}</Text>
                     </View>
                 </View>
 
                 {/* Info Card Row 2 */}
                 <View style={styles.infoCard}>
                     <View style={styles.infoColumn}>
-                        <Text style={styles.infoValue} numberOfLines={1}>09.12.2025</Text>
-                        <Text style={styles.infoLabel}>{t('visa.dateIssued')}</Text>
+                        <Text style={styles.infoValue} numberOfLines={1}>PAK</Text>
+                        <Text style={styles.infoLabel}>{t('passportDetail.nationality')}</Text>
                     </View>
                     <View style={styles.divider} />
                     <View style={styles.infoColumn}>
-                        <Text style={styles.infoValue} numberOfLines={1}>Tourism Visa</Text>
-                        <Text style={styles.infoLabel}>{t('visa.visaType')}</Text>
+                        <Text style={styles.infoValue} numberOfLines={1}>FX44508</Text>
+                        <Text style={styles.infoLabel}>{t('passportDetail.passportNumber')}</Text>
                     </View>
                     <View style={styles.divider} />
                     <View style={styles.infoColumn}>
-                        <Text style={styles.infoValue} numberOfLines={1}>30 Days</Text>
-                        <Text style={styles.infoLabel}>{t('visa.validity')}</Text>
+                        <Text style={styles.infoValue} numberOfLines={1}>09.12.2000</Text>
+                        <Text style={styles.infoLabel}>{t('passportDetail.dob')}</Text>
                     </View>
                 </View>
 
-                {/* Visa Image Card */}
+                {/* Passport Image Card */}
                 <View style={styles.imageCard}>
                     <Image
-                        source={Images.visa}
-                        style={styles.visaImage}
+                        source={Images.passport2}
+                        style={styles.passportImage}
                         resizeMode="contain"
                     />
                 </View>
@@ -120,10 +120,10 @@ const styles = StyleSheet.create({
         padding: sWidth(10),
         alignItems: 'center',
     },
-    visaImage: {
+    passportImage: {
         width: '100%',
         height: sHeight(450),
     },
 });
 
-export default VisaScreen;
+export default PassportScreen;

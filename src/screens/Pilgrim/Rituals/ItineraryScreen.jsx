@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 import { View, Text, StyleSheet, ScrollView, TouchableOpacity } from 'react-native';
-import { Typography, Colors, Spacing } from '../../theme';
-import { Images } from '../../assets/images/Images';
-import { sWidth, sHeight, moderateScale } from '../../utils/responsive';
-import Header from '../../components/common/Header';
-import RitualCard from '../../components/rituals/RitualCard';
-import { t } from '../../i18n/translations';
+import { Typography, Colors, Spacing } from '../../../theme';
+import { Images } from '../../../assets/images/Images';
+import { sWidth, sHeight, moderateScale } from '../../../utils/responsive';
+import Header from '../../../components/common/Header';
+import RitualCard from '../../../components/rituals/RitualCard';
+import { t } from '../../../i18n/translations';
 import { useNavigation } from '@react-navigation/native';
 
 const ItineraryScreen = () => {

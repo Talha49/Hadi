@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { StyleSheet, View, Text, ScrollView, TouchableOpacity, Image, LayoutAnimation, Platform, UIManager } from 'react-native';
-import { Colors, Spacing, Typography } from '../../theme';
-import { Images } from '../../assets/images/Images';
-import { sWidth, sHeight } from '../../utils/responsive';
-import { t } from '../../i18n/translations';
-import Header from '../../components/common/Header';
+import { Colors, Spacing, Typography } from '../../../theme';
+import { Images } from '../../../assets/images/Images';
+import { sWidth, sHeight } from '../../../utils/responsive';
+import { t } from '../../../i18n/translations';
+import Header from '../../../components/common/Header';
 
 if (Platform.OS === 'android' && UIManager.setLayoutAnimationEnabledExperimental) {
     UIManager.setLayoutAnimationEnabledExperimental(true);

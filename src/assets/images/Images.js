@@ -56,6 +56,9 @@ export const Images = {
     bloodGroup: require('../icons/blood_group.png'),
     pill: require('../icons/pill.png'),
     tick2: require('../icons/tick2.png'),
-    safety: require('../icons/safety.png')
-    
+    safety: require('../icons/safety.png'),
+    sos: require('./sos.png'),
+    scan: require('./scan.png'),
+    galllery: require('../icons/gallery.png'),
+    flash: require('../icons/flash.png'),    
 };

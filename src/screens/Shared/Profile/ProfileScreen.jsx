@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {
     StyleSheet,
     View,
@@ -7,14 +7,30 @@ import {
     TouchableOpacity,
     ScrollView,
     ImageBackground,
+    TextInput,
 } from 'react-native';
-import { Colors, Spacing, Typography } from '../../theme';
-import { Images } from '../../assets/images/Images';
-import { sWidth, sHeight } from '../../utils/responsive';
-import { t } from '../../i18n/translations';
-import Header from '../../components/common/Header';
+import { Colors, Spacing, Typography } from '../../../theme';
+import { Images } from '../../../assets/images/Images';
+import { sWidth, sHeight } from '../../../utils/responsive';
+import { t } from '../../../i18n/translations';
+import Header from '../../../components/common/Header';
 
 const ProfileScreen = ({ navigation }) => {
+    const [isEditing, setIsEditing] = useState(false);
+    const [name, setName] = useState('Ali Usman Raja');
+    const [phone, setPhone] = useState('+97 509 38 88');
+
+    const handleEditToggle = () => {
+        setIsEditing(!isEditing);
+    };
+
+    const handleLogout = () => {
+        navigation.reset({
+            index: 0,
+            routes: [{ name: 'Auth' }],
+        });
+    };
+
     return (
         <View style={styles.container}>
             <Header
@@ -30,8 +46,8 @@ const ProfileScreen = ({ navigation }) => {
                     <View style={styles.imageWrapper}>
                         <Image source={Images.profile} style={styles.profileImage} />
                     </View>
-                    <TouchableOpacity style={styles.editButton} activeOpacity={0.7}>
-                        <Text style={styles.editText}>{t('profile.edit')}</Text>
+                    <TouchableOpacity style={styles.editButton} activeOpacity={0.7} onPress={handleEditToggle}>
+                        <Text style={styles.editText}>{isEditing ? "Save" : t('profile.edit')}</Text>
                     </TouchableOpacity>
                 </View>
 
@@ -40,14 +56,31 @@ const ProfileScreen = ({ navigation }) => {
                     <View style={styles.fieldItem}>
                         <Text style={styles.fieldLabel}>{t('profile.name')}</Text>
                         <View style={styles.inputContainer}>
-                            <Text style={styles.inputText}>Ali Usman Raja</Text>
+                            {isEditing ? (
+                                <TextInput
+                                    style={[styles.inputText, { color: Colors.text.primary }]}
+                                    value={name}
+                                    onChangeText={setName}
+                                />
+                            ) : (
+                                <Text style={styles.inputText}>{name}</Text>
+                            )}
                         </View>
                     </View>
 
                     <View style={styles.fieldItem}>
                         <Text style={styles.fieldLabel}>{t('profile.phone')}</Text>
                         <View style={styles.inputContainer}>
-                            <Text style={styles.inputText}>+97 XXX XXX XX XX</Text>
+                            {isEditing ? (
+                                <TextInput
+                                    style={[styles.inputText, { color: Colors.text.primary }]}
+                                    value={phone}
+                                    onChangeText={setPhone}
+                                    keyboardType="phone-pad"
+                                />
+                            ) : (
+                                <Text style={styles.inputText}>{phone}</Text>
+                            )}
                         </View>
                     </View>
                 </View>
@@ -62,7 +95,7 @@ const ProfileScreen = ({ navigation }) => {
                         <Image source={Images.rightArrow} style={styles.arrowIcon} />
                     </TouchableOpacity>
 
-                    <TouchableOpacity style={styles.menuItem} activeOpacity={0.7}>
+                    <TouchableOpacity style={styles.menuItem} activeOpacity={0.7} onPress={handleLogout}>
                         <View style={styles.menuLeft}>
                             <Image source={Images.logout} style={styles.menuIcon} />
                             <Text style={styles.menuText}>{t('profile.logout')}</Text>

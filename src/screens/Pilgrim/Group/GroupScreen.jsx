@@ -1,13 +1,13 @@
 import { View, Text, StyleSheet, TouchableOpacity, Image, ImageBackground, ScrollView } from 'react-native';
-import { Images } from '../../assets/images/Images';
-import { Typography, Colors, Spacing } from '../../theme';
-import { sWidth, sHeight } from '../../utils/responsive';
+import { Images } from '../../../assets/images/Images';
+import { Typography, Colors, Spacing } from '../../../theme';
+import { sWidth, sHeight } from '../../../utils/responsive';
 import { useNavigation } from '@react-navigation/native';
-import { t } from '../../i18n/translations';
-import InfoCard from '../../components/common/InfoCard';
-import HadiHeader from '../../components/common/HadiHeader';
-import MemberCard from '../../components/group/MemberCard';
-import MessageCard from '../../components/group/MessageCard';
+import { t } from '../../../i18n/translations';
+import InfoCard from '../../../components/common/InfoCard';
+import HadiHeader from '../../../components/common/HadiHeader';
+import MemberCard from '../../../components/group/MemberCard';
+import MessageCard from '../../../components/group/MessageCard';
 
 const GroupScreen = () => {
     const navigation = useNavigation();

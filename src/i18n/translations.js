@@ -11,7 +11,10 @@ const translations = {
       forgotPassword: "Forgot Password?",
       passportError: "Invalid passport number",
       phoneError: "Invalid phone number",
-      passwordError: "Password is too short"
+      passwordError: "Password is too short",
+      errorEmptyFields: "Please fill in all fields",
+      pilgrimRole: "Pilgrim",
+      fieldworkerRole: "Fieldworker"
     },
     group: {
       makkahCity: "Makkah City",
@@ -278,7 +281,10 @@ const translations = {
       forgotPassword: "هل نسيت كلمة المرور؟",
       passportError: "رقم جواز سفر غير صالح",
       phoneError: "رقم هاتف غير صالح",
-      passwordError: "كلمة المرور قصيرة جداً"
+      passwordError: "كلمة المرور قصيرة جداً",
+      errorEmptyFields: "يرجى ملء جميع الحقول",
+      pilgrimRole: "حاج",
+      fieldworkerRole: "عامل ميداني"
     },
     group: {
       makkahCity: "مكة المكرمة",

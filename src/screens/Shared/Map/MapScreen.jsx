@@ -1,8 +1,8 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
-import CommonBackground from '../../components/common/CommonBackground';
-import { Images } from '../../assets/images/Images';
-import { Typography, Colors } from '../../theme';
+import CommonBackground from '../../../components/common/CommonBackground';
+import { Images } from '../../../assets/images/Images';
+import { Typography, Colors } from '../../../theme';
 
 const MapScreen = () => {
     return (

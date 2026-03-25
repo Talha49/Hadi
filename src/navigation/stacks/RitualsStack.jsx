@@ -1,7 +1,7 @@
 import React from 'react';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import RitualsScreen from '../../screens/Rituals/RitualsScreen';
-import ItineraryScreen from '../../screens/Rituals/ItineraryScreen';
+import RitualsScreen from '../../screens/Pilgrim/Rituals/RitualsScreen';
+import ItineraryScreen from '../../screens/Pilgrim/Rituals/ItineraryScreen';
 
 const Stack = createNativeStackNavigator();
 

@@ -24,13 +24,42 @@ const LoginScreen = ({ navigation }) => {
     const [phone, setPhone] = useState('');
     const [password, setPassword] = useState('');
     const [loading, setLoading] = useState(false);
+    const [error, setError] = useState('');
+    const [role, setRole] = useState('pilgrim'); // 'pilgrim' | 'fieldworker'
 
     const handleLogin = () => {
+        if (!passport.trim() || !phone.trim() || !password.trim()) {
+            setError(t('auth.errorEmptyFields'));
+            return;
+        }
+
+        // Robust Validation Rules
+        const passportRegex = /^[A-Z0-9]{6,12}$/i;
+        const phoneRegex = /^[0-9+]{8,15}$/;
+
+        if (!passportRegex.test(passport.trim())) {
+            setError("Please enter a valid Passport Number (6-12 alphanumeric characters)");
+            return;
+        }
+
+        if (!phoneRegex.test(phone.trim())) {
+            setError("Please enter a valid Phone Number (8-15 digits only)");
+            return;
+        }
+
+        if (password.trim().length < 6) {
+            setError("Password must be at least 6 characters long");
+            return;
+        }
+        setError('');
         setLoading(true);
         // Simulate API call
         setTimeout(() => {
-            setLoading(true);
-            navigation.navigate('Main');
+            setLoading(false);
+            navigation.reset({
+                index: 0,
+                routes: [{ name: role === 'fieldworker' ? 'FieldworkerMain' : 'Main' }],
+            });
         }, 1500);
     };
 
@@ -50,6 +79,26 @@ const LoginScreen = ({ navigation }) => {
                         </View>
 
                         <View style={styles.form}>
+                            <View style={styles.roleContainer}>
+                                <TouchableOpacity
+                                    style={[styles.roleButton, role === 'pilgrim' && styles.roleButtonActive]}
+                                    onPress={() => setRole('pilgrim')}
+                                >
+                                    <Text style={[styles.roleText, role === 'pilgrim' && styles.roleTextActive]}>
+                                        {t('auth.pilgrimRole')}
+                                    </Text>
+                                </TouchableOpacity>
+                                <TouchableOpacity
+                                    style={[styles.roleButton, role === 'fieldworker' && styles.roleButtonActive]}
+                                    onPress={() => setRole('fieldworker')}
+                                >
+                                    <Text style={[styles.roleText, role === 'fieldworker' && styles.roleTextActive]}>
+                                        {t('auth.fieldworkerRole')}
+                                    </Text>
+                                </TouchableOpacity>
+                            </View>
+
+                            {error ? <Text style={styles.errorText}>{error}</Text> : null}
                             <Input
                                 label={t('auth.passport')}
                                 placeholder={t('auth.passportPlaceholder')}
@@ -63,7 +112,7 @@ const LoginScreen = ({ navigation }) => {
                                 label={t('auth.phone')}
                                 placeholder={t('auth.phonePlaceholder')}
                                 value={phone}
-                                onChangeText={setPhone}
+                                onChangeText={(text) => setPhone(text.replace(/[^0-9+]/g, ''))}
                                 keyboardType="phone-pad"
                                 placeholderTextColor={Colors.text.lightgray}
                             />
@@ -128,6 +177,32 @@ const styles = StyleSheet.create({
         alignItems: 'flex-end',
         marginBottom: Spacing.xl,
     },
+    roleContainer: {
+        flexDirection: 'row',
+        width: sWidth(337),
+        height: sHeight(50),
+        backgroundColor: Colors.white,
+        borderRadius: sWidth(14),
+        marginBottom: Spacing.xl,
+        padding: sWidth(4),
+    },
+    roleButton: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+        borderRadius: sWidth(10),
+    },
+    roleButtonActive: {
+        backgroundColor: Colors.button.primary,
+    },
+    roleText: {
+        fontSize: Typography.size.s,
+        fontWeight: Typography.weight.bold,
+        color: Colors.text.lightgray,
+    },
+    roleTextActive: {
+        color: Colors.white,
+    },
     forgotText: {
         fontSize: Typography.size.xs,
         fontWeight: Typography.weight.semibold,
@@ -138,6 +213,12 @@ const styles = StyleSheet.create({
         height: sHeight(60),
         borderRadius: sWidth(14),
         backgroundColor: Colors.button.primary,
+    },
+    errorText: {
+        color: 'red',
+        fontSize: Typography.size.s,
+        marginBottom: Spacing.m,
+        alignSelf: 'flex-start',
     },
 });
 
