@@ -1,0 +1,1535 @@
+--------- beginning of crash
+02-13 09:00:33.822 13964 13964 E AndroidRuntime: FATAL EXCEPTION: main
+02-13 09:00:33.822 13964 13964 E AndroidRuntime: Process: com.docxreader.documentreader.wordoffice, PID: 13964
+02-13 09:00:33.822 13964 13964 E AndroidRuntime: java.lang.NullPointerException
+02-13 09:00:33.822 13964 13964 E AndroidRuntime: 	at com.ezt.lib.officeviewer.base.OfficeApp.getMyApp(SourceFile:11)
+02-13 09:00:33.822 13964 13964 E AndroidRuntime: 	at com.ezt.lib.officeviewer.OfficeThumbLoader.loadPage(SourceFile:27)
+02-13 09:00:33.822 13964 13964 E AndroidRuntime: 	at com.ezt.lib.officeviewer.OfficePreviewPageAdapter.onBindViewHolder(SourceFile:2)
+02-13 09:00:33.822 13964 13964 E AndroidRuntime: 	at com.ezt.lib.officeviewer.OfficePreviewPageAdapter.onBindViewHolder(SourceFile:1)
+02-13 09:00:33.822 13964 13964 E AndroidRuntime: 	at androidx.recyclerview.widget.RecyclerView$Adapter.onBindViewHolder(SourceFile:1)
+02-13 09:00:33.822 13964 13964 E AndroidRuntime: 	at androidx.recyclerview.widget.RecyclerView$Adapter.bindViewHolder(SourceFile:169)
+02-13 09:00:33.822 13964 13964 E AndroidRuntime: 	at androidx.recyclerview.widget.RecyclerView$Recycler.tryBindViewHolderByDeadline(SourceFile:68)
+02-13 09:00:33.822 13964 13964 E AndroidRuntime: 	at androidx.recyclerview.widget.RecyclerView$Recycler.tryGetViewHolderForPositionByDeadline(SourceFile:526)
+02-13 09:00:33.822 13964 13964 E AndroidRuntime: 	at androidx.recyclerview.widget.RecyclerView$Recycler.getViewForPosition(SourceFile:2)
+02-13 09:00:33.822 13964 13964 E AndroidRuntime: 	at androidx.recyclerview.widget.RecyclerView$Recycler.getViewForPosition(SourceFile:1)
+02-13 09:00:33.822 13964 13964 E AndroidRuntime: 	at androidx.recyclerview.widget.LinearLayoutManager$LayoutState.next(SourceFile:12)
+02-13 09:00:33.822 13964 13964 E AndroidRuntime: 	at androidx.recyclerview.widget.LinearLayoutManager.layoutChunk(SourceFile:1)
+02-13 09:00:33.822 13964 13964 E AndroidRuntime: 	at androidx.recyclerview.widget.LinearLayoutManager.fill(SourceFile:39)
+02-13 09:00:33.822 13964 13964 E AndroidRuntime: 	at androidx.recyclerview.widget.LinearLayoutManager.onLayoutChildren(SourceFile:358)
+02-13 09:00:33.822 13964 13964 E AndroidRuntime: 	at androidx.recyclerview.widget.RecyclerView.dispatchLayoutStep2(SourceFile:67)
+02-13 09:00:33.822 13964 13964 E AndroidRuntime: 	at androidx.recyclerview.widget.RecyclerView.onMeasure(SourceFile:68)
+02-13 09:00:33.822 13964 13964 E AndroidRuntime: 	at android.view.View.measure(View.java:27389)
+02-13 09:00:33.822 13964 13964 E AndroidRuntime: 	at android.widget.RelativeLayout.measureChildHorizontal(RelativeLayout.java:735)
+02-13 09:00:33.822 13964 13964 E AndroidRuntime: 	at android.widget.RelativeLayout.onMeasure(RelativeLayout.java:481)
+02-13 09:00:33.822 13964 13964 E AndroidRuntime: 	at android.view.View.measure(View.java:27389)
+02-13 09:00:33.822 13964 13964 E AndroidRuntime: 	at android.widget.RelativeLayout.measureChildHorizontal(RelativeLayout.java:735)
+02-13 09:00:33.822 13964 13964 E AndroidRuntime: 	at android.widget.RelativeLayout.onMeasure(RelativeLayout.java:481)
+02-13 09:00:33.822 13964 13964 E AndroidRuntime: 	at android.view.View.measure(View.java:27389)
+02-13 09:00:33.822 13964 13964 E AndroidRuntime: 	at android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7131)
+02-13 09:00:33.822 13964 13964 E AndroidRuntime: 	at android.widget.FrameLayout.onMeasure(FrameLayout.java:194)
+02-13 09:00:33.822 13964 13964 E AndroidRuntime: 	at androidx.appcompat.widget.ContentFrameLayout.onMeasure(SourceFile:155)
+02-13 09:00:33.822 13964 13964 E AndroidRuntime: 	at android.view.View.measure(View.java:27389)
+02-13 09:00:33.822 13964 13964 E AndroidRuntime: 	at android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7131)
+02-13 09:00:33.822 13964 13964 E AndroidRuntime: 	at android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1608)
+02-13 09:00:33.822 13964 13964 E AndroidRuntime: 	at android.widget.LinearLayout.measureVertical(LinearLayout.java:878)
+02-13 09:00:33.822 13964 13964 E AndroidRuntime: 	at android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+02-13 09:00:33.822 13964 13964 E AndroidRuntime: 	at android.view.View.measure(View.java:27389)
+02-13 09:00:33.822 13964 13964 E AndroidRuntime: 	at android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7131)
+02-13 09:00:33.822 13964 13964 E AndroidRuntime: 	at android.widget.FrameLayout.onMeasure(FrameLayout.java:194)
+02-13 09:00:33.822 13964 13964 E AndroidRuntime: 	at android.view.View.measure(View.java:27389)
+02-13 09:00:33.822 13964 13964 E AndroidRuntime: 	at android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7131)
+02-13 09:00:33.822 13964 13964 E AndroidRuntime: 	at android.widget.LinearLayout.measureChildBeforeLayout(LinearLayout.java:1608)
+02-13 09:00:33.822 13964 13964 E AndroidRuntime: 	at android.widget.LinearLayout.measureVertical(LinearLayout.java:878)
+02-13 09:00:33.822 13964 13964 E AndroidRuntime: 	at android.widget.LinearLayout.onMeasure(LinearLayout.java:721)
+02-13 09:00:33.822 13964 13964 E AndroidRuntime: 	at android.view.View.measure(View.java:27389)
+02-13 09:00:33.822 13964 13964 E AndroidRuntime: 	at android.view.ViewGroup.measureChildWithMargins(ViewGroup.java:7131)
+02-13 09:00:33.822 13964 13964 E AndroidRuntime: 	at android.widget.FrameLayout.onMeasure(FrameLayout.java:194)
+02-13 09:00:33.822 13964 13964 E AndroidRuntime: 	at com.android.internal.policy.DecorView.onMeasure(DecorView.java:779)
+02-13 09:00:33.822 13964 13964 E AndroidRuntime: 	at android.view.View.measure(View.java:27389)
+02-13 09:00:33.822 13964 13964 E AndroidRuntime: 	at android.view.ViewRootImpl.performMeasure(ViewRootImpl.java:4584)
+02-13 09:00:33.822 13964 13964 E AndroidRuntime: 	at android.view.ViewRootImpl.measureHierarchy(ViewRootImpl.java:3095)
+02-13 09:00:33.822 13964 13964 E AndroidRuntime: 	at android.view.ViewRootImpl.performTraversals(ViewRootImpl.java:3430)
+02-13 09:00:33.822 13964 13964 E AndroidRuntime: 	at android.view.ViewRootImpl.doTraversal(ViewRootImpl.java:2779)
+02-13 09:00:33.822 13964 13964 E AndroidRuntime: 	at android.view.ViewRootImpl$TraversalRunnable.run(ViewRootImpl.java:10045)
+02-13 09:00:33.822 13964 13964 E AndroidRuntime: 	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:1508)
+02-13 09:00:33.822 13964 13964 E AndroidRuntime: 	at android.view.Choreographer$CallbackRecord.run(Choreographer.java:1517)
+02-13 09:00:33.822 13964 13964 E AndroidRuntime: 	at android.view.Choreographer.doCallbacks(Choreographer.java:1085)
+02-13 09:00:33.822 13964 13964 E AndroidRuntime: 	at android.view.Choreographer.doFrame(Choreographer.java:977)
+02-13 09:00:33.822 13964 13964 E AndroidRuntime: 	at android.view.Choreographer$FrameDisplayEventReceiver.run(Choreographer.java:1491)
+02-13 09:00:33.822 13964 13964 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:958)
+02-13 09:00:33.822 13964 13964 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+02-13 09:00:33.822 13964 13964 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:243)
+02-13 09:00:33.822 13964 13964 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:338)
+02-13 09:00:33.822 13964 13964 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8506)
+02-13 09:00:33.822 13964 13964 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+02-13 09:00:33.822 13964 13964 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:602)
+02-13 09:00:33.822 13964 13964 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1064)
+02-13 09:00:40.903   600   600 F libc    : crash_dump helper failed to exec, or was killed
+02-13 10:20:53.231   600   600 F libc    : crash_dump helper failed to exec, or was killed
+02-13 10:20:55.866 19253 19253 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+02-13 10:20:55.866 19253 19253 F DEBUG   : Build fingerprint: 'TECNO/KL7-OP/TECNO-KL7:14/UP1A.231005.007/260112V1062:user/release-keys'
+02-13 10:20:55.866 19253 19253 F DEBUG   : Revision: '0'
+02-13 10:20:55.866 19253 19253 F DEBUG   : ABI: 'arm64'
+02-13 10:20:55.866 19253 19253 F DEBUG   : Timestamp: 2026-02-13 10:20:55.362868680+0000
+02-13 10:20:55.866 19253 19253 F DEBUG   : Process uptime: 0s
+02-13 10:20:55.866 19253 19253 F DEBUG   : Cmdline: /vendor/bin/hw/android.hardware.audio.service.mediatek
+02-13 10:20:55.866 19253 19253 F DEBUG   : pid: 1279, tid: 1279, name: audio.service.m  >>> /vendor/bin/hw/android.hardware.audio.service.mediatek <<<
+02-13 10:20:55.866 19253 19253 F DEBUG   : uid: 1041
+02-13 10:20:55.866 19253 19253 F DEBUG   : tagged_addr_ctrl: 0000000000000001 (PR_TAGGED_ADDR_ENABLE)
+02-13 10:20:55.866 19253 19253 F DEBUG   : signal 35 (<debuggerd signal>), code -1 (SI_QUEUE from pid 1334, uid 1041), fault addr --------
+02-13 10:20:55.866 19253 19253 F DEBUG   :     x0  fffffffffffffffc  x1  00000000c0306201  x2  0000007fd0702568  x3  00000078b278a030
+02-13 10:20:55.866 19253 19253 F DEBUG   :     x4  0000000000000000  x5  b4000078e3c90600  x6  0000000000008048  x7  3a4c444948007475
+02-13 10:20:55.866 19253 19253 F DEBUG   :     x8  000000000000001d  x9  0000007fd0702470  x10 0000007fd0702470  x11 0000007fd0702440
+02-13 10:20:55.866 19253 19253 F DEBUG   :     x12 ffffff80ffffffd0  x13 00000000000001c4  x14 02000079b3d0a080  x15 8b1b000000006101
+02-13 10:20:55.866 19253 19253 F DEBUG   :     x16 0000007b4bf2f758  x17 0000007b446a4cb0  x18 0000007b4d468000  x19 0000007b4c4f1010
+02-13 10:20:55.866 19253 19253 F DEBUG   :     x20 b4000078e3c90730  x21 b4000078e3c906a8  x22 b400007a93cb4870  x23 00000000fffffff7
+02-13 10:20:55.866 19253 19253 F DEBUG   :     x24 0000007b4c4f1010  x25 000000000000000e  x26 0000007fd0702849  x27 00000000746c7561
+02-13 10:20:55.866 19253 19253 F DEBUG   :     x28 0000000061666564  x29 0000007fd07024a0
+02-13 10:20:55.866 19253 19253 F DEBUG   :     lr  0000007b446a4d50  sp  0000007fd07023c0  pc  0000007b446f2ca8  pst 0000000080001000
+02-13 10:20:55.866 19253 19253 F DEBUG   : 6 total frames
+02-13 10:20:55.866 19253 19253 F DEBUG   : backtrace:
+02-13 10:20:55.866 19253 19253 F DEBUG   :       #00 pc 00000000000b4ca8  /apex/com.android.runtime/lib64/bionic/libc.so (__ioctl+8) (BuildId: e2d9c5ba32145bb6e11e59494ee68593)
+02-13 10:20:55.866 19253 19253 F DEBUG   :       #01 pc 0000000000066d4c  /apex/com.android.runtime/lib64/bionic/libc.so (ioctl+156) (BuildId: e2d9c5ba32145bb6e11e59494ee68593)
+02-13 10:20:55.866 19253 19253 F DEBUG   :       #02 pc 000000000006a1c8  /apex/com.android.vndk.v31/lib64/libhidlbase.so (android::hardware::IPCThreadState::getAndExecuteCommand()+176) (BuildId: bd032fb3600bd7da46e4276849c09093)
+02-13 10:20:55.866 19253 19253 F DEBUG   :       #03 pc 000000000006a038  /apex/com.android.vndk.v31/lib64/libhidlbase.so (android::hardware::IPCThreadState::joinThreadPool(bool)+96) (BuildId: bd032fb3600bd7da46e4276849c09093)
+02-13 10:20:55.866 19253 19253 F DEBUG   :       #04 pc 0000000000002c74  /vendor/bin/hw/android.hardware.audio.service.mediatek (main+3104) (BuildId: 373ade4f17934707ea04d0797ad607be)
+02-13 10:20:55.866 19253 19253 F DEBUG   :       #05 pc 00000000000546e8  /apex/com.android.runtime/lib64/bionic/libc.so (__libc_init+104) (BuildId: e2d9c5ba32145bb6e11e59494ee68593)
+02-13 10:20:56.343  1334 13859 F libc    : Fatal signal 6 (SIGABRT), code -1 (SI_QUEUE) in tid 13859 (binder:1334_8), pid 1334 (audioserver)
+02-13 10:20:56.418 19340 19340 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+02-13 10:20:56.418 19340 19340 F DEBUG   : Build fingerprint: 'TECNO/KL7-OP/TECNO-KL7:14/UP1A.231005.007/260112V1062:user/release-keys'
+02-13 10:20:56.418 19340 19340 F DEBUG   : Revision: '0'
+02-13 10:20:56.418 19340 19340 F DEBUG   : ABI: 'arm64'
+02-13 10:20:56.418 19340 19340 F DEBUG   : Timestamp: 2026-02-13 10:20:56.375440065+0000
+02-13 10:20:56.418 19340 19340 F DEBUG   : Process uptime: 0s
+02-13 10:20:56.418 19340 19340 F DEBUG   : Cmdline: /vendor/bin/hw/android.hardware.audio.service.mediatek
+02-13 10:20:56.418 19340 19340 F DEBUG   : pid: 1279, tid: 1279, name: audio.service.m  >>> /vendor/bin/hw/android.hardware.audio.service.mediatek <<<
+02-13 10:20:56.418 19340 19340 F DEBUG   : uid: 1041
+02-13 10:20:56.418 19340 19340 F DEBUG   : tagged_addr_ctrl: 0000000000000001 (PR_TAGGED_ADDR_ENABLE)
+02-13 10:20:56.418 19340 19340 F DEBUG   : signal 35 (<debuggerd signal>), code -1 (SI_QUEUE from pid 1334, uid 1041), fault addr --------
+02-13 10:20:56.418 19340 19340 F DEBUG   :     x0  fffffffffffffffc  x1  00000000c0306201  x2  0000007fd0702568  x3  00000078b278a030
+02-13 10:20:56.418 19340 19340 F DEBUG   :     x4  0000000000000000  x5  b4000078e3c90600  x6  0000000000008048  x7  3a4c444948007475
+02-13 10:20:56.418 19340 19340 F DEBUG   :     x8  000000000000001d  x9  0000007fd0702470  x10 0000007fd0702470  x11 0000007fd0702440
+02-13 10:20:56.418 19340 19340 F DEBUG   :     x12 ffffff80ffffffd0  x13 00000000000001c4  x14 02000079b3d0a5e0  x15 8fe0000000006101
+02-13 10:20:56.418 19340 19340 F DEBUG   :     x16 0000007b4bf2f758  x17 0000007b446a4cb0  x18 0000007b4d468000  x19 0000007b4c4f1010
+02-13 10:20:56.418 19340 19340 F DEBUG   :     x20 b4000078e3c90730  x21 b4000078e3c906a8  x22 b400007a93cb4870  x23 00000000fffffff7
+02-13 10:20:56.418 19340 19340 F DEBUG   :     x24 0000007b4c4f1010  x25 000000000000000e  x26 0000007fd0702849  x27 00000000746c7561
+02-13 10:20:56.418 19340 19340 F DEBUG   :     x28 0000000061666564  x29 0000007fd07024a0
+02-13 10:20:56.418 19340 19340 F DEBUG   :     lr  0000007b446a4d50  sp  0000007fd07023c0  pc  0000007b446f2ca8  pst 0000000080001000
+02-13 10:20:56.418 19340 19340 F DEBUG   : 6 total frames
+02-13 10:20:56.418 19340 19340 F DEBUG   : backtrace:
+02-13 10:20:56.418 19340 19340 F DEBUG   :       #00 pc 00000000000b4ca8  /apex/com.android.runtime/lib64/bionic/libc.so (__ioctl+8) (BuildId: e2d9c5ba32145bb6e11e59494ee68593)
+02-13 10:20:56.418 19340 19340 F DEBUG   :       #01 pc 0000000000066d4c  /apex/com.android.runtime/lib64/bionic/libc.so (ioctl+156) (BuildId: e2d9c5ba32145bb6e11e59494ee68593)
+02-13 10:20:56.418 19340 19340 F DEBUG   :       #02 pc 000000000006a1c8  /apex/com.android.vndk.v31/lib64/libhidlbase.so (android::hardware::IPCThreadState::getAndExecuteCommand()+176) (BuildId: bd032fb3600bd7da46e4276849c09093)
+02-13 10:20:56.418 19340 19340 F DEBUG   :       #03 pc 000000000006a038  /apex/com.android.vndk.v31/lib64/libhidlbase.so (android::hardware::IPCThreadState::joinThreadPool(bool)+96) (BuildId: bd032fb3600bd7da46e4276849c09093)
+02-13 10:20:56.418 19340 19340 F DEBUG   :       #04 pc 0000000000002c74  /vendor/bin/hw/android.hardware.audio.service.mediatek (main+3104) (BuildId: 373ade4f17934707ea04d0797ad607be)
+02-13 10:20:56.418 19340 19340 F DEBUG   :       #05 pc 00000000000546e8  /apex/com.android.runtime/lib64/bionic/libc.so (__libc_init+104) (BuildId: e2d9c5ba32145bb6e11e59494ee68593)
+02-13 10:20:56.591 19339 19339 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+02-13 10:20:56.591 19339 19339 F DEBUG   : Build fingerprint: 'TECNO/KL7-OP/TECNO-KL7:14/UP1A.231005.007/260112V1062:user/release-keys'
+02-13 10:20:56.591 19339 19339 F DEBUG   : Revision: '0'
+02-13 10:20:56.591 19339 19339 F DEBUG   : ABI: 'arm64'
+02-13 10:20:56.591 19339 19339 F DEBUG   : Timestamp: 2026-02-13 10:20:56.446344065+0000
+02-13 10:20:56.591 19339 19339 F DEBUG   : Process uptime: 0s
+02-13 10:20:56.591 19339 19339 F DEBUG   : Cmdline: /system/bin/audioserver
+02-13 10:20:56.591 19339 19339 F DEBUG   : pid: 1334, tid: 13859, name: binder:1334_8  >>> /system/bin/audioserver <<<
+02-13 10:20:56.591 19339 19339 F DEBUG   : uid: 1041
+02-13 10:20:56.591 19339 19339 F DEBUG   : tagged_addr_ctrl: 0000000000000001 (PR_TAGGED_ADDR_ENABLE)
+02-13 10:20:56.591 19339 19339 F DEBUG   : signal 6 (SIGABRT), code -1 (SI_QUEUE), fault addr --------
+02-13 10:20:56.591 19339 19339 F DEBUG   : Abort message: 'TimeCheck timeout for IAudioFlinger::setParameters scheduled 10:20:38.320 on thread 13859
+02-13 10:20:56.591 19339 19339 F DEBUG   : Timeout ms 17000.000000 elapsed steady ms 17000.177734 elapsed system ms 17000.183594
+02-13 10:20:56.591 19339 19339 F DEBUG   : HAL pids [ 1279 ]
+02-13 10:20:56.591 19339 19339 F DEBUG   : now 10:20:56.342
+02-13 10:20:56.591 19339 19339 F DEBUG   : secondChanceCount 4
+02-13 10:20:56.591 19339 19339 F DEBUG   : analysis [  ]
+02-13 10:20:56.591 19339 19339 F DEBUG   : timeout [ { IAudioFlinger::setParameters scheduled 10:20:38.320 deadline :53.320 tid 13859 } ]
+02-13 10:20:56.591 19339 19339 F DEBUG   : pending [ { IEffect::disconnect scheduled 10:20:22.249 deadline  tid 14346 } { IAudioFlinger::releaseAudioSessionId scheduled 10:20:38.330 deadline :53.330 tid 22743 } { IAudioFlinger::releaseAudioSessionId scheduled 10:20:38.330 deadline :53.330 tid 3415 } { IAudioFlinger::acquireAudioSessionId scheduled 10:20:38.331 deadline :53.331 tid 2323 } ]
+02-13 10:20:56.591 19339 19339 F DEBUG   : retired [ { StreamOutHalHidl::setVolume scheduled 10:20:55.250 deadline  tid 1873 } { StreamOutHalHidl::setVolume scheduled 10:20:55.272 deadline  tid 1873 } { StreamOutHalHidl::setVolume scheduled 10:20:55.294 deadline  tid 1873 } { StreamOutHalHidl::setVolume scheduled 10:20:55.316 deadline  tid 1873 } ]
+02-13 10:20:56.591 19339 19339 F DEBUG   : timeout(13859) callstack [
+02-13 10:20:56.591 19339 19339 F DEBUG   :   #00 pc 000000000005823c  /apex/com.android.runtime/lib64/bionic/libc.so (syscall+28) (BuildId: e2d9c5ba32145bb6e11e59494ee68593)
+02-13 10:20:56.591 19339 19339 F DEBUG   :   #01 pc 000000000005d010  /apex/com.android.runtime/lib64/bionic/libc.so (__futex_wait_ex(void volatile*, bool, int, bool, timespec const*)+144) (BuildId: e2d9c5ba32145bb6e11e59494ee68593)
+02-13 10:20:56.591 19339 19339 F DEBUG   :   #02 pc 00000000000cb208  /apex/com.android.runtime/lib64/bionic/libc.so (NonPI::MutexLockWithTimeout(pthread_mutex_internal_t*, bool, timespec const*)+328) (BuildId: e2d9c5ba32145bb6e11e59494ee68593)
+02-13 10:20:56.591 19339 19339 F DEBUG   :   #03 pc 0000000000055ec0  /system/lib64/libaudioflinger.so (android::AudioFlinger::setParameters(int, android::String8 const&)+1056) (BuildId: 94dbe701f6e112e766fc9758b128dfc3)
+02-13 10:20:56.591 19339 19339 F DEBUG   :   #04 pc 00000000000cc7f0  /system/lib64/libaudioclient.so (android::AudioFlingerServerAdapter::setParameters(int, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)+352) (BuildId: 578f15388ad8b05892473fcf4ff40041)
+02-13 10:20:56.591 19339 19339 F DEBUG   :   #05 pc 000000000003aa34  /system/lib64/audioflinger-aidl-cpp.so (android::media::BnAudioFlingerService::onTransact(unsigned int, android::Parcel const&, android::Parcel*, unsigned int)+9780) (BuildId: f8c7df2342b6887772eea997ef5ad8df)
+02-13 10:20:56.591 19339 19339 F DEBUG   :   #06 pc 0000000000062744  /system/lib64/libaudioflinger.so (android::AudioFlinger::onTransactWrapper(android::AudioFlingerServerAdapter::Delegate::TransactionCode, android::Parcel const&, unsigned int, std::__1::function<int ()> const&)+980) (BuildId: 94dbe701f6e112e766fc9758b128dfc3)
+02-13 10:20:56.591 19339 19339 F DEBUG   :   #07 pc 00000000000d1268  /system/lib64/libaudioclient.so (non-virtual thunk to android::AudioFlingerServerAdapter::onTransact(unsigned int, android::Parcel const&, android::Parcel*, unsigned int)+168) (BuildId: 578f15388ad8b05892473fcf4ff40041)
+02-13 10:20:56.591 19339 19339 F DEBUG   :   #08 pc 00000000000767b0  /system/lib64/libbinder.so (android::BBinder::transact(unsigned int, android::Parcel const&, android::Parcel*, unsigned int)+304) (BuildId: 4a20da91f717b915bd3a38b90f4bae94)
+02-13 10:20:56.591 19339 19339 F DEBUG   :   #09 pc 0000000000060618  /system/lib64/libbinder.so (android::IPCThreadState::executeCommand(int)+1016) (BuildId: 4a20da91f717b915bd3a38b90f4bae94)
+02-13 10:20:56.591 19339 19339 F DEBUG   :   #10 pc 0000000000060160  /system/lib64/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+160) (BuildId: 4a20da91f717b915bd3a38b90f4bae94)
+02-13 10:20:56.591 19339 19339 F DEBUG   :   #11 pc 0000000000060d1c  /system/lib64/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+732) (BuildId: 4a20da91f717b915bd3a38b90f4bae94)
+02-13 10:20:56.591 19339 19339 F DEBUG   :   #12 pc 000000000006adf8  /system/lib64/libbinder.so (android::PoolThread::threadLoop()+24) (BuildId: 4a20da91f717b915bd3a38b90f4bae94)
+02-13 10:20:56.591 19339 19339 F DEBUG   :   #13 pc 00000000000143dc  /system/lib64/libutils.so (android::Thread::_threadLoop(void*)+284) (BuildId: 167e9a8ee3cf2cf4df69f5a4aeb650de)
+02-13 10:20:56.591 19339 19339 F DEBUG   :   #14 pc 00000000000c9cfc  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+204) (BuildId: e2d9c5ba32145bb6e11e59494ee68593)
+02-13 10:20:56.591 19339 19339 F DEBUG   :   #15 pc 000000000005db00  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64) (BuildId: e2d9c5ba32145bb6e11e59494ee68593)
+02-13 10:20:56.591 19339 19339 F DEBUG   : ]'
+02-13 10:20:56.591 19339 19339 F DEBUG   :     x0  b400007ad08241b8  x1  0000000000000089  x2  0000000000000002  x3  0000000000000000
+02-13 10:20:56.591 19339 19339 F DEBUG   :     x4  0000000000000000  x5  00000000ffffffff  x6  00000000ffffffff  x7  7f7f7f7f7f7f7f7f
+02-13 10:20:56.591 19339 19339 F DEBUG   :     x8  0000000000000062  x9  0000000000000089  x10 0000000000000009  x11 0000000000000024
+02-13 10:20:56.591 19339 19339 F DEBUG   :     x12 000000000000001a  x13 0000000000000000  x14 0000000000000001  x15 0000001dded9e5a8
+02-13 10:20:56.591 19339 19339 F DEBUG   :     x16 0000007cc912cd40  x17 0000007cc90ad220  x18 0000007a05646000  x19 0000000000000002
+02-13 10:20:56.591 19339 19339 F DEBUG   :     x20 0000000000000000  x21 b400007ad08241b8  x22 0000000000000089  x23 0000007a06303fb0
+02-13 10:20:56.591 19339 19339 F DEBUG   :     x24 0000007a06304000  x25 0000000000000016  x26 0000007cc3bd32f8  x27 0000007cc3be7000
+02-13 10:20:56.591 19339 19339 F DEBUG   :     x28 0000007a06303930  x29 0000007a063028b0
+02-13 10:20:56.591 19339 19339 F DEBUG   :     lr  0000007cc90b2014  sp  0000007a06302890  pc  0000007cc90ad23c  pst 0000000040001000
+02-13 10:20:56.591 19339 19339 F DEBUG   : 16 total frames
+02-13 10:20:56.591 19339 19339 F DEBUG   : backtrace:
+02-13 10:20:56.591 19339 19339 F DEBUG   :       #00 pc 000000000005823c  /apex/com.android.runtime/lib64/bionic/libc.so (syscall+28) (BuildId: e2d9c5ba32145bb6e11e59494ee68593)
+02-13 10:20:56.591 19339 19339 F DEBUG   :       #01 pc 000000000005d010  /apex/com.android.runtime/lib64/bionic/libc.so (__futex_wait_ex(void volatile*, bool, int, bool, timespec const*)+144) (BuildId: e2d9c5ba32145bb6e11e59494ee68593)
+02-13 10:20:56.591 19339 19339 F DEBUG   :       #02 pc 00000000000cb208  /apex/com.android.runtime/lib64/bionic/libc.so (NonPI::MutexLockWithTimeout(pthread_mutex_internal_t*, bool, timespec const*)+328) (BuildId: e2d9c5ba32145bb6e11e59494ee68593)
+02-13 10:20:56.591 19339 19339 F DEBUG   :       #03 pc 0000000000055ec0  /system/lib64/libaudioflinger.so (android::AudioFlinger::setParameters(int, android::String8 const&)+1056) (BuildId: 94dbe701f6e112e766fc9758b128dfc3)
+02-13 10:20:56.591 19339 19339 F DEBUG   :       #04 pc 00000000000cc7f0  /system/lib64/libaudioclient.so (android::AudioFlingerServerAdapter::setParameters(int, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char> > const&)+352) (BuildId: 578f15388ad8b05892473fcf4ff40041)
+02-13 10:20:56.591 19339 19339 F DEBUG   :       #05 pc 000000000003aa34  /system/lib64/audioflinger-aidl-cpp.so (android::media::BnAudioFlingerService::onTransact(unsigned int, android::Parcel const&, android::Parcel*, unsigned int)+9780) (BuildId: f8c7df2342b6887772eea997ef5ad8df)
+02-13 10:20:56.591 19339 19339 F DEBUG   :       #06 pc 0000000000062744  /system/lib64/libaudioflinger.so (android::AudioFlinger::onTransactWrapper(android::AudioFlingerServerAdapter::Delegate::TransactionCode, android::Parcel const&, unsigned int, std::__1::function<int ()> const&)+980) (BuildId: 94dbe701f6e112e766fc9758b128dfc3)
+02-13 10:20:56.591 19339 19339 F DEBUG   :       #07 pc 00000000000d1268  /system/lib64/libaudioclient.so (non-virtual thunk to android::AudioFlingerServerAdapter::onTransact(unsigned int, android::Parcel const&, android::Parcel*, unsigned int)+168) (BuildId: 578f15388ad8b05892473fcf4ff40041)
+02-13 10:20:56.591 19339 19339 F DEBUG   :       #08 pc 00000000000767b0  /system/lib64/libbinder.so (android::BBinder::transact(unsigned int, android::Parcel const&, android::Parcel*, unsigned int)+304) (BuildId: 4a20da91f717b915bd3a38b90f4bae94)
+02-13 10:20:56.591 19339 19339 F DEBUG   :       #09 pc 0000000000060618  /system/lib64/libbinder.so (android::IPCThreadState::executeCommand(int)+1016) (BuildId: 4a20da91f717b915bd3a38b90f4bae94)
+02-13 10:20:56.591 19339 19339 F DEBUG   :       #10 pc 0000000000060160  /system/lib64/libbinder.so (android::IPCThreadState::getAndExecuteCommand()+160) (BuildId: 4a20da91f717b915bd3a38b90f4bae94)
+02-13 10:20:56.591 19339 19339 F DEBUG   :       #11 pc 0000000000060d1c  /system/lib64/libbinder.so (android::IPCThreadState::joinThreadPool(bool)+732) (BuildId: 4a20da91f717b915bd3a38b90f4bae94)
+02-13 10:20:56.591 19339 19339 F DEBUG   :       #12 pc 000000000006adf8  /system/lib64/libbinder.so (android::PoolThread::threadLoop()+24) (BuildId: 4a20da91f717b915bd3a38b90f4bae94)
+02-13 10:20:56.591 19339 19339 F DEBUG   :       #13 pc 00000000000143dc  /system/lib64/libutils.so (android::Thread::_threadLoop(void*)+284) (BuildId: 167e9a8ee3cf2cf4df69f5a4aeb650de)
+02-13 10:20:56.591 19339 19339 F DEBUG   :       #14 pc 00000000000c9cfc  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+204) (BuildId: e2d9c5ba32145bb6e11e59494ee68593)
+02-13 10:20:56.591 19339 19339 F DEBUG   :       #15 pc 000000000005db00  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64) (BuildId: e2d9c5ba32145bb6e11e59494ee68593)
+02-17 12:32:15.388  6911  6911 E AndroidRuntime: FATAL EXCEPTION: main
+02-17 12:32:15.388  6911  6911 E AndroidRuntime: Process: com.thetrainline, PID: 6911
+02-17 12:32:15.388  6911  6911 E AndroidRuntime: kotlin.UninitializedPropertyAccessException: lateinit property cachedTicketOptionsDomain has not been initialized
+02-17 12:32:15.388  6911  6911 E AndroidRuntime: 	at com.thetrainline.ticket_options.v2.presentation.viewmodel.TicketOptionsViewModel.k0(r8-map-id-b7f87a51dbe15724e172f927265d4eac0e638722ae562322f34052e68d43cec1:7)
+02-17 12:32:15.388  6911  6911 E AndroidRuntime: 	at com.thetrainline.ticket_options.v2.presentation.viewmodel.TicketOptionsViewModel.m0(r8-map-id-b7f87a51dbe15724e172f927265d4eac0e638722ae562322f34052e68d43cec1:3)
+02-17 12:32:15.388  6911  6911 E AndroidRuntime: 	at com.thetrainline.ticket_options.v2.presentation.view.TicketOptionsScreenKt$TicketOptionsScreen$onBackCallback$1.invoke(r8-map-id-b7f87a51dbe15724e172f927265d4eac0e638722ae562322f34052e68d43cec1:2)
+02-17 12:32:15.388  6911  6911 E AndroidRuntime: 	at com.thetrainline.ticket_options.v2.presentation.view.TicketOptionsScreenKt$TicketOptionsScreen$onBackCallback$1.invoke(r8-map-id-b7f87a51dbe15724e172f927265d4eac0e638722ae562322f34052e68d43cec1:1)
+02-17 12:32:15.388  6911  6911 E AndroidRuntime: 	at com.thetrainline.ticket_options.v2.presentation.view.TicketOptionsScreenKt$TicketOptionsScreen$1$1.invoke(r8-map-id-b7f87a51dbe15724e172f927265d4eac0e638722ae562322f34052e68d43cec1:2)
+02-17 12:32:15.388  6911  6911 E AndroidRuntime: 	at com.thetrainline.ticket_options.v2.presentation.view.TicketOptionsScreenKt$TicketOptionsScreen$1$1.invoke(r8-map-id-b7f87a51dbe15724e172f927265d4eac0e638722ae562322f34052e68d43cec1:1)
+02-17 12:32:15.388  6911  6911 E AndroidRuntime: 	at androidx.activity.compose.BackHandlerKt$BackHandler$backCallback$1$1.d(r8-map-id-b7f87a51dbe15724e172f927265d4eac0e638722ae562322f34052e68d43cec1:7)
+02-17 12:32:15.388  6911  6911 E AndroidRuntime: 	at androidx.activity.OnBackPressedDispatcher.p(r8-map-id-b7f87a51dbe15724e172f927265d4eac0e638722ae562322f34052e68d43cec1:44)
+02-17 12:32:15.388  6911  6911 E AndroidRuntime: 	at androidx.activity.OnBackPressedDispatcher$3.invoke(r8-map-id-b7f87a51dbe15724e172f927265d4eac0e638722ae562322f34052e68d43cec1:2)
+02-17 12:32:15.388  6911  6911 E AndroidRuntime: 	at androidx.activity.OnBackPressedDispatcher$3.invoke(r8-map-id-b7f87a51dbe15724e172f927265d4eac0e638722ae562322f34052e68d43cec1:1)
+02-17 12:32:15.388  6911  6911 E AndroidRuntime: 	at androidx.activity.OnBackPressedDispatcher$Api34Impl$createOnBackAnimationCallback$1.onBackInvoked(r8-map-id-b7f87a51dbe15724e172f927265d4eac0e638722ae562322f34052e68d43cec1:3)
+02-17 12:32:15.388  6911  6911 E AndroidRuntime: 	at android.view.ViewRootImpl$NativePreImeInputStage.doOnBackKeyEvent(ViewRootImpl.java:7116)
+02-17 12:32:15.388  6911  6911 E AndroidRuntime: 	at android.view.ViewRootImpl$NativePreImeInputStage.onProcess(ViewRootImpl.java:7084)
+02-17 12:32:15.388  6911  6911 E AndroidRuntime: 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:6773)
+02-17 12:32:15.388  6911  6911 E AndroidRuntime: 	at android.view.ViewRootImpl.deliverInputEvent(ViewRootImpl.java:9931)
+02-17 12:32:15.388  6911  6911 E AndroidRuntime: 	at android.view.ViewRootImpl.doProcessInputEvents(ViewRootImpl.java:9878)
+02-17 12:32:15.388  6911  6911 E AndroidRuntime: 	at android.view.ViewRootImpl.enqueueInputEvent(ViewRootImpl.java:9811)
+02-17 12:32:15.388  6911  6911 E AndroidRuntime: 	at android.view.ViewRootImpl$WindowInputEventReceiver.onInputEvent(ViewRootImpl.java:10082)
+02-17 12:32:15.388  6911  6911 E AndroidRuntime: 	at android.view.InputEventReceiver.dispatchInputEvent(InputEventReceiver.java:272)
+02-17 12:32:15.388  6911  6911 E AndroidRuntime: 	at android.os.MessageQueue.nativePollOnce(Native Method)
+02-17 12:32:15.388  6911  6911 E AndroidRuntime: 	at android.os.MessageQueue.next(MessageQueue.java:335)
+02-17 12:32:15.388  6911  6911 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:194)
+02-17 12:32:15.388  6911  6911 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:338)
+02-17 12:32:15.388  6911  6911 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8506)
+02-17 12:32:15.388  6911  6911 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+02-17 12:32:15.388  6911  6911 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:602)
+02-17 12:32:15.388  6911  6911 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1064)
+02-17 12:32:24.660   600   600 F libc    : crash_dump helper failed to exec, or was killed
+02-17 12:35:37.145 17014 17014 E AndroidRuntime: FATAL EXCEPTION: main
+02-17 12:35:37.145 17014 17014 E AndroidRuntime: Process: com.thetrainline, PID: 17014
+02-17 12:35:37.145 17014 17014 E AndroidRuntime: kotlin.UninitializedPropertyAccessException: lateinit property cachedTicketOptionsDomain has not been initialized
+02-17 12:35:37.145 17014 17014 E AndroidRuntime: 	at com.thetrainline.ticket_options.v2.presentation.viewmodel.TicketOptionsViewModel.k0(r8-map-id-b7f87a51dbe15724e172f927265d4eac0e638722ae562322f34052e68d43cec1:7)
+02-17 12:35:37.145 17014 17014 E AndroidRuntime: 	at com.thetrainline.ticket_options.v2.presentation.viewmodel.TicketOptionsViewModel.m0(r8-map-id-b7f87a51dbe15724e172f927265d4eac0e638722ae562322f34052e68d43cec1:3)
+02-17 12:35:37.145 17014 17014 E AndroidRuntime: 	at com.thetrainline.ticket_options.v2.presentation.view.TicketOptionsScreenKt$TicketOptionsScreen$onBackCallback$1.invoke(r8-map-id-b7f87a51dbe15724e172f927265d4eac0e638722ae562322f34052e68d43cec1:2)
+02-17 12:35:37.145 17014 17014 E AndroidRuntime: 	at com.thetrainline.ticket_options.v2.presentation.view.TicketOptionsScreenKt$TicketOptionsScreen$onBackCallback$1.invoke(r8-map-id-b7f87a51dbe15724e172f927265d4eac0e638722ae562322f34052e68d43cec1:1)
+02-17 12:35:37.145 17014 17014 E AndroidRuntime: 	at com.thetrainline.ticket_options.v2.presentation.view.TicketOptionsScreenKt$TicketOptionsScreen$1$1.invoke(r8-map-id-b7f87a51dbe15724e172f927265d4eac0e638722ae562322f34052e68d43cec1:2)
+02-17 12:35:37.145 17014 17014 E AndroidRuntime: 	at com.thetrainline.ticket_options.v2.presentation.view.TicketOptionsScreenKt$TicketOptionsScreen$1$1.invoke(r8-map-id-b7f87a51dbe15724e172f927265d4eac0e638722ae562322f34052e68d43cec1:1)
+02-17 12:35:37.145 17014 17014 E AndroidRuntime: 	at androidx.activity.compose.BackHandlerKt$BackHandler$backCallback$1$1.d(r8-map-id-b7f87a51dbe15724e172f927265d4eac0e638722ae562322f34052e68d43cec1:7)
+02-17 12:35:37.145 17014 17014 E AndroidRuntime: 	at androidx.activity.OnBackPressedDispatcher.p(r8-map-id-b7f87a51dbe15724e172f927265d4eac0e638722ae562322f34052e68d43cec1:44)
+02-17 12:35:37.145 17014 17014 E AndroidRuntime: 	at androidx.activity.OnBackPressedDispatcher$3.invoke(r8-map-id-b7f87a51dbe15724e172f927265d4eac0e638722ae562322f34052e68d43cec1:2)
+02-17 12:35:37.145 17014 17014 E AndroidRuntime: 	at androidx.activity.OnBackPressedDispatcher$3.invoke(r8-map-id-b7f87a51dbe15724e172f927265d4eac0e638722ae562322f34052e68d43cec1:1)
+02-17 12:35:37.145 17014 17014 E AndroidRuntime: 	at androidx.activity.OnBackPressedDispatcher$Api34Impl$createOnBackAnimationCallback$1.onBackInvoked(r8-map-id-b7f87a51dbe15724e172f927265d4eac0e638722ae562322f34052e68d43cec1:3)
+02-17 12:35:37.145 17014 17014 E AndroidRuntime: 	at android.view.ViewRootImpl$NativePreImeInputStage.doOnBackKeyEvent(ViewRootImpl.java:7116)
+02-17 12:35:37.145 17014 17014 E AndroidRuntime: 	at android.view.ViewRootImpl$NativePreImeInputStage.onProcess(ViewRootImpl.java:7084)
+02-17 12:35:37.145 17014 17014 E AndroidRuntime: 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:6773)
+02-17 12:35:37.145 17014 17014 E AndroidRuntime: 	at android.view.ViewRootImpl.deliverInputEvent(ViewRootImpl.java:9931)
+02-17 12:35:37.145 17014 17014 E AndroidRuntime: 	at android.view.ViewRootImpl.doProcessInputEvents(ViewRootImpl.java:9878)
+02-17 12:35:37.145 17014 17014 E AndroidRuntime: 	at android.view.ViewRootImpl.enqueueInputEvent(ViewRootImpl.java:9811)
+02-17 12:35:37.145 17014 17014 E AndroidRuntime: 	at android.view.ViewRootImpl$WindowInputEventReceiver.onInputEvent(ViewRootImpl.java:10082)
+02-17 12:35:37.145 17014 17014 E AndroidRuntime: 	at android.view.InputEventReceiver.dispatchInputEvent(InputEventReceiver.java:272)
+02-17 12:35:37.145 17014 17014 E AndroidRuntime: 	at android.os.MessageQueue.nativePollOnce(Native Method)
+02-17 12:35:37.145 17014 17014 E AndroidRuntime: 	at android.os.MessageQueue.next(MessageQueue.java:335)
+02-17 12:35:37.145 17014 17014 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:194)
+02-17 12:35:37.145 17014 17014 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:338)
+02-17 12:35:37.145 17014 17014 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8506)
+02-17 12:35:37.145 17014 17014 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+02-17 12:35:37.145 17014 17014 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:602)
+02-17 12:35:37.145 17014 17014 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1064)
+02-17 12:35:45.620   600   600 F libc    : crash_dump helper failed to exec, or was killed
+02-17 15:14:26.358  2966  2966 E AndroidRuntime: FATAL EXCEPTION: main
+02-17 15:14:26.358  2966  2966 E AndroidRuntime: Process: com.thetrainline, PID: 2966
+02-17 15:14:26.358  2966  2966 E AndroidRuntime: kotlin.UninitializedPropertyAccessException: lateinit property cachedTicketOptionsDomain has not been initialized
+02-17 15:14:26.358  2966  2966 E AndroidRuntime: 	at com.thetrainline.ticket_options.v2.presentation.viewmodel.TicketOptionsViewModel.k0(r8-map-id-b7f87a51dbe15724e172f927265d4eac0e638722ae562322f34052e68d43cec1:7)
+02-17 15:14:26.358  2966  2966 E AndroidRuntime: 	at com.thetrainline.ticket_options.v2.presentation.viewmodel.TicketOptionsViewModel.m0(r8-map-id-b7f87a51dbe15724e172f927265d4eac0e638722ae562322f34052e68d43cec1:3)
+02-17 15:14:26.358  2966  2966 E AndroidRuntime: 	at com.thetrainline.ticket_options.v2.presentation.view.TicketOptionsScreenKt$TicketOptionsScreen$onBackCallback$1.invoke(r8-map-id-b7f87a51dbe15724e172f927265d4eac0e638722ae562322f34052e68d43cec1:2)
+02-17 15:14:26.358  2966  2966 E AndroidRuntime: 	at com.thetrainline.ticket_options.v2.presentation.view.TicketOptionsScreenKt$TicketOptionsScreen$onBackCallback$1.invoke(r8-map-id-b7f87a51dbe15724e172f927265d4eac0e638722ae562322f34052e68d43cec1:1)
+02-17 15:14:26.358  2966  2966 E AndroidRuntime: 	at com.thetrainline.ticket_options.v2.presentation.view.TicketOptionsScreenKt$TicketOptionsScreen$1$1.invoke(r8-map-id-b7f87a51dbe15724e172f927265d4eac0e638722ae562322f34052e68d43cec1:2)
+02-17 15:14:26.358  2966  2966 E AndroidRuntime: 	at com.thetrainline.ticket_options.v2.presentation.view.TicketOptionsScreenKt$TicketOptionsScreen$1$1.invoke(r8-map-id-b7f87a51dbe15724e172f927265d4eac0e638722ae562322f34052e68d43cec1:1)
+02-17 15:14:26.358  2966  2966 E AndroidRuntime: 	at androidx.activity.compose.BackHandlerKt$BackHandler$backCallback$1$1.d(r8-map-id-b7f87a51dbe15724e172f927265d4eac0e638722ae562322f34052e68d43cec1:7)
+02-17 15:14:26.358  2966  2966 E AndroidRuntime: 	at androidx.activity.OnBackPressedDispatcher.p(r8-map-id-b7f87a51dbe15724e172f927265d4eac0e638722ae562322f34052e68d43cec1:44)
+02-17 15:14:26.358  2966  2966 E AndroidRuntime: 	at androidx.activity.OnBackPressedDispatcher$3.invoke(r8-map-id-b7f87a51dbe15724e172f927265d4eac0e638722ae562322f34052e68d43cec1:2)
+02-17 15:14:26.358  2966  2966 E AndroidRuntime: 	at androidx.activity.OnBackPressedDispatcher$3.invoke(r8-map-id-b7f87a51dbe15724e172f927265d4eac0e638722ae562322f34052e68d43cec1:1)
+02-17 15:14:26.358  2966  2966 E AndroidRuntime: 	at androidx.activity.OnBackPressedDispatcher$Api34Impl$createOnBackAnimationCallback$1.onBackInvoked(r8-map-id-b7f87a51dbe15724e172f927265d4eac0e638722ae562322f34052e68d43cec1:3)
+02-17 15:14:26.358  2966  2966 E AndroidRuntime: 	at android.view.ViewRootImpl$NativePreImeInputStage.doOnBackKeyEvent(ViewRootImpl.java:7116)
+02-17 15:14:26.358  2966  2966 E AndroidRuntime: 	at android.view.ViewRootImpl$NativePreImeInputStage.onProcess(ViewRootImpl.java:7084)
+02-17 15:14:26.358  2966  2966 E AndroidRuntime: 	at android.view.ViewRootImpl$InputStage.deliver(ViewRootImpl.java:6773)
+02-17 15:14:26.358  2966  2966 E AndroidRuntime: 	at android.view.ViewRootImpl.deliverInputEvent(ViewRootImpl.java:9931)
+02-17 15:14:26.358  2966  2966 E AndroidRuntime: 	at android.view.ViewRootImpl.doProcessInputEvents(ViewRootImpl.java:9878)
+02-17 15:14:26.358  2966  2966 E AndroidRuntime: 	at android.view.ViewRootImpl.enqueueInputEvent(ViewRootImpl.java:9811)
+02-17 15:14:26.358  2966  2966 E AndroidRuntime: 	at android.view.ViewRootImpl$WindowInputEventReceiver.onInputEvent(ViewRootImpl.java:10082)
+02-17 15:14:26.358  2966  2966 E AndroidRuntime: 	at android.view.InputEventReceiver.dispatchInputEvent(InputEventReceiver.java:272)
+02-17 15:14:26.358  2966  2966 E AndroidRuntime: 	at android.os.MessageQueue.nativePollOnce(Native Method)
+02-17 15:14:26.358  2966  2966 E AndroidRuntime: 	at android.os.MessageQueue.next(MessageQueue.java:335)
+02-17 15:14:26.358  2966  2966 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:194)
+02-17 15:14:26.358  2966  2966 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:338)
+02-17 15:14:26.358  2966  2966 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8506)
+02-17 15:14:26.358  2966  2966 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+02-17 15:14:26.358  2966  2966 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:602)
+02-17 15:14:26.358  2966  2966 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1064)
+02-24 20:33:59.953 25150 25150 E AndroidRuntime: FATAL EXCEPTION: main
+02-24 20:33:59.953 25150 25150 E AndroidRuntime: Process: com.hajj, PID: 25150
+02-24 20:33:59.953 25150 25150 E AndroidRuntime: java.lang.NullPointerException: java.lang.NullPointerException
+02-24 20:33:59.953 25150 25150 E AndroidRuntime: 	at com.facebook.react.devsupport.CxxInspectorPackagerConnection$WebSocketDelegate.didReceiveMessage(Native Method)
+02-24 20:33:59.953 25150 25150 E AndroidRuntime: 	at com.facebook.react.devsupport.CxxInspectorPackagerConnection$DelegateImpl$connectWebSocket$webSocket$1.onMessage$lambda$1(CxxInspectorPackagerConnection.kt:208)
+02-24 20:33:59.953 25150 25150 E AndroidRuntime: 	at com.facebook.react.devsupport.CxxInspectorPackagerConnection$DelegateImpl$connectWebSocket$webSocket$1.$r8$lambda$O31gJ9mPudNC5xHMm3nPJgxbPDI(Unknown Source:0)
+02-24 20:33:59.953 25150 25150 E AndroidRuntime: 	at com.facebook.react.devsupport.CxxInspectorPackagerConnection$DelegateImpl$connectWebSocket$webSocket$1$$ExternalSyntheticLambda3.run(D8$$SyntheticClass:0)
+02-24 20:33:59.953 25150 25150 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:958)
+02-24 20:33:59.953 25150 25150 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+02-24 20:33:59.953 25150 25150 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:243)
+02-24 20:33:59.953 25150 25150 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:338)
+02-24 20:33:59.953 25150 25150 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8506)
+02-24 20:33:59.953 25150 25150 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+02-24 20:33:59.953 25150 25150 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:602)
+02-24 20:33:59.953 25150 25150 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1064)
+03-02 13:27:32.936 31201 31201 E AndroidRuntime: FATAL EXCEPTION: main
+03-02 13:27:32.936 31201 31201 E AndroidRuntime: Process: com.hajj, PID: 31201
+03-02 13:27:32.936 31201 31201 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.hajj/com.hajj.MainActivity}: androidx.fragment.app.Fragment$InstantiationException: Unable to instantiate fragment com.swmansion.rnscreens.ScreenStackFragment: calling Fragment constructor caused an exception
+03-02 13:27:32.936 31201 31201 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3939)
+03-02 13:27:32.936 31201 31201 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4079)
+03-02 13:27:32.936 31201 31201 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:114)
+03-02 13:27:32.936 31201 31201 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:139)
+03-02 13:27:32.936 31201 31201 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:96)
+03-02 13:27:32.936 31201 31201 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2552)
+03-02 13:27:32.936 31201 31201 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+03-02 13:27:32.936 31201 31201 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:243)
+03-02 13:27:32.936 31201 31201 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:338)
+03-02 13:27:32.936 31201 31201 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8506)
+03-02 13:27:32.936 31201 31201 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-02 13:27:32.936 31201 31201 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:602)
+03-02 13:27:32.936 31201 31201 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1064)
+03-02 13:27:32.936 31201 31201 E AndroidRuntime: Caused by: androidx.fragment.app.Fragment$InstantiationException: Unable to instantiate fragment com.swmansion.rnscreens.ScreenStackFragment: calling Fragment constructor caused an exception
+03-02 13:27:32.936 31201 31201 E AndroidRuntime: 	at androidx.fragment.app.Fragment.instantiate(Fragment.java:695)
+03-02 13:27:32.936 31201 31201 E AndroidRuntime: 	at androidx.fragment.app.FragmentContainer.instantiate(FragmentContainer.java:57)
+03-02 13:27:32.936 31201 31201 E AndroidRuntime: 	at androidx.fragment.app.FragmentManager$3.instantiate(FragmentManager.java:663)
+03-02 13:27:32.936 31201 31201 E AndroidRuntime: 	at androidx.fragment.app.FragmentState.instantiate(FragmentState.java:87)
+03-02 13:27:32.936 31201 31201 E AndroidRuntime: 	at androidx.fragment.app.FragmentStateManager.<init>(FragmentStateManager.java:92)
+03-02 13:27:32.936 31201 31201 E AndroidRuntime: 	at androidx.fragment.app.FragmentManager.restoreSaveStateInternal(FragmentManager.java:2849)
+03-02 13:27:32.936 31201 31201 E AndroidRuntime: 	at androidx.fragment.app.FragmentManager.attachController(FragmentManager.java:3008)
+03-02 13:27:32.936 31201 31201 E AndroidRuntime: 	at androidx.fragment.app.FragmentController.attachHost(FragmentController.java:117)
+03-02 13:27:32.936 31201 31201 E AndroidRuntime: 	at androidx.fragment.app.FragmentActivity.lambda$init$3$androidx-fragment-app-FragmentActivity(FragmentActivity.java:139)
+03-02 13:27:32.936 31201 31201 E AndroidRuntime: 	at androidx.fragment.app.FragmentActivity$$ExternalSyntheticLambda3.onContextAvailable(D8$$SyntheticClass:0)
+03-02 13:27:32.936 31201 31201 E AndroidRuntime: 	at androidx.activity.contextaware.ContextAwareHelper.dispatchOnContextAvailable(ContextAwareHelper.kt:84)
+03-02 13:27:32.936 31201 31201 E AndroidRuntime: 	at androidx.activity.ComponentActivity.onCreate(ComponentActivity.java:358)
+03-02 13:27:32.936 31201 31201 E AndroidRuntime: 	at androidx.fragment.app.FragmentActivity.onCreate(FragmentActivity.java:216)
+03-02 13:27:32.936 31201 31201 E AndroidRuntime: 	at com.facebook.react.ReactActivity.onCreate(ReactActivity.java:60)
+03-02 13:27:32.936 31201 31201 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8616)
+03-02 13:27:32.936 31201 31201 E AndroidRuntime: 	at android.app.Activity.performCreate(Activity.java:8594)
+03-02 13:27:32.936 31201 31201 E AndroidRuntime: 	at android.app.Instrumentation.callActivityOnCreate(Instrumentation.java:1465)
+03-02 13:27:32.936 31201 31201 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3921)
+03-02 13:27:32.936 31201 31201 E AndroidRuntime: 	... 12 more
+03-02 13:27:32.936 31201 31201 E AndroidRuntime: Caused by: java.lang.reflect.InvocationTargetException
+03-02 13:27:32.936 31201 31201 E AndroidRuntime: 	at java.lang.reflect.Constructor.newInstance0(Native Method)
+03-02 13:27:32.936 31201 31201 E AndroidRuntime: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:343)
+03-02 13:27:32.936 31201 31201 E AndroidRuntime: 	at androidx.fragment.app.Fragment.instantiate(Fragment.java:677)
+03-02 13:27:32.936 31201 31201 E AndroidRuntime: 	... 29 more
+03-02 13:27:32.936 31201 31201 E AndroidRuntime: Caused by: java.lang.IllegalStateException: Screen fragments should never be restored. Follow instructions from https://github.com/software-mansion/react-native-screens/issues/17#issuecomment-424704067 to properly configure your main activity.
+03-02 13:27:32.936 31201 31201 E AndroidRuntime: 	at com.swmansion.rnscreens.ScreenFragment.<init>(ScreenFragment.kt:66)
+03-02 13:27:32.936 31201 31201 E AndroidRuntime: 	at com.swmansion.rnscreens.ScreenStackFragment.<init>(ScreenStackFragment.kt:87)
+03-02 13:27:32.936 31201 31201 E AndroidRuntime: 	... 32 more
+03-03 15:18:10.720 21942 21942 E AndroidRuntime: FATAL EXCEPTION: main
+03-03 15:18:10.720 21942 21942 E AndroidRuntime: Process: com.hajj, PID: 21942
+03-03 15:18:10.720 21942 21942 E AndroidRuntime: java.lang.NullPointerException: java.lang.NullPointerException
+03-03 15:18:10.720 21942 21942 E AndroidRuntime: 	at com.facebook.react.devsupport.CxxInspectorPackagerConnection$WebSocketDelegate.didReceiveMessage(Native Method)
+03-03 15:18:10.720 21942 21942 E AndroidRuntime: 	at com.facebook.react.devsupport.CxxInspectorPackagerConnection$DelegateImpl$connectWebSocket$webSocket$1.onMessage$lambda$1(CxxInspectorPackagerConnection.kt:208)
+03-03 15:18:10.720 21942 21942 E AndroidRuntime: 	at com.facebook.react.devsupport.CxxInspectorPackagerConnection$DelegateImpl$connectWebSocket$webSocket$1.$r8$lambda$O31gJ9mPudNC5xHMm3nPJgxbPDI(Unknown Source:0)
+03-03 15:18:10.720 21942 21942 E AndroidRuntime: 	at com.facebook.react.devsupport.CxxInspectorPackagerConnection$DelegateImpl$connectWebSocket$webSocket$1$$ExternalSyntheticLambda3.run(D8$$SyntheticClass:0)
+03-03 15:18:10.720 21942 21942 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:958)
+03-03 15:18:10.720 21942 21942 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+03-03 15:18:10.720 21942 21942 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:243)
+03-03 15:18:10.720 21942 21942 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:338)
+03-03 15:18:10.720 21942 21942 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8506)
+03-03 15:18:10.720 21942 21942 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-03 15:18:10.720 21942 21942 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:602)
+03-03 15:18:10.720 21942 21942 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1064)
+03-06 14:43:30.077   600   600 F libc    : crash_dump helper failed to exec, or was killed
+03-09 01:48:28.660   600   600 F libc    : crash_dump helper failed to exec, or was killed
+03-10 16:36:31.006 15401 15401 E AndroidRuntime: FATAL EXCEPTION: main
+03-10 16:36:31.006 15401 15401 E AndroidRuntime: Process: com.hajj, PID: 15401
+03-10 16:36:31.006 15401 15401 E AndroidRuntime: java.lang.NullPointerException: java.lang.NullPointerException
+03-10 16:36:31.006 15401 15401 E AndroidRuntime: 	at com.facebook.react.devsupport.CxxInspectorPackagerConnection$WebSocketDelegate.didReceiveMessage(Native Method)
+03-10 16:36:31.006 15401 15401 E AndroidRuntime: 	at com.facebook.react.devsupport.CxxInspectorPackagerConnection$DelegateImpl$connectWebSocket$webSocket$1.onMessage$lambda$1(CxxInspectorPackagerConnection.kt:208)
+03-10 16:36:31.006 15401 15401 E AndroidRuntime: 	at com.facebook.react.devsupport.CxxInspectorPackagerConnection$DelegateImpl$connectWebSocket$webSocket$1.$r8$lambda$O31gJ9mPudNC5xHMm3nPJgxbPDI(Unknown Source:0)
+03-10 16:36:31.006 15401 15401 E AndroidRuntime: 	at com.facebook.react.devsupport.CxxInspectorPackagerConnection$DelegateImpl$connectWebSocket$webSocket$1$$ExternalSyntheticLambda3.run(D8$$SyntheticClass:0)
+03-10 16:36:31.006 15401 15401 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:958)
+03-10 16:36:31.006 15401 15401 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+03-10 16:36:31.006 15401 15401 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:243)
+03-10 16:36:31.006 15401 15401 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:338)
+03-10 16:36:31.006 15401 15401 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8506)
+03-10 16:36:31.006 15401 15401 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-10 16:36:31.006 15401 15401 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:602)
+03-10 16:36:31.006 15401 15401 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1064)
+03-10 17:42:43.761   936   936 E AndroidRuntime: FATAL EXCEPTION: main
+03-10 17:42:43.761   936   936 E AndroidRuntime: Process: com.hajj, PID: 936
+03-10 17:42:43.761   936   936 E AndroidRuntime: java.lang.NullPointerException: java.lang.NullPointerException
+03-10 17:42:43.761   936   936 E AndroidRuntime: 	at com.facebook.react.devsupport.CxxInspectorPackagerConnection$WebSocketDelegate.didReceiveMessage(Native Method)
+03-10 17:42:43.761   936   936 E AndroidRuntime: 	at com.facebook.react.devsupport.CxxInspectorPackagerConnection$DelegateImpl$connectWebSocket$webSocket$1.onMessage$lambda$1(CxxInspectorPackagerConnection.kt:208)
+03-10 17:42:43.761   936   936 E AndroidRuntime: 	at com.facebook.react.devsupport.CxxInspectorPackagerConnection$DelegateImpl$connectWebSocket$webSocket$1.$r8$lambda$O31gJ9mPudNC5xHMm3nPJgxbPDI(Unknown Source:0)
+03-10 17:42:43.761   936   936 E AndroidRuntime: 	at com.facebook.react.devsupport.CxxInspectorPackagerConnection$DelegateImpl$connectWebSocket$webSocket$1$$ExternalSyntheticLambda3.run(D8$$SyntheticClass:0)
+03-10 17:42:43.761   936   936 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:958)
+03-10 17:42:43.761   936   936 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+03-10 17:42:43.761   936   936 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:243)
+03-10 17:42:43.761   936   936 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:338)
+03-10 17:42:43.761   936   936 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8506)
+03-10 17:42:43.761   936   936 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+03-10 17:42:43.761   936   936 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:602)
+03-10 17:42:43.761   936   936 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1064)
+03-25 23:24:35.585 10768 16193 F libc    : Fatal signal 6 (SIGABRT), code -6 (SI_TKILL) in tid 16193 (milo-handler-th), pid 10768 (aoapp.musically)
+03-25 23:24:38.974 18692 18692 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+03-25 23:24:38.974 18692 18692 F DEBUG   : Build fingerprint: 'TECNO/KL7-OP/TECNO-KL7:14/UP1A.231005.007/260112V1062:user/release-keys'
+03-25 23:24:38.974 18692 18692 F DEBUG   : Revision: '0'
+03-25 23:24:38.974 18692 18692 F DEBUG   : ABI: 'arm64'
+03-25 23:24:38.974 18692 18692 F DEBUG   : Timestamp: 2026-03-25 23:24:36.520573281+0000
+03-25 23:24:38.974 18692 18692 F DEBUG   : Process uptime: 2940s
+03-25 23:24:38.975 18692 18692 F DEBUG   : Cmdline: com.zhiliaoapp.musically
+03-25 23:24:38.975 18692 18692 F DEBUG   : pid: 10768, tid: 16193, name: milo-handler-th  >>> com.zhiliaoapp.musically <<<
+03-25 23:24:38.975 18692 18692 F DEBUG   : uid: 10260
+03-25 23:24:38.975 18692 18692 F DEBUG   : tagged_addr_ctrl: 0000000000000001 (PR_TAGGED_ADDR_ENABLE)
+03-25 23:24:38.975 18692 18692 F DEBUG   : signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+03-25 23:24:38.975 18692 18692 F DEBUG   : Abort message: 'Caused GeckoCompressUtil failure : SuspendThreadByThreadId timed out: milo-handler-thread: state&flags: 0x9, Java/native priority: 5/0, nsusps: 0, ncheckpts: 0, culprit info: /proc/.../stat: 16193 (milo-handler-th) S 1273 1273 0 0 -1 1077936192 1747 39320 48 167 94 260 49 93 20 0 388 0 351->16193 (milo-handler-th) S 1273 1273 0 0 -1 1077936192 1747 39320 48 167 94 260 49 93 20 0 388 0 351; Final wait time: 15.003s; appr. total wait time: 60.015s'
+03-25 23:24:38.975 18692 18692 F DEBUG   :     x0  0000000000000000  x1  0000000000003f41  x2  0000000000000006  x3  0000007d3275fda0
+03-25 23:24:38.975 18692 18692 F DEBUG   :     x4  0000007d2a4d9ae0  x5  fffffffffffbfeff  x6  fffffffffffbfeff  x7  fffffffffffbfeff
+03-25 23:24:38.975 18692 18692 F DEBUG   :     x8  00000000000000f0  x9  0000000000000001  x10 0000000000000002  x11 0000000000000000
+03-25 23:24:38.975 18692 18692 F DEBUG   :     x12 000000000000000a  x13 0000000100000000  x14 0000000000000000  x15 0000000000000000
+03-25 23:24:38.975 18692 18692 F DEBUG   :     x16 00000079289305b8  x17 0000007d2a6d7220  x18 00000078fd9d0000  x19 0000007d3275fda0
+03-25 23:24:38.976 18692 18692 F DEBUG   :     x20 0000000000003f41  x21 0000000000002a10  x22 00000079289349f0  x23 000000790b19c000
+03-25 23:24:38.976 18692 18692 F DEBUG   :     x24 0000007928934b70  x25 0000007928934000  x26 0000000000000008  x27 b400007a926d9820
+03-25 23:24:38.976 18692 18692 F DEBUG   :     x28 0000007a80542080  x29 0000007d3275fd40
+03-25 23:24:38.976 18692 18692 F DEBUG   :     lr  00000079289149c0  sp  0000007d3275fd10  pc  0000007d2a6d7240  pst 0000000000001000
+03-25 23:24:38.976 18692 18692 F DEBUG   : 31 total frames
+03-25 23:24:38.976 18692 18692 F DEBUG   : backtrace:
+03-25 23:24:38.976 18692 18692 F DEBUG   :       #00 pc 0000000000058240  /apex/com.android.runtime/lib64/bionic/libc.so (syscall+32) (BuildId: e2d9c5ba32145bb6e11e59494ee68593)
+03-25 23:24:38.976 18692 18692 F DEBUG   :       #01 pc 00000000000139bc  /data/app/~~FklaAq1IPgMm5hoiQ062iA==/com.zhiliaoapp.musically-j7bnKVDR_dgj5ZkpLkjsvg==/lib/arm64/libnpth.so (BuildId: 9c3eb6b0393add4fd7b97631c33568370ce7ad74)
+03-25 23:24:38.976 18692 18692 F DEBUG   :       #02 pc 000000000000089c  [vdso]
+03-25 23:24:38.976 18692 18692 F DEBUG   :       #03 pc 000000000005823c  /apex/com.android.runtime/lib64/bionic/libc.so (syscall+28) (BuildId: e2d9c5ba32145bb6e11e59494ee68593)
+03-25 23:24:38.976 18692 18692 F DEBUG   :       #04 pc 000000000023f30c  /apex/com.android.art/lib64/libart.so (art::ReaderWriterMutex::HandleSharedLockContention(art::Thread*, int)+332) (BuildId: be34fbe63ff357beb403f9cb39923ea7)
+03-25 23:24:38.976 18692 18692 F DEBUG   :       #05 pc 0000000000207be8  /apex/com.android.art/lib64/libart.so (art::ClassLinker::FindClass(art::Thread*, char const*, unsigned long, art::Handle<art::mirror::ClassLoader>)+4220) (BuildId: be34fbe63ff357beb403f9cb39923ea7)
+03-25 23:24:38.976 18692 18692 F DEBUG   :       #06 pc 0000000000204d70  /apex/com.android.art/lib64/libart.so (NterpGetClass+1472) (BuildId: be34fbe63ff357beb403f9cb39923ea7)
+03-25 23:24:38.977 18692 18692 F DEBUG   :       #07 pc 000000000066e530  /apex/com.android.art/lib64/libart.so (nterp_get_class+48) (BuildId: be34fbe63ff357beb403f9cb39923ea7)
+03-25 23:24:38.977 18692 18692 F DEBUG   :       #08 pc 0000000000660850  /apex/com.android.art/lib64/libart.so (nterp_op_check_cast+80) (BuildId: be34fbe63ff357beb403f9cb39923ea7)
+03-25 23:24:38.977 18692 18692 F DEBUG   :       #09 pc 0000000009bd1bac  /data/app/~~FklaAq1IPgMm5hoiQ062iA==/com.zhiliaoapp.musically-j7bnKVDR_dgj5ZkpLkjsvg==/oat/arm64/base.vdex (X.0aFs.LIZIZ+60)
+03-25 23:24:38.977 18692 18692 F DEBUG   :       #10 pc 00000000041bd49c  /data/app/~~FklaAq1IPgMm5hoiQ062iA==/com.zhiliaoapp.musically-j7bnKVDR_dgj5ZkpLkjsvg==/oat/arm64/base.odex (X.0aFs.LIZ+316)
+03-25 23:24:38.977 18692 18692 F DEBUG   :       #11 pc 00000000041bdbf4  /data/app/~~FklaAq1IPgMm5hoiQ062iA==/com.zhiliaoapp.musically-j7bnKVDR_dgj5ZkpLkjsvg==/oat/arm64/base.odex (X.0aFt.LJIIJJI+180)
+03-25 23:24:38.977 18692 18692 F DEBUG   :       #12 pc 00000000037e2ff0  /data/app/~~FklaAq1IPgMm5hoiQ062iA==/com.zhiliaoapp.musically-j7bnKVDR_dgj5ZkpLkjsvg==/oat/arm64/base.odex (X.138t.LIZ+240)
+03-25 23:24:38.977 18692 18692 F DEBUG   :       #13 pc 00000000037d7bd8  /data/app/~~FklaAq1IPgMm5hoiQ062iA==/com.zhiliaoapp.musically-j7bnKVDR_dgj5ZkpLkjsvg==/oat/arm64/base.odex (X.138q.LJJ+3928)
+03-25 23:24:38.977 18692 18692 F DEBUG   :       #14 pc 00000000037d6a6c  /data/app/~~FklaAq1IPgMm5hoiQ062iA==/com.zhiliaoapp.musically-j7bnKVDR_dgj5ZkpLkjsvg==/oat/arm64/base.odex (X.138q.LJIIIZ+268)
+03-25 23:24:38.977 18692 18692 F DEBUG   :       #15 pc 0000000004894e30  /data/app/~~FklaAq1IPgMm5hoiQ062iA==/com.zhiliaoapp.musically-j7bnKVDR_dgj5ZkpLkjsvg==/oat/arm64/base.odex (kotlin.jvm.internal.AwS540S0100000_32.invoke$747+96)
+03-25 23:24:38.977 18692 18692 F DEBUG   :       #16 pc 00000000048961c8  /data/app/~~FklaAq1IPgMm5hoiQ062iA==/com.zhiliaoapp.musically-j7bnKVDR_dgj5ZkpLkjsvg==/oat/arm64/base.odex (kotlin.jvm.internal.AwS540S0100000_32.invoke+4728)
+03-25 23:24:38.977 18692 18692 F DEBUG   :       #17 pc 0000000001363488  /data/app/~~FklaAq1IPgMm5hoiQ062iA==/com.zhiliaoapp.musically-j7bnKVDR_dgj5ZkpLkjsvg==/oat/arm64/base.odex (X.138p.LIZ+1144)
+03-25 23:24:38.978 18692 18692 F DEBUG   :       #18 pc 000000000136e2e8  /data/app/~~FklaAq1IPgMm5hoiQ062iA==/com.zhiliaoapp.musically-j7bnKVDR_dgj5ZkpLkjsvg==/oat/arm64/base.odex (Y.ARunnableS88S0000000_32.run$25+280)
+03-25 23:24:38.978 18692 18692 F DEBUG   :       #19 pc 00000000038809ec  /data/app/~~FklaAq1IPgMm5hoiQ062iA==/com.zhiliaoapp.musically-j7bnKVDR_dgj5ZkpLkjsvg==/oat/arm64/base.odex (Y.ARunnableS88S0000000_32.run+1004)
+03-25 23:24:38.978 18692 18692 F DEBUG   :       #20 pc 0000000001dc52e4  /data/app/~~FklaAq1IPgMm5hoiQ062iA==/com.zhiliaoapp.musically-j7bnKVDR_dgj5ZkpLkjsvg==/oat/arm64/base.odex (X.0OGN.run+100)
+03-25 23:24:38.978 18692 18692 F DEBUG   :       #21 pc 00000000021377f8  /data/app/~~FklaAq1IPgMm5hoiQ062iA==/com.zhiliaoapp.musically-j7bnKVDR_dgj5ZkpLkjsvg==/oat/arm64/base.odex (com.bytedance.bpea.transmit.delegate.BPEAHandler.dispatchMessage+104)
+03-25 23:24:38.978 18692 18692 F DEBUG   :       #22 pc 00000000009bed60  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (android.os.Looper.loopOnce+1008)
+03-25 23:24:38.978 18692 18692 F DEBUG   :       #23 pc 00000000009be8bc  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (android.os.Looper.loop+844)
+03-25 23:24:38.978 18692 18692 F DEBUG   :       #24 pc 00000000009bd7fc  /data/misc/apexdata/com.android.art/dalvik-cache/arm64/boot.oat (android.os.HandlerThread.run+924)
+03-25 23:24:38.978 18692 18692 F DEBUG   :       #25 pc 00000000002cdd94  /apex/com.android.art/lib64/libart.so (art_quick_invoke_stub+612) (BuildId: be34fbe63ff357beb403f9cb39923ea7)
+03-25 23:24:38.978 18692 18692 F DEBUG   :       #26 pc 000000000026e624  /apex/com.android.art/lib64/libart.so (art::ArtMethod::Invoke(art::Thread*, unsigned int*, unsigned int, art::JValue*, char const*)+220) (BuildId: be34fbe63ff357beb403f9cb39923ea7)
+03-25 23:24:38.978 18692 18692 F DEBUG   :       #27 pc 00000000004c3f30  /apex/com.android.art/lib64/libart.so (art::Thread::CreateCallback(void*)+1184) (BuildId: be34fbe63ff357beb403f9cb39923ea7)
+03-25 23:24:38.978 18692 18692 F DEBUG   :       #28 pc 00000000004c3a80  /apex/com.android.art/lib64/libart.so (art::Thread::CreateCallbackWithUffdGc(void*)+8) (BuildId: be34fbe63ff357beb403f9cb39923ea7)
+03-25 23:24:38.978 18692 18692 F DEBUG   :       #29 pc 00000000000c9cfc  /apex/com.android.runtime/lib64/bionic/libc.so (__pthread_start(void*)+204) (BuildId: e2d9c5ba32145bb6e11e59494ee68593)
+03-25 23:24:38.978 18692 18692 F DEBUG   :       #30 pc 000000000005db00  /apex/com.android.runtime/lib64/bionic/libc.so (__start_thread+64) (BuildId: e2d9c5ba32145bb6e11e59494ee68593)
+03-26 13:11:39.139  4080  6036 E AndroidRuntime: FATAL EXCEPTION: AR-Frame-Lite-Renderer-Render-Thread-190646563
+03-26 13:11:39.139  4080  6036 E AndroidRuntime: Process: com.instagram.android, PID: 4080
+03-26 13:11:39.139  4080  6036 E AndroidRuntime: java.lang.ClassCastException: X.60c cannot be cast to X.A9R
+03-26 13:11:39.139  4080  6036 E AndroidRuntime: 	at X.Itx.ANb(Unknown Source:80)
+03-26 13:11:39.139  4080  6036 E AndroidRuntime: 	at X.Iti.ANb(Unknown Source:23)
+03-26 13:11:39.139  4080  6036 E AndroidRuntime: 	at X.5Z2.run(Unknown Source:157)
+03-26 13:11:39.139  4080  6036 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:958)
+03-26 13:11:39.139  4080  6036 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+03-26 13:11:39.139  4080  6036 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:243)
+03-26 13:11:39.139  4080  6036 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:338)
+03-26 13:11:39.139  4080  6036 E AndroidRuntime: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+04-05 02:37:33.405 15279 15279 E AndroidRuntime: FATAL EXCEPTION: main
+04-05 02:37:33.405 15279 15279 E AndroidRuntime: Process: com.hajj, PID: 15279
+04-05 02:37:33.405 15279 15279 E AndroidRuntime: java.lang.RuntimeException: Unable to load script.
+04-05 02:37:33.405 15279 15279 E AndroidRuntime: 
+04-05 02:37:33.405 15279 15279 E AndroidRuntime: Make sure you're running Metro or that your bundle 'index.android.bundle' is packaged correctly for release.
+04-05 02:37:33.405 15279 15279 E AndroidRuntime: 
+04-05 02:37:33.405 15279 15279 E AndroidRuntime: The device must either be USB connected (with bundler set to "localhost:8081") or be on the same Wi-Fi network as your computer (with bundler set to your computer IP) to connect to Metro.
+04-05 02:37:33.405 15279 15279 E AndroidRuntime: 
+04-05 02:37:33.405 15279 15279 E AndroidRuntime: If you're using USB on a physical device, make sure you also run this command:
+04-05 02:37:33.405 15279 15279 E AndroidRuntime:   adb reverse tcp:8081 tcp:8081
+04-05 02:37:33.405 15279 15279 E AndroidRuntime: 	at com.facebook.react.runtime.ReactInstance.loadJSBundleFromAssets(Native Method)
+04-05 02:37:33.405 15279 15279 E AndroidRuntime: 	at com.facebook.react.runtime.ReactInstance.access$loadJSBundleFromAssets(ReactInstance.kt:84)
+04-05 02:37:33.405 15279 15279 E AndroidRuntime: 	at com.facebook.react.runtime.ReactInstance$loadJSBundle$1.loadScriptFromAssets(ReactInstance.kt:324)
+04-05 02:37:33.405 15279 15279 E AndroidRuntime: 	at com.facebook.react.bridge.JSBundleLoader$Companion$createAssetLoader$1.loadScript(JSBundleLoader.kt:33)
+04-05 02:37:33.405 15279 15279 E AndroidRuntime: 	at com.facebook.react.runtime.ReactInstance.loadJSBundle(ReactInstance.kt:303)
+04-05 02:37:33.405 15279 15279 E AndroidRuntime: 	at com.facebook.react.runtime.ReactHostImpl.getOrCreateReactInstanceTask$lambda$44$lambda$40(ReactHostImpl.kt:1019)
+04-05 02:37:33.405 15279 15279 E AndroidRuntime: 	at com.facebook.react.runtime.ReactHostImpl.$r8$lambda$kGNcmxBxZbp8b1wWTaqIXDdkV8g(Unknown Source:0)
+04-05 02:37:33.405 15279 15279 E AndroidRuntime: 	at com.facebook.react.runtime.ReactHostImpl$$ExternalSyntheticLambda26.then(D8$$SyntheticClass:0)
+04-05 02:37:33.405 15279 15279 E AndroidRuntime: 	at com.facebook.react.runtime.internal.bolts.Task$Companion.completeImmediately$lambda$3(Task.kt:360)
+04-05 02:37:33.405 15279 15279 E AndroidRuntime: 	at com.facebook.react.runtime.internal.bolts.Task$Companion.$r8$lambda$b7MTC0ufkn_2TjF4BGcNqGR9qK0(Unknown Source:0)
+04-05 02:37:33.405 15279 15279 E AndroidRuntime: 	at com.facebook.react.runtime.internal.bolts.Task$Companion$$ExternalSyntheticLambda3.run(D8$$SyntheticClass:0)
+04-05 02:37:33.405 15279 15279 E AndroidRuntime: 	at com.facebook.react.runtime.internal.bolts.Executors$ImmediateExecutor.execute(Executors.kt:41)
+04-05 02:37:33.405 15279 15279 E AndroidRuntime: 	at com.facebook.react.runtime.internal.bolts.Task$Companion.completeImmediately(Task.kt:358)
+04-05 02:37:33.405 15279 15279 E AndroidRuntime: 	at com.facebook.react.runtime.internal.bolts.Task$Companion.access$completeImmediately(Task.kt:254)
+04-05 02:37:33.405 15279 15279 E AndroidRuntime: 	at com.facebook.react.runtime.internal.bolts.Task.continueWith(Task.kt:133)
+04-05 02:37:33.405 15279 15279 E AndroidRuntime: 	at com.facebook.react.runtime.internal.bolts.Task.continueWith$default(Task.kt:117)
+04-05 02:37:33.405 15279 15279 E AndroidRuntime: 	at com.facebook.react.runtime.internal.bolts.Task.onSuccess$lambda$12(Task.kt:176)
+04-05 02:37:33.405 15279 15279 E AndroidRuntime: 	at com.facebook.react.runtime.internal.bolts.Task.$r8$lambda$l0wwo5AvbHxlwfI1R7CH_codxoo(Unknown Source:0)
+04-05 02:37:33.405 15279 15279 E AndroidRuntime: 	at com.facebook.react.runtime.internal.bolts.Task$$ExternalSyntheticLambda2.then(D8$$SyntheticClass:0)
+04-05 02:37:33.405 15279 15279 E AndroidRuntime: 	at com.facebook.react.runtime.internal.bolts.Task$Companion.completeAfterTask$lambda$5(Task.kt:394)
+04-05 02:37:33.405 15279 15279 E AndroidRuntime: 	at com.facebook.react.runtime.internal.bolts.Task$Companion.$r8$lambda$IPpysnehFwANEiW061YzapkMdoE(Unknown Source:0)
+04-05 02:37:33.405 15279 15279 E AndroidRuntime: 	at com.facebook.react.runtime.internal.bolts.Task$Companion$$ExternalSyntheticLambda4.run(D8$$SyntheticClass:0)
+04-05 02:37:33.405 15279 15279 E AndroidRuntime: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+04-05 02:37:33.405 15279 15279 E AndroidRuntime: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+04-05 02:37:33.405 15279 15279 E AndroidRuntime: 	at java.lang.Thread.run(Thread.java:1563)
+04-05 03:01:19.608 21261 25463 E AndroidRuntime: FATAL EXCEPTION: androidmapsapi-ula-1
+04-05 03:01:19.608 21261 25463 E AndroidRuntime: Process: com.hajj, PID: 21261
+04-05 03:01:19.608 21261 25463 E AndroidRuntime: java.lang.IllegalStateException: API key not found.  Check that <meta-data android:name="com.google.android.geo.API_KEY" android:value="your API key"/> is in the <application> element of AndroidManifest.xml
+04-05 03:01:19.608 21261 25463 E AndroidRuntime: 	at com.google.maps.api.android.lib6.common.h.b(:com.google.android.gms.policy_maps_core_dynamite@260830204@260830201025.878499810.878499810:117)
+04-05 03:01:19.608 21261 25463 E AndroidRuntime: 	at com.google.maps.api.android.lib6.impl.hq.run(:com.google.android.gms.policy_maps_core_dynamite@260830204@260830201025.878499810.878499810:586)
+04-05 03:01:19.608 21261 25463 E AndroidRuntime: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+04-05 03:01:19.608 21261 25463 E AndroidRuntime: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+04-05 03:01:19.608 21261 25463 E AndroidRuntime: 	at java.lang.Thread.run(Thread.java:1563)
+04-05 03:01:59.464 22749 25649 E AndroidRuntime: FATAL EXCEPTION: mqt_v_native
+04-05 03:01:59.464 22749 25649 E AndroidRuntime: Process: com.hajj, PID: 22749
+04-05 03:01:59.464 22749 25649 E AndroidRuntime: java.lang.IncompatibleClassChangeError: Found interface com.google.android.gms.location.SettingsClient, but class was expected (declaration of 'com.google.android.gms.location.SettingsClient' appears in /data/app/~~vpK9zA9ZLyifFoYRN-UDCg==/com.hajj-wKxUoBBZEgKJ6dcam6HFJA==/base.apk!classes7.dex)
+04-05 03:01:59.464 22749 25649 E AndroidRuntime: 	at com.agontuk.RNFusedLocation.FusedLocationProvider.checkLocationSettings(FusedLocationProvider.java:177)
+04-05 03:01:59.464 22749 25649 E AndroidRuntime: 	at com.agontuk.RNFusedLocation.FusedLocationProvider.requestLocationUpdates(FusedLocationProvider.java:152)
+04-05 03:01:59.464 22749 25649 E AndroidRuntime: 	at com.agontuk.RNFusedLocation.RNFusedLocationModule.startObserving(RNFusedLocationModule.java:133)
+04-05 03:01:59.464 22749 25649 E AndroidRuntime: 	at com.facebook.jni.NativeRunnable.run(Native Method)
+04-05 03:01:59.464 22749 25649 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:958)
+04-05 03:01:59.464 22749 25649 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+04-05 03:01:59.464 22749 25649 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadHandler.dispatchMessage(MessageQueueThreadHandler.kt:21)
+04-05 03:01:59.464 22749 25649 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:243)
+04-05 03:01:59.464 22749 25649 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:338)
+04-05 03:01:59.464 22749 25649 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion.startNewBackgroundThread$lambda$0(MessageQueueThreadImpl.kt:152)
+04-05 03:01:59.464 22749 25649 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion.$r8$lambda$YYXYCFexeoKtAeDpeNYkxZZlpbA(Unknown Source:0)
+04-05 03:01:59.464 22749 25649 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+04-05 03:01:59.464 22749 25649 E AndroidRuntime: 	at java.lang.Thread.run(Thread.java:1563)
+04-05 03:05:29.752 25196 27842 E AndroidRuntime: FATAL EXCEPTION: mqt_v_native
+04-05 03:05:29.752 25196 27842 E AndroidRuntime: Process: com.hajj, PID: 25196
+04-05 03:05:29.752 25196 27842 E AndroidRuntime: java.lang.IncompatibleClassChangeError: Found interface com.google.android.gms.location.SettingsClient, but class was expected (declaration of 'com.google.android.gms.location.SettingsClient' appears in /data/app/~~vpK9zA9ZLyifFoYRN-UDCg==/com.hajj-wKxUoBBZEgKJ6dcam6HFJA==/base.apk!classes7.dex)
+04-05 03:05:29.752 25196 27842 E AndroidRuntime: 	at com.agontuk.RNFusedLocation.FusedLocationProvider.checkLocationSettings(FusedLocationProvider.java:177)
+04-05 03:05:29.752 25196 27842 E AndroidRuntime: 	at com.agontuk.RNFusedLocation.FusedLocationProvider.requestLocationUpdates(FusedLocationProvider.java:152)
+04-05 03:05:29.752 25196 27842 E AndroidRuntime: 	at com.agontuk.RNFusedLocation.RNFusedLocationModule.startObserving(RNFusedLocationModule.java:133)
+04-05 03:05:29.752 25196 27842 E AndroidRuntime: 	at com.facebook.jni.NativeRunnable.run(Native Method)
+04-05 03:05:29.752 25196 27842 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:958)
+04-05 03:05:29.752 25196 27842 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+04-05 03:05:29.752 25196 27842 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadHandler.dispatchMessage(MessageQueueThreadHandler.kt:21)
+04-05 03:05:29.752 25196 27842 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:243)
+04-05 03:05:29.752 25196 27842 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:338)
+04-05 03:05:29.752 25196 27842 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion.startNewBackgroundThread$lambda$0(MessageQueueThreadImpl.kt:152)
+04-05 03:05:29.752 25196 27842 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion.$r8$lambda$YYXYCFexeoKtAeDpeNYkxZZlpbA(Unknown Source:0)
+04-05 03:05:29.752 25196 27842 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+04-05 03:05:29.752 25196 27842 E AndroidRuntime: 	at java.lang.Thread.run(Thread.java:1563)
+04-05 03:09:05.392 25642 29160 E AndroidRuntime: FATAL EXCEPTION: mqt_v_native
+04-05 03:09:05.392 25642 29160 E AndroidRuntime: Process: com.hajj, PID: 25642
+04-05 03:09:05.392 25642 29160 E AndroidRuntime: java.lang.IncompatibleClassChangeError: Found interface com.google.android.gms.location.SettingsClient, but class was expected (declaration of 'com.google.android.gms.location.SettingsClient' appears in /data/app/~~RcPQuOBXZwMCMhtIFWeuHg==/com.hajj-UTzwxIWBWSgHCAuOukmfWQ==/base.apk!classes7.dex)
+04-05 03:09:05.392 25642 29160 E AndroidRuntime: 	at com.agontuk.RNFusedLocation.FusedLocationProvider.checkLocationSettings(FusedLocationProvider.java:177)
+04-05 03:09:05.392 25642 29160 E AndroidRuntime: 	at com.agontuk.RNFusedLocation.FusedLocationProvider.requestLocationUpdates(FusedLocationProvider.java:152)
+04-05 03:09:05.392 25642 29160 E AndroidRuntime: 	at com.agontuk.RNFusedLocation.RNFusedLocationModule.startObserving(RNFusedLocationModule.java:133)
+04-05 03:09:05.392 25642 29160 E AndroidRuntime: 	at com.facebook.jni.NativeRunnable.run(Native Method)
+04-05 03:09:05.392 25642 29160 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:958)
+04-05 03:09:05.392 25642 29160 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+04-05 03:09:05.392 25642 29160 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadHandler.dispatchMessage(MessageQueueThreadHandler.kt:21)
+04-05 03:09:05.392 25642 29160 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:243)
+04-05 03:09:05.392 25642 29160 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:338)
+04-05 03:09:05.392 25642 29160 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion.startNewBackgroundThread$lambda$0(MessageQueueThreadImpl.kt:152)
+04-05 03:09:05.392 25642 29160 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion.$r8$lambda$YYXYCFexeoKtAeDpeNYkxZZlpbA(Unknown Source:0)
+04-05 03:09:05.392 25642 29160 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+04-05 03:09:05.392 25642 29160 E AndroidRuntime: 	at java.lang.Thread.run(Thread.java:1563)
+04-05 03:10:24.807 25954 29434 E AndroidRuntime: FATAL EXCEPTION: mqt_v_native
+04-05 03:10:24.807 25954 29434 E AndroidRuntime: Process: com.hajj, PID: 25954
+04-05 03:10:24.807 25954 29434 E AndroidRuntime: java.lang.IncompatibleClassChangeError: Found interface com.google.android.gms.location.SettingsClient, but class was expected (declaration of 'com.google.android.gms.location.SettingsClient' appears in /data/app/~~RcPQuOBXZwMCMhtIFWeuHg==/com.hajj-UTzwxIWBWSgHCAuOukmfWQ==/base.apk!classes7.dex)
+04-05 03:10:24.807 25954 29434 E AndroidRuntime: 	at com.agontuk.RNFusedLocation.FusedLocationProvider.checkLocationSettings(FusedLocationProvider.java:177)
+04-05 03:10:24.807 25954 29434 E AndroidRuntime: 	at com.agontuk.RNFusedLocation.FusedLocationProvider.requestLocationUpdates(FusedLocationProvider.java:152)
+04-05 03:10:24.807 25954 29434 E AndroidRuntime: 	at com.agontuk.RNFusedLocation.RNFusedLocationModule.startObserving(RNFusedLocationModule.java:133)
+04-05 03:10:24.807 25954 29434 E AndroidRuntime: 	at com.facebook.jni.NativeRunnable.run(Native Method)
+04-05 03:10:24.807 25954 29434 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:958)
+04-05 03:10:24.807 25954 29434 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+04-05 03:10:24.807 25954 29434 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadHandler.dispatchMessage(MessageQueueThreadHandler.kt:21)
+04-05 03:10:24.807 25954 29434 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:243)
+04-05 03:10:24.807 25954 29434 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:338)
+04-05 03:10:24.807 25954 29434 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion.startNewBackgroundThread$lambda$0(MessageQueueThreadImpl.kt:152)
+04-05 03:10:24.807 25954 29434 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion.$r8$lambda$YYXYCFexeoKtAeDpeNYkxZZlpbA(Unknown Source:0)
+04-05 03:10:24.807 25954 29434 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+04-05 03:10:24.807 25954 29434 E AndroidRuntime: 	at java.lang.Thread.run(Thread.java:1563)
+04-05 03:18:37.212 27812 31719 E AndroidRuntime: FATAL EXCEPTION: mqt_v_native
+04-05 03:18:37.212 27812 31719 E AndroidRuntime: Process: com.hajj, PID: 27812
+04-05 03:18:37.212 27812 31719 E AndroidRuntime: java.lang.IncompatibleClassChangeError: Found interface com.google.android.gms.location.SettingsClient, but class was expected (declaration of 'com.google.android.gms.location.SettingsClient' appears in /data/app/~~_bOyqi01L8_6k_Y4y-lc0w==/com.hajj-4Tw3fFfzqOGw8fyVLkcidA==/base.apk!classes7.dex)
+04-05 03:18:37.212 27812 31719 E AndroidRuntime: 	at com.agontuk.RNFusedLocation.FusedLocationProvider.checkLocationSettings(FusedLocationProvider.java:177)
+04-05 03:18:37.212 27812 31719 E AndroidRuntime: 	at com.agontuk.RNFusedLocation.FusedLocationProvider.requestLocationUpdates(FusedLocationProvider.java:152)
+04-05 03:18:37.212 27812 31719 E AndroidRuntime: 	at com.agontuk.RNFusedLocation.RNFusedLocationModule.startObserving(RNFusedLocationModule.java:133)
+04-05 03:18:37.212 27812 31719 E AndroidRuntime: 	at com.facebook.jni.NativeRunnable.run(Native Method)
+04-05 03:18:37.212 27812 31719 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:958)
+04-05 03:18:37.212 27812 31719 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+04-05 03:18:37.212 27812 31719 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadHandler.dispatchMessage(MessageQueueThreadHandler.kt:21)
+04-05 03:18:37.212 27812 31719 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:243)
+04-05 03:18:37.212 27812 31719 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:338)
+04-05 03:18:37.212 27812 31719 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion.startNewBackgroundThread$lambda$0(MessageQueueThreadImpl.kt:152)
+04-05 03:18:37.212 27812 31719 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion.$r8$lambda$YYXYCFexeoKtAeDpeNYkxZZlpbA(Unknown Source:0)
+04-05 03:18:37.212 27812 31719 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+04-05 03:18:37.212 27812 31719 E AndroidRuntime: 	at java.lang.Thread.run(Thread.java:1563)
+04-05 03:19:23.821 29439 32393 E AndroidRuntime: FATAL EXCEPTION: mqt_v_native
+04-05 03:19:23.821 29439 32393 E AndroidRuntime: Process: com.hajj, PID: 29439
+04-05 03:19:23.821 29439 32393 E AndroidRuntime: java.lang.IncompatibleClassChangeError: Found interface com.google.android.gms.location.SettingsClient, but class was expected (declaration of 'com.google.android.gms.location.SettingsClient' appears in /data/app/~~_bOyqi01L8_6k_Y4y-lc0w==/com.hajj-4Tw3fFfzqOGw8fyVLkcidA==/base.apk!classes7.dex)
+04-05 03:19:23.821 29439 32393 E AndroidRuntime: 	at com.agontuk.RNFusedLocation.FusedLocationProvider.checkLocationSettings(FusedLocationProvider.java:177)
+04-05 03:19:23.821 29439 32393 E AndroidRuntime: 	at com.agontuk.RNFusedLocation.FusedLocationProvider.requestLocationUpdates(FusedLocationProvider.java:152)
+04-05 03:19:23.821 29439 32393 E AndroidRuntime: 	at com.agontuk.RNFusedLocation.RNFusedLocationModule.startObserving(RNFusedLocationModule.java:133)
+04-05 03:19:23.821 29439 32393 E AndroidRuntime: 	at com.facebook.jni.NativeRunnable.run(Native Method)
+04-05 03:19:23.821 29439 32393 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:958)
+04-05 03:19:23.821 29439 32393 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+04-05 03:19:23.821 29439 32393 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadHandler.dispatchMessage(MessageQueueThreadHandler.kt:21)
+04-05 03:19:23.821 29439 32393 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:243)
+04-05 03:19:23.821 29439 32393 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:338)
+04-05 03:19:23.821 29439 32393 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion.startNewBackgroundThread$lambda$0(MessageQueueThreadImpl.kt:152)
+04-05 03:19:23.821 29439 32393 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion.$r8$lambda$YYXYCFexeoKtAeDpeNYkxZZlpbA(Unknown Source:0)
+04-05 03:19:23.821 29439 32393 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+04-05 03:19:23.821 29439 32393 E AndroidRuntime: 	at java.lang.Thread.run(Thread.java:1563)
+--------- beginning of system
+04-08 11:21:59.617  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:21:59.621  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:22:01.648  2648  4205 E ApplicationPackageManager: start update Icon Color!
+04-08 11:22:01.698  2648  4205 E ApplicationPackageManager: start update Icon Color!
+04-08 11:22:01.884 22343 22343 E ActivityThread: Failed to find provider info for com.transsion.cutepet.provider
+04-08 11:22:03.417 22343 22343 E TranChoreographerImpl: skippedFrames: 58
+04-08 11:22:03.477 22343 22343 E ApplicationPackageManager: start update Icon Color!
+04-08 11:22:03.529 22343 22343 E ApplicationPackageManager: start update Icon Color!
+04-08 11:22:03.561 22343 22343 E ApplicationPackageManager: start update Icon Color!
+04-08 11:22:03.811  1899  2573 E  Aurora_Exception :  exception PolicyManager=getUserPreloadPolicy fail,userList is null
+04-08 11:22:03.844  1899  2573 E  Aurora_Exception :  exception PolicyManager=getUserPreloadPolicy fail,userList is null
+04-08 11:22:03.985 22343 22488 E TranFrameTrackerImpl: updateFrameMillisGears not found. ret!!! 
+04-08 11:22:03.985 22343 22488 E TranFrameTrackerImpl: android.content.res.Resources$NotFoundException: String array resource ID #0x0
+04-08 11:22:03.985 22343 22488 E TranFrameTrackerImpl: 	at android.content.res.Resources.getStringArray(Resources.java:696)
+04-08 11:22:03.985 22343 22488 E TranFrameTrackerImpl: 	at com.transsion.hubcore.internal.jank.TranFrameTrackerImpl.updateFrameMillisGears(TranFrameTrackerImpl.java:88)
+04-08 11:22:03.985 22343 22488 E TranFrameTrackerImpl: 	at com.android.internal.jank.InteractionJankMonitor.lambda$new$1(InteractionJankMonitor.java:513)
+04-08 11:22:03.985 22343 22488 E TranFrameTrackerImpl: 	at com.android.internal.jank.InteractionJankMonitor$$ExternalSyntheticLambda3.run(Unknown Source:0)
+04-08 11:22:03.985 22343 22488 E TranFrameTrackerImpl: 	at android.os.Handler.handleCallback(Handler.java:958)
+04-08 11:22:03.985 22343 22488 E TranFrameTrackerImpl: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+04-08 11:22:03.985 22343 22488 E TranFrameTrackerImpl: 	at android.os.Looper.loopOnce(Looper.java:243)
+04-08 11:22:03.985 22343 22488 E TranFrameTrackerImpl: 	at android.os.Looper.loop(Looper.java:338)
+04-08 11:22:03.985 22343 22488 E TranFrameTrackerImpl: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+04-08 11:22:21.734  1899  4746 E ShortcutService: Invalid icon type in shortcut 167989726986384@lid. Bitmaps are not allowed in long-lived shortcuts. Use Resource icons, or Uri-based icons instead.
+04-08 11:22:53.430 22343 22343 E ApplicationPackageManager: start update Icon Color!
+04-08 11:22:53.450 22343 22343 E ApplicationPackageManager: start update Icon Color!
+04-08 11:22:53.475 22343 22343 E ApplicationPackageManager: start update Icon Color!
+04-08 11:22:59.947  2648  2686 E ApplicationPackageManager: start update Icon Color!
+04-08 11:22:59.951  2648  2686 E ApplicationPackageManager: start update Icon Color!
+04-08 11:23:55.658  1899  4746 E ShortcutService: Invalid icon type in shortcut 167989726986384@lid. Bitmaps are not allowed in long-lived shortcuts. Use Resource icons, or Uri-based icons instead.
+04-08 11:24:45.315  1899  5203 E ShortcutService: Invalid icon type in shortcut 167989726986384@lid. Bitmaps are not allowed in long-lived shortcuts. Use Resource icons, or Uri-based icons instead.
+04-08 11:24:49.910 24400 24446 E ActivityThread: Failed to find provider info for com.facebook.appmanager.nekodirect
+04-08 11:25:05.103  1899  5211 E ShortcutService: Invalid icon type in shortcut 167989726986384@lid. Bitmaps are not allowed in long-lived shortcuts. Use Resource icons, or Uri-based icons instead.
+04-08 11:25:17.737  1899  2719 E ShortcutService: Invalid icon type in shortcut 167989726986384@lid. Bitmaps are not allowed in long-lived shortcuts. Use Resource icons, or Uri-based icons instead.
+04-08 11:25:18.039 22343 22343 E ApplicationPackageManager: start update Icon Color!
+04-08 11:25:18.109  1899  1899 E NotificationService: Muting recently noisy 0|com.whatsapp|23|null|10246
+04-08 11:25:18.145  1899  2738 E ActivityTaskManager: AppLaunchTracker getTaskIndex error: task is null.
+04-08 11:25:18.194  2648  2648 E ApplicationPackageManager: start update Icon Color!
+04-08 11:25:18.557  1899  5211 E Transition: show defaultTaskDisplayArea
+04-08 11:25:18.605  1899  1899 E ActivityManager: Cancel pending or running compactions as system is awake
+04-08 11:25:18.943  1899  2573 E  Aurora_Exception :  exception PolicyManager=getUserPreloadPolicy fail,userList is null
+04-08 11:25:18.957  1899  2573 E  Aurora_Exception :  exception PolicyManager=getUserPreloadPolicy fail,userList is null
+04-08 11:25:19.010  2648 32572 E ApplicationPackageManager: start update Icon Color!
+04-08 11:25:19.012  2648 32572 E ApplicationPackageManager: start update Icon Color!
+04-08 11:25:19.021  2648 21957 E ApplicationPackageManager: start update Icon Color!
+04-08 11:25:19.030  2648 21957 E ApplicationPackageManager: start update Icon Color!
+04-08 11:25:19.035  2648 21957 E ApplicationPackageManager: start update Icon Color!
+04-08 11:25:19.040  2648 21957 E ApplicationPackageManager: start update Icon Color!
+04-08 11:25:22.322  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:25:22.395  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:25:22.395  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:25:22.641  2648  2696 E ApplicationPackageManager: start update Icon Color!
+04-08 11:25:22.651  2648  2696 E ApplicationPackageManager: start update Icon Color!
+04-08 11:25:22.663  2648  2696 E ApplicationPackageManager: start update Icon Color!
+04-08 11:25:22.665  2648  2696 E ApplicationPackageManager: start update Icon Color!
+04-08 11:25:25.395  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:25:42.421  1899  2733 E ShortcutService: Invalid icon type in shortcut 167989726986384@lid. Bitmaps are not allowed in long-lived shortcuts. Use Resource icons, or Uri-based icons instead.
+04-08 11:25:45.650  1899  5203 E ShortcutService: Invalid icon type in shortcut 167989726986384@lid. Bitmaps are not allowed in long-lived shortcuts. Use Resource icons, or Uri-based icons instead.
+04-08 11:28:32.704  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:28:32.795  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:28:48.840  2648 22140 E ApplicationPackageManager: start update Icon Color!
+04-08 11:28:48.847  2648 22140 E ApplicationPackageManager: start update Icon Color!
+04-08 11:28:48.857  2648 22140 E ApplicationPackageManager: start update Icon Color!
+04-08 11:28:48.860  2648 22140 E ApplicationPackageManager: start update Icon Color!
+04-08 11:28:48.868  2648 12539 E ApplicationPackageManager: start update Icon Color!
+04-08 11:28:48.871  2648 12539 E ApplicationPackageManager: start update Icon Color!
+04-08 11:28:49.078  1899  1899 E NotificationService: Muting recently noisy 0|com.whatsapp|23|null|10246
+04-08 11:28:49.215 12768 12768 E AppResolutionTuner: Target file doesn't exist: vendor/etc/resolution_tuner_app_list.xml
+04-08 11:28:49.216 12768 12768 E AppResolutionTuner: Target file doesn't exist: vendor/etc/resolution_tuner_app_list.xml
+04-08 11:28:49.476 12768 12768 E TranChoreographerImpl: skippedFrames: 32
+04-08 11:28:49.496  2648  2696 E ApplicationPackageManager: start update Icon Color!
+04-08 11:28:49.500  2648  2696 E ApplicationPackageManager: start update Icon Color!
+04-08 11:28:51.333  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:28:51.440  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:28:51.590  2648  2686 E ApplicationPackageManager: start update Icon Color!
+04-08 11:28:51.592  2648  2686 E ApplicationPackageManager: start update Icon Color!
+04-08 11:28:51.663  2648  2686 E ApplicationPackageManager: start update Icon Color!
+04-08 11:28:51.664  2648  2686 E ApplicationPackageManager: start update Icon Color!
+04-08 11:28:56.732  2648 32572 E ApplicationPackageManager: start update Icon Color!
+04-08 11:28:56.741  2648 32572 E ApplicationPackageManager: start update Icon Color!
+04-08 11:28:56.745  2648 32572 E ApplicationPackageManager: start update Icon Color!
+04-08 11:28:56.750  2648 32572 E ApplicationPackageManager: start update Icon Color!
+04-08 11:28:56.754  2648 32572 E ApplicationPackageManager: start update Icon Color!
+04-08 11:28:56.759  2648 32572 E ApplicationPackageManager: start update Icon Color!
+04-08 11:28:57.378  2648  2820 E ApplicationPackageManager: start update Icon Color!
+04-08 11:28:57.383  2648  2820 E ApplicationPackageManager: start update Icon Color!
+04-08 11:29:03.054  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:29:03.132  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:29:03.136  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:29:03.287  2648  3579 E ApplicationPackageManager: start update Icon Color!
+04-08 11:29:03.290  2648  3579 E ApplicationPackageManager: start update Icon Color!
+04-08 11:29:04.191  1899  2321 E Transition: wc = DefaultTaskDisplayArea@87453867 nowVisible = false
+04-08 11:29:04.359  1899  2321 E Transition: show defaultTaskDisplayArea
+04-08 11:29:05.451  1899  1979 E AlarmManager: Attempt to decrement existing alarm count 0 by 1 for uid 1000
+04-08 11:29:05.465  1899  1979 E AlarmManager: Attempt to decrement existing alarm count 0 by 1 for uid 1000
+04-08 11:29:06.137  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:29:06.369  1899  1922 E Transition: Trying to add a ready-group twice: Display{#0 state=ON size=1080x2436 ROTATION_0}
+04-08 11:29:11.767  1899  4746 E ActivityTaskManager: AppLaunchTracker getTaskIndex error: task is null.
+04-08 11:29:12.129  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:29:12.209  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:29:12.211  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:29:12.887  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:29:12.887  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:29:12.941  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:29:12.944  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:29:13.120  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:29:13.498  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:29:13.541  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:29:13.542  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:29:14.533  2648 21957 E ApplicationPackageManager: start update Icon Color!
+04-08 11:29:14.535  2648 21957 E ApplicationPackageManager: start update Icon Color!
+04-08 11:29:16.543  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:29:19.145  1899  5216 E ShortcutService: Invalid icon type in shortcut 167989726986384@lid. Bitmaps are not allowed in long-lived shortcuts. Use Resource icons, or Uri-based icons instead.
+04-08 11:29:26.608  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:29:26.614  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:29:26.615  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:29:27.751 25345 25345 E ActivityThread: Failed to find provider info for bluetooth_legacy.provider
+04-08 11:29:28.235 25258 25258 E TranChoreographerImpl: skippedFrames: 51
+04-08 11:29:28.520 25234 25234 E TranChoreographerImpl: skippedFrames: 83
+04-08 11:29:29.629  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:29:38.533  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:29:38.571  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:29:38.572  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:29:38.898  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:29:38.898  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:29:38.916  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:29:38.917  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:29:41.919  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:29:47.067 25688 25993 E ActivityThread: Failed to find provider info for com.microsoft.appmanager.microsoft.identity.broker
+04-08 11:29:47.355 26017 26017 E ActivityThread: Failed to find provider info for com.microsoft.yourphonecompanion.contentprovider.featureoverride
+04-08 11:29:48.844 26017 26035 E ActivityThread: Failed to find provider info for com.microsoft.intune.mam.policy
+04-08 11:29:57.025  1899  2322 E ShortcutService: Invalid icon type in shortcut 167989726986384@lid. Bitmaps are not allowed in long-lived shortcuts. Use Resource icons, or Uri-based icons instead.
+04-08 11:30:06.965  1899  5087 E ActivityTaskManager: AppLaunchTracker getTaskIndex error: task is null.
+04-08 11:30:10.376 26510 26510 E TranChoreographerImpl: skippedFrames: 162
+04-08 11:30:10.815 26541 26541 E TranChoreographerImpl: skippedFrames: 205
+04-08 11:30:12.940  1899  2573 E  Aurora_Exception :  exception PolicyManager=getUserPreloadPolicy fail,userList is null
+04-08 11:30:13.052  2619  3470 E ApplicationPackageManager: start update Icon Color!
+04-08 11:30:13.142  1899  2367 E HandwritingModeController: Cannot get requestId: Handwriting was not initialized.
+04-08 11:30:14.351  1899  5203 E debug_TransitionController: this is Task{df071b2 #17493 type=standard A=10246:com.whatsapp} isVisibleRequested false
+04-08 11:30:29.861 27668 27710 E ActivityThread: Failed to find provider info for com.lemon.faceuassist.provider
+04-08 11:30:30.850 27668 27668 E TranChoreographerImpl: skippedFrames: 53
+04-08 11:32:21.602  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:32:23.084  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:33:05.713  1899  4985 E ShortcutService: Invalid icon type in shortcut 167989726986384@lid. Bitmaps are not allowed in long-lived shortcuts. Use Resource icons, or Uri-based icons instead.
+04-08 11:33:22.837 21619 21651 E ActivityThread: Failed to find provider info for com.gallery20.StoryAlbumProvider
+04-08 11:33:35.690 27262 27366 E ApplicationPackageManager: start update Icon Color!
+04-08 11:33:35.709 26510 26654 E ApplicationPackageManager: start update Icon Color!
+04-08 11:33:35.796 14159 28593 E ApplicationPackageManager: start update Icon Color!
+04-08 11:33:35.895  1899  2459 E AppOps  : attributionTag VCN not declared in manifest of android
+04-08 11:33:35.898  1899  2459 E AppOps  : attributionTag VCN not declared in manifest of android
+04-08 11:33:35.898  1899  2459 E AppOps  : attributionTag VCN not declared in manifest of android
+04-08 11:33:35.902  1899  2459 E AppOps  : attributionTag VCN not declared in manifest of android
+04-08 11:33:35.902  1899  2459 E AppOps  : attributionTag VCN not declared in manifest of android
+04-08 11:33:35.903  1899  2459 E AppOps  : attributionTag VCN not declared in manifest of android
+04-08 11:33:35.947  1899  2459 E AppOps  : attributionTag VCN not declared in manifest of android
+04-08 11:33:35.947  1899  2459 E AppOps  : attributionTag VCN not declared in manifest of android
+04-08 11:33:35.947  1899  2459 E AppOps  : attributionTag VCN not declared in manifest of android
+04-08 11:33:36.371  1899  5211 E ActivityTaskManager: AppLaunchTracker getTaskIndex error: task is null.
+04-08 11:33:37.475 28705 28705 E ApplicationPackageManager: start update Icon Color!
+04-08 11:33:38.135 25881 25881 E TranChoreographerImpl: skippedFrames: 62
+04-08 11:33:40.981  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:33:40.985  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:33:40.986  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:33:42.510  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:33:42.511  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:33:42.519  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:33:42.522  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:33:42.529  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:33:42.906  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:33:42.944  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:33:44.551  1899  4612 E ShortcutService: Invalid icon type in shortcut 167989726986384@lid. Bitmaps are not allowed in long-lived shortcuts. Use Resource icons, or Uri-based icons instead.
+04-08 11:33:57.026  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:33:57.057  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:33:57.058  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:33:57.332  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:33:57.334  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:33:57.350  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:33:57.351  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:33:57.602  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:33:57.605  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:33:57.619  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:33:57.620  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:33:58.120  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:34:08.550  1899  2733 E ApplicationPackageManager: start update Icon Color!
+04-08 11:34:09.716  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:34:09.731  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:34:10.085  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:34:10.117  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:34:10.124  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:34:10.188  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:34:16.390 25881 25881 E TranChoreographerImpl: skippedFrames: 65
+04-08 11:34:21.972  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:34:22.001  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:34:22.947  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:34:23.112  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:34:27.586  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:34:28.037  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:34:36.003  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:34:36.224  2648 12540 E ApplicationPackageManager: start update Icon Color!
+04-08 11:34:36.274  2648 12540 E ApplicationPackageManager: start update Icon Color!
+04-08 11:34:36.280  2648 12540 E ApplicationPackageManager: start update Icon Color!
+04-08 11:34:36.682  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:34:39.414  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:34:39.909  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:34:40.269  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:34:40.502  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:34:41.013  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:34:42.006  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:34:43.052 25881 29303 E AndroidRuntime: FATAL EXCEPTION: mqt_v_native
+04-08 11:34:43.052 25881 29303 E AndroidRuntime: Process: com.hajj, PID: 25881
+04-08 11:34:43.052 25881 29303 E AndroidRuntime: java.lang.IncompatibleClassChangeError: Found interface com.google.android.gms.location.SettingsClient, but class was expected (declaration of 'com.google.android.gms.location.SettingsClient' appears in /data/app/~~MhyxCWFEpQEwY85BNRfoiQ==/com.hajj-2TRXkonqz4V98kAZBh3aLw==/base.apk!classes7.dex)
+04-08 11:34:43.052 25881 29303 E AndroidRuntime: 	at com.agontuk.RNFusedLocation.FusedLocationProvider.checkLocationSettings(FusedLocationProvider.java:177)
+04-08 11:34:43.052 25881 29303 E AndroidRuntime: 	at com.agontuk.RNFusedLocation.FusedLocationProvider.requestLocationUpdates(FusedLocationProvider.java:152)
+04-08 11:34:43.052 25881 29303 E AndroidRuntime: 	at com.agontuk.RNFusedLocation.RNFusedLocationModule.startObserving(RNFusedLocationModule.java:133)
+04-08 11:34:43.052 25881 29303 E AndroidRuntime: 	at com.facebook.jni.NativeRunnable.run(Native Method)
+04-08 11:34:43.052 25881 29303 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:958)
+04-08 11:34:43.052 25881 29303 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+04-08 11:34:43.052 25881 29303 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadHandler.dispatchMessage(MessageQueueThreadHandler.kt:21)
+04-08 11:34:43.052 25881 29303 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:243)
+04-08 11:34:43.052 25881 29303 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:338)
+04-08 11:34:43.052 25881 29303 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion.startNewBackgroundThread$lambda$0(MessageQueueThreadImpl.kt:152)
+04-08 11:34:43.052 25881 29303 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion.$r8$lambda$YYXYCFexeoKtAeDpeNYkxZZlpbA(Unknown Source:0)
+04-08 11:34:43.052 25881 29303 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+04-08 11:34:43.052 25881 29303 E AndroidRuntime: 	at java.lang.Thread.run(Thread.java:1563)
+04-08 11:34:43.092  1899  1922 E debug_TransitionController: mCollectingTransition = TransitionRecord{ed95eef id=50915 type=CLOSE flags=0x10}
+04-08 11:34:43.092  1899  1922 E debug_Transition: mState = 0
+04-08 11:34:43.316  1899  5211 E debug_TransitionController: this is Task{350fca7 #17506 type=standard A=10411:com.hajj} isVisibleRequested false
+04-08 11:34:43.316  1899  5211 E debug_Transition: mParticipants is contains Task{350fca7 #17506 type=standard A=10411:com.hajj} so return
+04-08 11:34:43.345  1899  2573 E  Aurora_Exception :  exception PolicyManager=getUserPreloadPolicy fail,userList is null
+04-08 11:34:54.292  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:34:54.310  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:34:55.151  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:34:55.155  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:34:56.827  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:34:56.868  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:35:07.132  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:35:07.178  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:35:07.461  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:35:07.508  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:35:07.746  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:35:07.805  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:35:08.899  1899  4783 E ActivityTaskManager: AppLaunchTracker getTaskIndex error: task is null.
+04-08 11:35:10.415 25882 25882 E TranChoreographerImpl: skippedFrames: 115
+--------- beginning of main
+04-08 11:35:10.425  1340  3663 E BufferQueueDebug: [com.hajj/com.hajj.MainActivity#859448](this:0xb40000744dc37b20,id:-1,api:0,p:-1,c:-1) id info cannot be read from 'com.hajj/com.hajj.MainActivity#859448'
+04-08 11:35:10.432  1340  3663 E BufferQueueDebug: [Surface(name=a8a946e StatusBar)/@0x95d1d27 - animation-leash of insets_animation#859449](this:0xb40000744d9ea3b0,id:-1,api:0,p:-1,c:-1) id info cannot be read from 'Surface(name=a8a946e StatusBar)/@0x95d1d27 - animation-leash of insets_animation#859449'
+04-08 11:35:10.436  1340  2189 E BufferQueueDebug: [Surface(name=89c121c NavigationBar0)/@0xf44817d - animation-leash of insets_animation#859450](this:0xb40000744dbe7f60,id:-1,api:0,p:-1,c:-1) id info cannot be read from 'Surface(name=89c121c NavigationBar0)/@0xf44817d - animation-leash of insets_animation#859450'
+04-08 11:35:10.444 25882 25882 E FBI     : fbcNotifyBufferUX is NULL: undefined symbol: fbcNotifyBufferUX
+04-08 11:35:10.507  1340  3663 E HWComposer: getSupportedContentTypes: getSupportedContentTypes failed for display 0: Unsupported (8)
+04-08 11:35:10.508 25882 29891 E OpenGLRenderer: Unable to match the desired swap behavior.
+04-08 11:35:10.533  1340  1410 E surfaceflinger: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:10.536  1340  3663 E BufferQueueDebug: [Surface(name=4bee05c com.hajj/com.hajj.MainActivity)/@0xe9af660 - animation-leash of starting_reveal#859451](this:0xb40000744db92880,id:-1,api:0,p:-1,c:-1) id info cannot be read from 'Surface(name=4bee05c com.hajj/com.hajj.MainActivity)/@0xe9af660 - animation-leash of starting_reveal#859451'
+04-08 11:35:10.550  2985  2985 E MtkPhoneIntfMgrEx: MainThreadHandler.handleMessage : 3
+04-08 11:35:10.553  1340  1410 E surfaceflinger: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:10.558  1340  1410 E surfaceflinger: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:10.567  1340  1410 E surfaceflinger: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:10.575  1340  1410 E surfaceflinger: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:10.580  1340  3663 E BufferQueueDebug: [b135fea PopupWindow:72a6aff#859452](this:0xb40000744db73350,id:-1,api:0,p:-1,c:-1) id info cannot be read from 'b135fea PopupWindow:72a6aff#859452'
+04-08 11:35:10.587  1340  1410 E surfaceflinger: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:10.592  1340  1410 E surfaceflinger: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:10.596  1340  3663 E BufferQueueDebug: [PopupWindow:72a6aff#859453](this:0xb40000744dc8d200,id:-1,api:0,p:-1,c:-1) id info cannot be read from 'PopupWindow:72a6aff#859453'
+04-08 11:35:10.604 25882 29891 E OpenGLRenderer: Unable to match the desired swap behavior.
+04-08 11:35:10.613  1340  1410 E surfaceflinger: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:10.618 25882 25882 E unknown:ReactHost: Unhandled SoftException
+04-08 11:35:10.618 25882 25882 E unknown:ReactHost: com.facebook.react.bridge.ReactNoCrashSoftException: raiseSoftException(onWindowFocusChange(hasFocus = "true")): Tried to access onWindowFocusChange while context is not ready
+04-08 11:35:10.618 25882 25882 E unknown:ReactHost: 	at com.facebook.react.runtime.ReactHostImpl.raiseSoftException(ReactHostImpl.kt:865)
+04-08 11:35:10.618 25882 25882 E unknown:ReactHost: 	at com.facebook.react.runtime.ReactHostImpl.raiseSoftException$default(ReactHostImpl.kt:856)
+04-08 11:35:10.618 25882 25882 E unknown:ReactHost: 	at com.facebook.react.runtime.ReactHostImpl.onWindowFocusChange(ReactHostImpl.kt:629)
+04-08 11:35:10.618 25882 25882 E unknown:ReactHost: 	at com.facebook.react.ReactDelegate.onWindowFocusChanged(ReactDelegate.kt:229)
+04-08 11:35:10.618 25882 25882 E unknown:ReactHost: 	at com.facebook.react.ReactActivityDelegate.onWindowFocusChanged(ReactActivityDelegate.java:237)
+04-08 11:35:10.618 25882 25882 E unknown:ReactHost: 	at com.facebook.react.ReactActivity.onWindowFocusChanged(ReactActivity.java:161)
+04-08 11:35:10.618 25882 25882 E unknown:ReactHost: 	at androidx.appcompat.view.WindowCallbackWrapper.onWindowFocusChanged(WindowCallbackWrapper.java:124)
+04-08 11:35:10.618 25882 25882 E unknown:ReactHost: 	at com.android.internal.policy.DecorView.onWindowFocusChanged(DecorView.java:1948)
+04-08 11:35:10.618 25882 25882 E unknown:ReactHost: 	at android.view.View.dispatchWindowFocusChanged(View.java:16033)
+04-08 11:35:10.618 25882 25882 E unknown:ReactHost: 	at android.view.ViewGroup.dispatchWindowFocusChanged(ViewGroup.java:1516)
+04-08 11:35:10.618 25882 25882 E unknown:ReactHost: 	at android.view.ViewRootImpl.dispatchFocusEvent(ViewRootImpl.java:4461)
+04-08 11:35:10.618 25882 25882 E unknown:ReactHost: 	at android.view.ViewRootImpl.handleWindowFocusChanged(ViewRootImpl.java:4365)
+04-08 11:35:10.618 25882 25882 E unknown:ReactHost: 	at android.view.ViewRootImpl.-$$Nest$mhandleWindowFocusChanged(Unknown Source:0)
+04-08 11:35:10.618 25882 25882 E unknown:ReactHost: 	at android.view.ViewRootImpl$ViewRootHandler.handleMessageImpl(ViewRootImpl.java:6484)
+04-08 11:35:10.618 25882 25882 E unknown:ReactHost: 	at android.view.ViewRootImpl$ViewRootHandler.handleMessage(ViewRootImpl.java:6385)
+04-08 11:35:10.618 25882 25882 E unknown:ReactHost: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-08 11:35:10.618 25882 25882 E unknown:ReactHost: 	at android.os.Looper.loopOnce(Looper.java:243)
+04-08 11:35:10.618 25882 25882 E unknown:ReactHost: 	at android.os.Looper.loop(Looper.java:338)
+04-08 11:35:10.618 25882 25882 E unknown:ReactHost: 	at android.app.ActivityThread.main(ActivityThread.java:8506)
+04-08 11:35:10.618 25882 25882 E unknown:ReactHost: 	at java.lang.reflect.Method.invoke(Native Method)
+04-08 11:35:10.618 25882 25882 E unknown:ReactHost: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:602)
+04-08 11:35:10.618 25882 25882 E unknown:ReactHost: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1064)
+04-08 11:35:10.638  1340  2189 E BufferQueueDebug: [Surface(name=bf943e7 InputMethod)/@0x61fe63d - animation-leash of insets_animation#859454](this:0xb40000744db6aaa0,id:-1,api:0,p:-1,c:-1) id info cannot be read from 'Surface(name=bf943e7 InputMethod)/@0x61fe63d - animation-leash of insets_animation#859454'
+04-08 11:35:10.897  2648  2648 E SlideDampingBounceHelper: handleDownTouchEvent mTrackingPointerId=0
+04-08 11:35:10.904  1340  3663 E BufferQueueDebug: [Surface(name=8c269cb Splash Screen com.hajj)/@0xe2ca8cb - animation-leash of window_animation#859455](this:0xb40000744db705c0,id:-1,api:0,p:-1,c:-1) id info cannot be read from 'Surface(name=8c269cb Splash Screen com.hajj)/@0xe2ca8cb - animation-leash of window_animation#859455'
+04-08 11:35:10.947  1340  1340 E BufferQueueDebug: [Screenshot Parent#859456](this:0xb40000744dc29750,id:-1,api:0,p:-1,c:-1) id info cannot be read from 'Screenshot Parent#859456'
+04-08 11:35:10.949  1340  1410 E surfaceflinger: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:10.958  2648  2791 E ndroid.systemui: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:10.972  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:35:10.976  1340  3663 E BufferQueueDebug: [NotificationShade#859457](this:0xb40000744dc29750,id:-1,api:0,p:-1,c:-1) id info cannot be read from 'NotificationShade#859457'
+04-08 11:35:10.979  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:35:10.979  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:35:10.980  1340  1406 E BufferQueueDebug: [Surface(name=89c121c NavigationBar0)/@0xf44817d - animation-leash of insets_animation#859458](this:0xb40000744d9efed0,id:-1,api:0,p:-1,c:-1) id info cannot be read from 'Surface(name=89c121c NavigationBar0)/@0xf44817d - animation-leash of insets_animation#859458'
+04-08 11:35:10.990  1340  3663 E BufferQueueDebug: [Surface(name=a8a946e StatusBar)/@0x95d1d27 - animation-leash of insets_animation#859459](this:0xb40000744dbf6330,id:-1,api:0,p:-1,c:-1) id info cannot be read from 'Surface(name=a8a946e StatusBar)/@0x95d1d27 - animation-leash of insets_animation#859459'
+04-08 11:35:10.992  1340  3663 E BufferQueueDebug: [Surface(name=89c121c NavigationBar0)/@0xf44817d - animation-leash of insets_animation#859460](this:0xb40000744dcce9f0,id:-1,api:0,p:-1,c:-1) id info cannot be read from 'Surface(name=89c121c NavigationBar0)/@0xf44817d - animation-leash of insets_animation#859460'
+04-08 11:35:11.000  2648  2791 E OpenGLRenderer: Unable to match the desired swap behavior.
+04-08 11:35:11.003  1312  1376 E libPowerHal: Could not open '/sys/kernel/fpsgo/fstb/set_render_no_ctrl'
+04-08 11:35:11.003  1312  1376 E libPowerHal: error : 2, No such file or directory
+04-08 11:35:11.004  1312  1376 E libPowerHal: Could not open '/sys/kernel/fpsgo/fstb/set_render_no_ctrl'
+04-08 11:35:11.004  1312  1376 E libPowerHal: error : 2, No such file or directory
+04-08 11:35:11.014 25882 25882 E unknown:ReactHost: Unhandled SoftException
+04-08 11:35:11.014 25882 25882 E unknown:ReactHost: com.facebook.react.bridge.ReactNoCrashSoftException: raiseSoftException(onWindowFocusChange(hasFocus = "false")): Tried to access onWindowFocusChange while context is not ready
+04-08 11:35:11.014 25882 25882 E unknown:ReactHost: 	at com.facebook.react.runtime.ReactHostImpl.raiseSoftException(ReactHostImpl.kt:865)
+04-08 11:35:11.014 25882 25882 E unknown:ReactHost: 	at com.facebook.react.runtime.ReactHostImpl.raiseSoftException$default(ReactHostImpl.kt:856)
+04-08 11:35:11.014 25882 25882 E unknown:ReactHost: 	at com.facebook.react.runtime.ReactHostImpl.onWindowFocusChange(ReactHostImpl.kt:629)
+04-08 11:35:11.014 25882 25882 E unknown:ReactHost: 	at com.facebook.react.ReactDelegate.onWindowFocusChanged(ReactDelegate.kt:229)
+04-08 11:35:11.014 25882 25882 E unknown:ReactHost: 	at com.facebook.react.ReactActivityDelegate.onWindowFocusChanged(ReactActivityDelegate.java:237)
+04-08 11:35:11.014 25882 25882 E unknown:ReactHost: 	at com.facebook.react.ReactActivity.onWindowFocusChanged(ReactActivity.java:161)
+04-08 11:35:11.014 25882 25882 E unknown:ReactHost: 	at androidx.appcompat.view.WindowCallbackWrapper.onWindowFocusChanged(WindowCallbackWrapper.java:124)
+04-08 11:35:11.014 25882 25882 E unknown:ReactHost: 	at com.android.internal.policy.DecorView.onWindowFocusChanged(DecorView.java:1948)
+04-08 11:35:11.014 25882 25882 E unknown:ReactHost: 	at android.view.View.dispatchWindowFocusChanged(View.java:16033)
+04-08 11:35:11.014 25882 25882 E unknown:ReactHost: 	at android.view.ViewGroup.dispatchWindowFocusChanged(ViewGroup.java:1516)
+04-08 11:35:11.014 25882 25882 E unknown:ReactHost: 	at android.view.ViewRootImpl.dispatchFocusEvent(ViewRootImpl.java:4461)
+04-08 11:35:11.014 25882 25882 E unknown:ReactHost: 	at android.view.ViewRootImpl.handleWindowFocusChanged(ViewRootImpl.java:4365)
+04-08 11:35:11.014 25882 25882 E unknown:ReactHost: 	at android.view.ViewRootImpl.-$$Nest$mhandleWindowFocusChanged(Unknown Source:0)
+04-08 11:35:11.014 25882 25882 E unknown:ReactHost: 	at android.view.ViewRootImpl$ViewRootHandler.handleMessageImpl(ViewRootImpl.java:6484)
+04-08 11:35:11.014 25882 25882 E unknown:ReactHost: 	at android.view.ViewRootImpl$ViewRootHandler.handleMessage(ViewRootImpl.java:6385)
+04-08 11:35:11.014 25882 25882 E unknown:ReactHost: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+04-08 11:35:11.014 25882 25882 E unknown:ReactHost: 	at android.os.Looper.loopOnce(Looper.java:243)
+04-08 11:35:11.014 25882 25882 E unknown:ReactHost: 	at android.os.Looper.loop(Looper.java:338)
+04-08 11:35:11.014 25882 25882 E unknown:ReactHost: 	at android.app.ActivityThread.main(ActivityThread.java:8506)
+04-08 11:35:11.014 25882 25882 E unknown:ReactHost: 	at java.lang.reflect.Method.invoke(Native Method)
+04-08 11:35:11.014 25882 25882 E unknown:ReactHost: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:602)
+04-08 11:35:11.014 25882 25882 E unknown:ReactHost: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1064)
+04-08 11:35:11.059  2648  2791 E ndroid.systemui: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:11.112  1340  1410 E surfaceflinger: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:11.150  1340  1410 E surfaceflinger: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:11.157  1340  1410 E surfaceflinger: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:11.192  1340  1410 E surfaceflinger: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:11.208  1340  1410 E surfaceflinger: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:11.223  1340  1410 E surfaceflinger: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:11.233  1340  1410 E surfaceflinger: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:11.592  1312  1356 E libPowerHal: [getCPUFreq] error cid:2, nClusterNum:2
+04-08 11:35:11.594  2648  2648 E SlideDampingBounceHelper: handleDownTouchEvent mTrackingPointerId=0
+04-08 11:35:11.629  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:35:11.629  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:35:11.647  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:35:11.650  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:35:11.862  1312  1376 E libPowerHal: Could not open '/sys/kernel/fpsgo/fstb/set_render_no_ctrl'
+04-08 11:35:11.862  1312  1376 E libPowerHal: error : 2, No such file or directory
+04-08 11:35:11.863  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:35:11.864  1312  1376 E libPowerHal: Could not open '/sys/kernel/fpsgo/fstb/set_render_no_ctrl'
+04-08 11:35:11.864  1312  1376 E libPowerHal: error : 2, No such file or directory
+04-08 11:35:11.916  1312  1376 E libPowerHal: Could not open '/sys/kernel/fpsgo/fstb/set_render_no_ctrl'
+04-08 11:35:11.916  1312  1376 E libPowerHal: error : 2, No such file or directory
+04-08 11:35:11.917  1312  1376 E libPowerHal: Could not open '/sys/kernel/fpsgo/fstb/set_render_no_ctrl'
+04-08 11:35:11.917  1312  1376 E libPowerHal: error : 2, No such file or directory
+04-08 11:35:11.972  2648  2648 E SlideDampingBounceHelper: handleDownTouchEvent mTrackingPointerId=0
+04-08 11:35:12.000  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:35:12.011  2648  2648 E SlideDampingBounceHelper: Invalid pointerId=-1 in onTouchEvent ACTION_MOVE
+04-08 11:35:12.012  2648  2648 E SlideDampingBounceHelper: Invalid pointerId=-1 in onTouchEvent ACTION_UP
+04-08 11:35:12.014  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:35:12.014  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:35:12.021  1312  1376 E libPowerHal: Could not open '/sys/kernel/fpsgo/fstb/set_render_no_ctrl'
+04-08 11:35:12.021  1312  1376 E libPowerHal: error : 2, No such file or directory
+04-08 11:35:12.022  1312  1376 E libPowerHal: Could not open '/sys/kernel/fpsgo/fstb/set_render_no_ctrl'
+04-08 11:35:12.022  1312  1376 E libPowerHal: error : 2, No such file or directory
+04-08 11:35:12.274 25345 25613 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:35:12.299 25345 25613 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:35:12.369  1340  1406 E BufferQueueDebug: [Surface(name=a8a946e StatusBar)/@0x95d1d27 - animation-leash of insets_animation#859461](this:0xb40000744dc57050,id:-1,api:0,p:-1,c:-1) id info cannot be read from 'Surface(name=a8a946e StatusBar)/@0x95d1d27 - animation-leash of insets_animation#859461'
+04-08 11:35:12.373  1340  1406 E BufferQueueDebug: [Surface(name=89c121c NavigationBar0)/@0xf44817d - animation-leash of insets_animation#859462](this:0xb40000744dcb4fe0,id:-1,api:0,p:-1,c:-1) id info cannot be read from 'Surface(name=89c121c NavigationBar0)/@0xf44817d - animation-leash of insets_animation#859462'
+04-08 11:35:12.403 25345 25613 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:35:14.290  1340  1527 E SurfaceFlinger: MtkDuration override mode is disabled
+04-08 11:35:14.690 25345 25613 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:35:14.794 25345 25613 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:35:14.825 25345 25613 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:35:14.926  1312  1376 E libPowerHal: Could not open '/sys/kernel/fpsgo/fstb/set_render_no_ctrl'
+04-08 11:35:14.926  1312  1376 E libPowerHal: error : 2, No such file or directory
+04-08 11:35:14.929  1312  1376 E libPowerHal: Could not open '/sys/kernel/fpsgo/fstb/set_render_no_ctrl'
+04-08 11:35:14.929  1312  1376 E libPowerHal: error : 2, No such file or directory
+04-08 11:35:15.018  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:35:15.669  2985  2985 E MtkPhoneIntfMgrEx: MainThreadHandler.handleMessage : 3
+04-08 11:35:15.906  1340  1410 E surfaceflinger: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:15.910  1340  1410 E surfaceflinger: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:15.922  1340  1410 E surfaceflinger: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:15.940  1340  1410 E surfaceflinger: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:15.944  1340  1340 E SurfaceFlinger: MtkDuration override mode is disabled
+04-08 11:35:15.946  1340  1410 E surfaceflinger: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:15.965  1340  1410 E surfaceflinger: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:16.869  1312  1356 E libPowerHal: [getCPUFreq] error cid:2, nClusterNum:2
+04-08 11:35:17.076 25345 25371 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:35:17.182 25345 25371 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:35:17.216 25345 25371 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:35:18.184  1340  1527 E SurfaceFlinger: MtkDuration override mode is disabled
+04-08 11:35:18.239  1340  1340 E SurfaceFlinger: MtkDuration override mode is disabled
+04-08 11:35:19.047  1312  1356 E libPowerHal: [getCPUFreq] error cid:2, nClusterNum:2
+04-08 11:35:19.273  1312  1356 E libPowerHal: [getCPUFreq] error cid:2, nClusterNum:2
+04-08 11:35:19.505 25345 25371 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:35:19.608  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:35:19.618 25345 25371 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:35:19.653  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:35:19.654  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:35:19.670  1312  1376 E libPowerHal: Could not open '/sys/kernel/fpsgo/fstb/set_render_no_ctrl'
+04-08 11:35:19.670  1312  1376 E libPowerHal: error : 2, No such file or directory
+04-08 11:35:19.671  1312  1376 E libPowerHal: Could not open '/sys/kernel/fpsgo/fstb/set_render_no_ctrl'
+04-08 11:35:19.671  1312  1376 E libPowerHal: error : 2, No such file or directory
+04-08 11:35:19.849  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:35:19.850  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:35:19.879  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:35:19.880  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:35:20.163  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:35:20.165  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:35:20.190  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:35:20.192  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:35:20.693  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:35:20.702  1312  1376 E libPowerHal: Could not open '/sys/kernel/fpsgo/fstb/set_render_no_ctrl'
+04-08 11:35:20.702  1312  1376 E libPowerHal: error : 2, No such file or directory
+04-08 11:35:20.703  1312  1376 E libPowerHal: Could not open '/sys/kernel/fpsgo/fstb/set_render_no_ctrl'
+04-08 11:35:20.703  1312  1376 E libPowerHal: error : 2, No such file or directory
+04-08 11:35:20.784  2985  2985 E MtkPhoneIntfMgrEx: MainThreadHandler.handleMessage : 3
+04-08 11:35:20.893  1312  1356 E libPowerHal: [getCPUFreq] error cid:2, nClusterNum:2
+04-08 11:35:21.880 25345 25371 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:35:22.031 25345 25371 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:35:22.268  1312  1356 E libPowerHal: [getCPUFreq] error cid:2, nClusterNum:2
+04-08 11:35:22.370  1340  2189 E BufferQueueDebug: [InputMethod#859463](this:0xb40000744dcce9f0,id:-1,api:0,p:-1,c:-1) id info cannot be read from 'InputMethod#859463'
+04-08 11:35:22.380 29296 31170 E OpenGLRenderer: Unable to match the desired swap behavior.
+04-08 11:35:22.398  1340  1410 E surfaceflinger: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:22.417  1340  1410 E surfaceflinger: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:22.422  1340  1410 E surfaceflinger: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:22.428  1340  1410 E surfaceflinger: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:22.485  1340  1410 E surfaceflinger: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:22.496  1340  1410 E surfaceflinger: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:23.097  2985  2985 E MtkPhoneIntfMgrEx: MainThreadHandler.handleMessage : 3
+04-08 11:35:23.101  2985  2985 E MtkPhoneIntfMgrEx: MainThreadHandler.handleMessage : 3
+04-08 11:35:23.101  2985  2985 E MtkPhoneIntfMgrEx: MainThreadHandler.handleMessage : 3
+04-08 11:35:23.101  2985  2985 E MtkPhoneIntfMgrEx: MainThreadHandler.handleMessage : 3
+04-08 11:35:23.101  2985  2985 E MtkPhoneIntfMgrEx: MainThreadHandler.handleMessage : 3
+04-08 11:35:23.842  1340  1340 E SurfaceFlinger: MtkDuration override mode is disabled
+04-08 11:35:24.276 25345 25371 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:35:24.448  1312  1356 E libPowerHal: [getCPUFreq] error cid:2, nClusterNum:2
+04-08 11:35:25.909  2985  2985 E MtkPhoneIntfMgrEx: MainThreadHandler.handleMessage : 3
+04-08 11:35:25.973  1312  1356 E libPowerHal: [getCPUFreq] error cid:2, nClusterNum:2
+04-08 11:35:26.118  1340  1410 E surfaceflinger: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:26.350  1312  1356 E libPowerHal: [getCPUFreq] error cid:2, nClusterNum:2
+04-08 11:35:26.374  3186  3186 E Athena  : ------------------------------------------------------------
+04-08 11:35:26.374  3186  3186 E Athena  : 
+04-08 11:35:26.374  3186  3186 E Athena  : Athena is in DEBUG or TEST mode, should not release this APK [com.transsion.multiwindow]
+04-08 11:35:26.374  3186  3186 E Athena  : 
+04-08 11:35:26.374  3186  3186 E Athena  : ------------------------------------------------------------
+04-08 11:35:26.677 25345 25371 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:35:26.701 25345 25371 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:35:26.721 25345 25371 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:35:26.822 25345 25371 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:35:27.468  1312  1356 E libPowerHal: [getCPUFreq] error cid:2, nClusterNum:2
+04-08 11:35:27.571  1899  2721 E ApplicationPackageManager: start update Icon Color!
+04-08 11:35:27.618  1340  1406 E BufferQueueDebug: [SurfaceControlViewHost#859464](this:0xb40000744dcb4fe0,id:-1,api:0,p:-1,c:-1) id info cannot be read from 'SurfaceControlViewHost#859464'
+04-08 11:35:27.623  1340  1406 E BufferQueueDebug: [Leash#859465](this:0xb40000744dc29750,id:-1,api:0,p:-1,c:-1) id info cannot be read from 'Leash#859465'
+04-08 11:35:27.624  1340  1406 E BufferQueueDebug: [#859466](this:0xb40000744d9ea3b0,id:-1,api:0,p:-1,c:-1) id info cannot be read from '#859466'
+04-08 11:35:27.635  1340  1406 E BufferQueueDebug: [Bounds for - InputMethod#859467](this:0xb40000744d9efed0,id:-1,api:0,p:-1,c:-1) id info cannot be read from 'Bounds for - InputMethod#859467'
+04-08 11:35:27.636  1340  1406 E BufferQueueDebug: [SurfaceView[InputMethod]#859468](this:0xb40000744db7bc00,id:-1,api:0,p:-1,c:-1) id info cannot be read from 'SurfaceView[InputMethod]#859468'
+04-08 11:35:27.638  1340  1406 E BufferQueueDebug: [SurfaceView[InputMethod](BLAST)#859469](this:0xb40000744db705c0,id:-1,api:0,p:-1,c:-1) id info cannot be read from 'SurfaceView[InputMethod](BLAST)#859469'
+04-08 11:35:27.640  3047 25789 E OpenGLRenderer: Unable to match the desired swap behavior.
+04-08 11:35:27.640  1340  1406 E BufferQueueDebug: [Background for SurfaceView[InputMethod]#859470](this:0xb40000744dbf6330,id:-1,api:0,p:-1,c:-1) id info cannot be read from 'Background for SurfaceView[InputMethod]#859470'
+04-08 11:35:27.647  1340  1406 E BufferQueueDebug: [SurfaceView[InputMethod]#859471](this:0xb40000744dc8d200,id:-1,api:0,p:-1,c:-1) id info cannot be read from 'SurfaceView[InputMethod]#859471'
+04-08 11:35:27.648  1340  1406 E BufferQueueDebug: [SurfaceView[InputMethod](BLAST)#859472](this:0xb40000744dc1b380,id:-1,api:0,p:-1,c:-1) id info cannot be read from 'SurfaceView[InputMethod](BLAST)#859472'
+04-08 11:35:27.648  1340  1410 E surfaceflinger: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:27.649  1340  1406 E BufferQueueDebug: [Background for SurfaceView[InputMethod]#859473](this:0xb40000744dbe7f60,id:-1,api:0,p:-1,c:-1) id info cannot be read from 'Background for SurfaceView[InputMethod]#859473'
+04-08 11:35:27.652  1340  1410 E surfaceflinger: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:27.657  1340  1410 E surfaceflinger: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:27.662  1312  1326 E mtkpower@impl: [setMode] unknown type
+04-08 11:35:27.674  1340  1410 E surfaceflinger: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:27.690  1340  1410 E surfaceflinger: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:27.708  1340  1410 E surfaceflinger: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:27.725  1340  1410 E surfaceflinger: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:27.741  1340  1410 E surfaceflinger: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:27.811  1312  1326 E mtkpower@impl: [setMode] unknown type
+04-08 11:35:27.843 29296 31170 E BufferQueueProducer: [SurfaceView[InputMethod]#713(BLAST Consumer)713](id:7270000002c9,api:0,p:-1,c:29296) disconnect: not connected (req=1)
+04-08 11:35:28.076  1899  1923 E ShortcutService: Invalid icon type in shortcut 167989726986384@lid. Bitmaps are not allowed in long-lived shortcuts. Use Resource icons, or Uri-based icons instead.
+04-08 11:35:28.222  4461  4461 E SP_ShortcutModel: onShortcutsChanged: com.whatsapp
+04-08 11:35:28.471  1312  1356 E libPowerHal: [getCPUFreq] error cid:2, nClusterNum:2
+04-08 11:35:28.510  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:35:28.512  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:35:28.522  1312  1376 E libPowerHal: Could not open '/sys/kernel/fpsgo/fstb/set_render_no_ctrl'
+04-08 11:35:28.522  1312  1376 E libPowerHal: error : 2, No such file or directory
+04-08 11:35:28.522  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:35:28.524  1312  1376 E libPowerHal: Could not open '/sys/kernel/fpsgo/fstb/set_render_no_ctrl'
+04-08 11:35:28.524  1312  1376 E libPowerHal: error : 2, No such file or directory
+04-08 11:35:28.540  1312  1376 E libPowerHal: Could not open '/sys/kernel/fpsgo/fstb/set_render_no_ctrl'
+04-08 11:35:28.540  1312  1376 E libPowerHal: error : 2, No such file or directory
+04-08 11:35:28.541 25882 29970 E SBE     : this page is abnormal implementation
+04-08 11:35:28.542  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:35:28.542  1312  1376 E libPowerHal: Could not open '/sys/kernel/fpsgo/fstb/set_render_no_ctrl'
+04-08 11:35:28.542  1312  1376 E libPowerHal: error : 2, No such file or directory
+04-08 11:35:28.543  1340  1340 E SurfaceFlinger: MtkDuration override mode is disabled
+04-08 11:35:28.561  1340  1340 E SurfaceFlinger: MtkDuration override mode is disabled
+04-08 11:35:28.593  1312  1376 E libPowerHal: Could not open '/sys/kernel/fpsgo/fstb/set_render_no_ctrl'
+04-08 11:35:28.593  1312  1376 E libPowerHal: error : 2, No such file or directory
+04-08 11:35:28.594  1312  1376 E libPowerHal: Could not open '/sys/kernel/fpsgo/fstb/set_render_no_ctrl'
+04-08 11:35:28.594  1312  1376 E libPowerHal: error : 2, No such file or directory
+04-08 11:35:29.009  1312  1356 E libPowerHal: [getCPUFreq] error cid:2, nClusterNum:2
+04-08 11:35:29.102  1340  3663 E BufferQueueDebug: [Surface(name=89c121c NavigationBar0)/@0xf44817d - animation-leash of insets_animation#859474](this:0xb40000744dc29750,id:-1,api:0,p:-1,c:-1) id info cannot be read from 'Surface(name=89c121c NavigationBar0)/@0xf44817d - animation-leash of insets_animation#859474'
+04-08 11:35:29.119 25345 25613 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:35:29.122  1340  1340 E SurfaceFlinger: MtkDuration override mode is disabled
+04-08 11:35:29.221 25345 25613 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:35:29.628  1312  1356 E libPowerHal: [getCPUFreq] error cid:2, nClusterNum:2
+04-08 11:35:29.759 19224 19572 E MQTTBypassDGWStreamGroupCallbacks.cpp: onStreamGroupError TransientError domain: MNSQUICConnection code: 1 detail: Local error: 0x40000015: 40 seconds timeout
+04-08 11:35:29.764 19224 19714 E msys    : E[N mns:DGWClient]_OnDiskCacheGetData(1102)=>Start post callback cache refresh DNS resolution
+04-08 11:35:29.787 19224 19714 E msys    : E[N mns:DGWClient]_OnResolverSuccess(313)=>Cache refresh succeeded with system DNS resolver. IP count: 2
+04-08 11:35:31.027  2985  2985 E MtkPhoneIntfMgrEx: MainThreadHandler.handleMessage : 3
+04-08 11:35:31.500 25345 25613 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:35:31.521 25345 25613 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:35:31.584 25345 25613 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:35:33.384  1312  1356 E libPowerHal: [getCPUFreq] error cid:2, nClusterNum:2
+04-08 11:35:33.925 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:35:33.974 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:35:34.029 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:35:35.354 25882 25882 E TranChoreographerImpl: skippedFrames: 68
+04-08 11:35:35.452 25882 29891 E com.hajj: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:35.479 25882 29891 E com.hajj: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:35.583 25882 29891 E com.hajj: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:36.148  2985  2985 E MtkPhoneIntfMgrEx: MainThreadHandler.handleMessage : 3
+04-08 11:35:36.287 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:35:36.304 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:35:36.321 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:35:36.432 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:35:37.728  1312  1356 E libPowerHal: [getCPUFreq] error cid:2, nClusterNum:2
+04-08 11:35:37.826  1340  3663 E BufferQueueDebug: [InputMethod#859475](this:0xb40000744dcaf4c0,id:-1,api:0,p:-1,c:-1) id info cannot be read from 'InputMethod#859475'
+04-08 11:35:37.840 29296 31170 E OpenGLRenderer: Unable to match the desired swap behavior.
+04-08 11:35:37.859  1340  1410 E surfaceflinger: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:37.874  1340  1410 E surfaceflinger: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:37.884  1340  1410 E surfaceflinger: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:37.916 25882 29891 E com.hajj: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:37.920  1340  1410 E surfaceflinger: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:37.933  1340  1410 E surfaceflinger: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:37.954  1340  1410 E surfaceflinger: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:37.969 25882 29891 E com.hajj: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:38.565  1312  1356 E libPowerHal: [getCPUFreq] error cid:2, nClusterNum:2
+04-08 11:35:38.683 25345 25371 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:35:38.725 25345 25371 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:35:38.776 25345 25371 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:35:39.087 28705 30131 E phonemaster_log: AdUtilsFirebase: {"suc":1,"msg":"成功","config_update_time":1440,"ad_flag":0,"ad_flag_os":0,"ad_silenceday_os":30,"ad_silenceday_gp":30,"spread_silenceday_os":30,"spreadAndAd_eff_vercode_os":5437,"data":{"msg":{"reload_interval":1,"ads_config":{"az_enable":false,"az_interval":60,"az_max_number":4,"ad_placement_id":"1110110011000000","expire_time":20,"jump_enable":false,"ad_show_load":5,"ad_show":3,"before_ad_time":500,"ad_load_time":1000,"download_time":1000,"request_time":2500,"no_ad_time":1000,"splash_freq":24,"game_boost_ad_gp":false,"game_boost_ad_os":false,"ad_all_click":false,"app_lock_avazu_ad_gp":false,"app_lock_avazu_ad_os":false,"applock_card_ad_gp":false,"applock_card_ad_os":false,"applock_card_ad_proj":false,"advance_clean_ad_gp":false,"advance_clean_ad_os":false,"advance_clean_ad_proj":false,"advance_clean_oncreate_ad":false,"advance_clean_oncreate_ad_proj":false,"splash_ad_os":false,"splash_ad_gp":false,"splash_ad_proj":false,"charge_screen_ad_gp":false,"charge_screen_ad_os":false,"result_interstitial_ad_frequency_control_gp":false,"result_interstitial_ad_frequency_control_os":false,"result_interstitial_ad_frequency_control_proj":false,"install_scanner_ad_gp":false,"install_scanner_ad_os":false,"install_scanner_ad_proj":false,"launcher_clean_ad_gp":false,"launcher_clean_ad_os":false,"launcher_clean_ad_proj":false,"charge_screen_native_ad_gp":false,"charge_screen_native_ad_os":false,"charge_screen_native_ad_proj":false,"dm_ad_proj":false,"dm_ad_gp":false,"result_native_ad_proj":false,"result_interstitial_ad_proj":false,"applock_banner_ad_proj":false,"whatsapp_ad_proj":false,"whatsapp_ad_gp":false,"splash_admob_ad_proj":false,"splash_admob_ad_gp":false,"home_ad_proj":false,"home_ad_gp":false,"result_feature_banner_ad_proj":false,"result_feature_banner_ad_gp":false,"toolbox_banner_ad_gp":false,"toolbox_banner_ad_proj":false,"app_manager_icons_ad_proj":false,"app_manager_icons_ad_gp":false,"app_manager_banner_ad_gp":false,"app_manager_banner_ad_proj":false,"clean_master_banner_ad_proj":false,"clean_master_banner_ad_gp":false,"clean_master_native_ad_proj":false,"clean_master_native_ad_gp":false,"clean_master_inter_ad_proj":false,"clean_master_inter_ad_gp":false,"app_clean_native_ad_proj":false,"app_clean_native_ad_gp":false,"app_clean_inter_ad_proj":false,"app_clean_inter_ad_gp":false,"data_manager_native_ad_proj":false,"data_manager_native_ad_gp":false,"data_manager_inter_ad_proj":false,"data_manager_inter_ad_gp":false,"splash_native_ad_proj":false,"splash_native_ad_gp":false,"splash_inter_ad_proj":false,"splash_inter_ad_gp":false,"home_banner_ad_proj":false,"home_banner_ad_gp":false,"powerboost_banner_ad_proj":false,"powerboost_banner_ad_gp":false,"home_back_native_ad_gp":false,"whatsapp_file_inter_ad_gp":false,"file_manage_inter_ad_gp":false,"anti_back_result_inter_ad_gp":false,"powersave_back_result_inter_ad_gp":false,"cool_back_result_inter_ad_gp":false,"boost_back_result_inter_ad_gp":false,"clean_back_result_inter_ad_gp":false,"app_start_inter_ad_gp":false,"permission_inter_ad_gp":false,"gdpr_inter_ad_gp":false,"vpn_inter_ad_gp":false,"vpn_inter_ad_proj":false,"vpn_reward_ad_gp":false,"vpn_reward_ad_proj":false,"vpn_native_ad_gp":false,"vpn_native_ad_proj":false,"vpn_result_inter_ad_gp":false,"vpn_result_inter_ad_proj":false,"splash_hot_ad_gp":false,"splash_hot_ad_proj":false,"phone_report_native_ad_gp":false,"phone_report_native_ad_proj":false,"whatsapp_inter_ad_proj":false,"whatsapp_inter_ad_gp":false,"special_ad_gp":false,"special_ad_proj":false,"special_inter_ad_proj":false,"special_inter_ad_gp":false,"phoneReport_reward_ad_proj":false,"phoneReport_reward_ad_gp":false,"phoneReport_rewardinter_ad_proj":false,"phoneReport_rewardinter_ad_gp":false,"discover_h5_ad_proj":false,"discover_h5_ad_gp":false,"Result_Native":false,"AppManager_list":false},"toolbox":{"ad_tool":false,"hot_function":"6;Smart Clean;Deep clean;Message Security;App uninstall;Notification management;Clean WhatsApp;File move;Phone cooling;Auto-start management;Free
+04-08 11:35:39.087 28705 30131 E phonemaster_log: zer;Data traffic management;Harassment filter;WhatsApp mode;App lock;Security;Slimming;Clear trash;App management;Game mode;Smart Charge;Phone Cleaner;Payment_safe;Wifi_protector;XHide;Browser"}}}}
+04-08 11:35:39.189 28705 30144 E phonemaster_log: Web_: deleteAllData failed 
+04-08 11:35:39.192 28705 30144 E phonemaster_log: Web_: android.database.sqlite.SQLiteConstraintException: NOT NULL constraint failed: MaterielTable.offerName (code 1299 SQLITE_CONSTRAINT_NOTNULL)
+04-08 11:35:39.294  1340  1340 E SurfaceFlinger: MtkDuration override mode is disabled
+04-08 11:35:39.356  1340  2189 E BufferQueueDebug: [Surface(name=89c121c NavigationBar0)/@0xf44817d - animation-leash of insets_animation#859476](this:0xb40000744d9ea3b0,id:-1,api:0,p:-1,c:-1) id info cannot be read from 'Surface(name=89c121c NavigationBar0)/@0xf44817d - animation-leash of insets_animation#859476'
+04-08 11:35:39.380  1340  1340 E SurfaceFlinger: MtkDuration override mode is disabled
+04-08 11:35:39.396 25882 29891 E com.hajj: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:39.412 25882 29891 E com.hajj: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:41.079 25345 25371 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:35:41.140 25345 25371 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:35:41.240 25345 25371 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:35:41.276  2985  2985 E MtkPhoneIntfMgrEx: MainThreadHandler.handleMessage : 3
+04-08 11:35:41.461  1340  1527 E SurfaceFlinger: MtkDuration override mode is disabled
+04-08 11:35:41.881  1312  1356 E libPowerHal: [getCPUFreq] error cid:2, nClusterNum:2
+04-08 11:35:41.914  1340  1340 E SurfaceFlinger: MtkDuration override mode is disabled
+04-08 11:35:42.318 25882 29933 E AndroidRuntime: FATAL EXCEPTION: mqt_v_native
+04-08 11:35:42.318 25882 29933 E AndroidRuntime: Process: com.hajj, PID: 25882
+04-08 11:35:42.318 25882 29933 E AndroidRuntime: java.lang.IncompatibleClassChangeError: Found interface com.google.android.gms.location.SettingsClient, but class was expected (declaration of 'com.google.android.gms.location.SettingsClient' appears in /data/app/~~MhyxCWFEpQEwY85BNRfoiQ==/com.hajj-2TRXkonqz4V98kAZBh3aLw==/base.apk!classes7.dex)
+04-08 11:35:42.318 25882 29933 E AndroidRuntime: 	at com.agontuk.RNFusedLocation.FusedLocationProvider.checkLocationSettings(FusedLocationProvider.java:177)
+04-08 11:35:42.318 25882 29933 E AndroidRuntime: 	at com.agontuk.RNFusedLocation.FusedLocationProvider.requestLocationUpdates(FusedLocationProvider.java:152)
+04-08 11:35:42.318 25882 29933 E AndroidRuntime: 	at com.agontuk.RNFusedLocation.RNFusedLocationModule.startObserving(RNFusedLocationModule.java:133)
+04-08 11:35:42.318 25882 29933 E AndroidRuntime: 	at com.facebook.jni.NativeRunnable.run(Native Method)
+04-08 11:35:42.318 25882 29933 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:958)
+04-08 11:35:42.318 25882 29933 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+04-08 11:35:42.318 25882 29933 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadHandler.dispatchMessage(MessageQueueThreadHandler.kt:21)
+04-08 11:35:42.318 25882 29933 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:243)
+04-08 11:35:42.318 25882 29933 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:338)
+04-08 11:35:42.318 25882 29933 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion.startNewBackgroundThread$lambda$0(MessageQueueThreadImpl.kt:152)
+04-08 11:35:42.318 25882 29933 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion.$r8$lambda$YYXYCFexeoKtAeDpeNYkxZZlpbA(Unknown Source:0)
+04-08 11:35:42.318 25882 29933 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+04-08 11:35:42.318 25882 29933 E AndroidRuntime: 	at java.lang.Thread.run(Thread.java:1563)
+04-08 11:35:42.332  1899  1922 E debug_TransitionController: mCollectingTransition = TransitionRecord{364522d id=50917 type=CLOSE flags=0x10}
+04-08 11:35:42.332  1899  1922 E debug_Transition: mState = 0
+04-08 11:35:42.334 28531 28552 E TABE    : startLog: APP_STABILITY_APR_TID not enable
+04-08 11:35:42.343  1899  1977 E TranDetectControllerService: appCrashDetected processName: com.hajj
+04-08 11:35:42.486  1899  2573 E  Aurora_Exception :  exception PolicyManager=getUserPreloadPolicy fail,userList is null
+04-08 11:35:42.490  2619 30167 E FA      : Discarding data. Max runnable queue size reached
+04-08 11:35:42.493  1340  1406 E BufferQueueDebug: [com.transsion.hilauncher/com.android.quickstep.src.com.android.launcher3.uioverrides.QuickstepLauncher#859477](this:0xb40000744dcaf4c0,id:-1,api:0,p:-1,c:-1) id info cannot be read from 'com.transsion.hilauncher/com.android.quickstep.src.com.android.launcher3.uioverrides.QuickstepLauncher#859477'
+04-08 11:35:42.499  1340  3663 E BufferQueueDebug: [Surface(name=a8a946e StatusBar)/@0x95d1d27 - animation-leash of insets_animation#859478](this:0xb40000744d9efed0,id:-1,api:0,p:-1,c:-1) id info cannot be read from 'Surface(name=a8a946e StatusBar)/@0x95d1d27 - animation-leash of insets_animation#859478'
+04-08 11:35:42.501  1340  1406 E BufferQueueDebug: [Surface(name=89c121c NavigationBar0)/@0xf44817d - animation-leash of insets_animation#859479](this:0xb40000744dc29750,id:-1,api:0,p:-1,c:-1) id info cannot be read from 'Surface(name=89c121c NavigationBar0)/@0xf44817d - animation-leash of insets_animation#859479'
+04-08 11:35:42.506  2619  3138 E OpenGLRenderer: Unable to match the desired swap behavior.
+04-08 11:35:42.525  1340  1410 E surfaceflinger: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:42.535  1340  3663 E BufferQueueDebug: [Transition Root: Task=1#859480](this:0xb40000744db705c0,id:-1,api:0,p:-1,c:-1) id info cannot be read from 'Transition Root: Task=1#859480'
+04-08 11:35:42.540  1340  1340 E BufferQueueDebug: [Screenshot Parent#859481](this:0xb40000744db73350,id:-1,api:0,p:-1,c:-1) id info cannot be read from 'Screenshot Parent#859481'
+04-08 11:35:42.542  1340  1410 E surfaceflinger: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:42.556  1340  3663 E BufferQueueDebug: [5945922 ActivityRecordInputSink com.transsion.hilauncher/com.android.quickstep.src.com.android.launcher3.uioverrides.QuickstepLauncher#859482](this:0xb40000744db73350,id:-1,api:0,p:-1,c:-1) id info cannot be read from '5945922 ActivityRecordInputSink com.transsion.hilauncher/com.android.quickstep.src.com.android.launcher3.uioverrides.QuickstepLauncher#859482'
+04-08 11:35:42.595  1312  1326 E mtkpower@impl: [setMode] unknown type
+04-08 11:35:42.607  1340  3663 E BufferQueueDebug: [Surface(name=bf943e7 InputMethod)/@0x61fe63d - animation-leash of insets_animation#859483](this:0xb40000744dcce9f0,id:-1,api:0,p:-1,c:-1) id info cannot be read from 'Surface(name=bf943e7 InputMethod)/@0x61fe63d - animation-leash of insets_animation#859483'
+04-08 11:35:42.801  2648  2789 E ndroid.systemui: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:42.803  2648  2789 E ndroid.systemui: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:42.819  2648  2789 E ndroid.systemui: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:42.821  2648  2789 E ndroid.systemui: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:42.828  1312  1326 E mtkpower@impl: [setMode] unknown type
+04-08 11:35:42.835  2648  2789 E ndroid.systemui: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:42.838  2648  2789 E ndroid.systemui: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:42.841  2648  2648 E ContrastColorUtil: background can not be translucent: #f0252525
+04-08 11:35:42.888  1899  2521 E system_server: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:42.898  1340  3663 E BufferQueueDebug: [Surface(name=a8a946e StatusBar)/@0x95d1d27 - animation-leash of insets_animation#859484](this:0xb40000744db6aaa0,id:-1,api:0,p:-1,c:-1) id info cannot be read from 'Surface(name=a8a946e StatusBar)/@0x95d1d27 - animation-leash of insets_animation#859484'
+04-08 11:35:42.920  1340  3663 E BufferQueueDebug: [NotificationShade#859485](this:0xb40000744db705c0,id:-1,api:0,p:-1,c:-1) id info cannot be read from 'NotificationShade#859485'
+04-08 11:35:42.925  2648  2791 E OpenGLRenderer: Unable to match the desired swap behavior.
+04-08 11:35:42.933  1340  1410 E surfaceflinger: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:42.941  1340  1410 E surfaceflinger: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:42.963  2648  2791 E ndroid.systemui: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:42.966  1340  1410 E surfaceflinger: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:42.984  1340  1410 E surfaceflinger: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:42.993  1340  1410 E surfaceflinger: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:43.010  1340  1410 E surfaceflinger: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:43.024  1340  1410 E surfaceflinger: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:43.128 25882 29902 E unknown:SurfaceMountingManager: Stopping surface [1]
+04-08 11:35:43.303 25882 25882 E unknown:ReactNative: Tried to remove non-existent frame callback
+04-08 11:35:43.326  1340  1410 E surfaceflinger: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:43.339  1340  1406 E BufferQueueDebug: [Task=17507#859486](this:0xb40000744dc51530,id:-1,api:0,p:-1,c:-1) id info cannot be read from 'Task=17507#859486'
+04-08 11:35:43.345 25882 25882 E TranChoreographerImpl: skippedFrames: 47
+04-08 11:35:43.399 25882 25882 E unknown:SurfaceMountingManager: Surface [1] was stopped on SurfaceMountingManager.
+04-08 11:35:43.489  1272  1782 E OemNetd : transmitAppUidToNetwork uid=(0)
+04-08 11:35:43.630 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:35:43.633 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:35:43.644   568   568 E lowmemorykiller: /proc/lmk_optimize/whitelist_pids open: No such file or directory
+04-08 11:35:43.648   568   579 E lowmemorykiller: process_mrelease 27502 failed: No such process
+04-08 11:35:44.549  1340  1527 E SurfaceFlinger: MtkDuration override mode is disabled
+04-08 11:35:45.129  1312  1356 E libPowerHal: [getCPUFreq] error cid:2, nClusterNum:2
+04-08 11:35:45.133  2648  2648 E SlideDampingBounceHelper: handleDownTouchEvent mTrackingPointerId=0
+04-08 11:35:45.164  1340  1340 E SurfaceFlinger: MtkDuration override mode is disabled
+04-08 11:35:45.200  2648  2791 E ndroid.systemui: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:45.926 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:35:46.396  2985  2985 E MtkPhoneIntfMgrEx: MainThreadHandler.handleMessage : 3
+04-08 11:35:47.426  1340  1527 E SurfaceFlinger: MtkDuration override mode is disabled
+04-08 11:35:48.301 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:35:48.306 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:35:48.430 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:35:50.296  1340  1340 E SurfaceFlinger: MtkDuration override mode is disabled
+04-08 11:35:50.700 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:35:50.791 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:35:50.822 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:35:51.514  2985  2985 E MtkPhoneIntfMgrEx: MainThreadHandler.handleMessage : 3
+04-08 11:35:51.522  1340  1527 E SurfaceFlinger: MtkDuration override mode is disabled
+04-08 11:35:52.283  1340  1340 E SurfaceFlinger: MtkDuration override mode is disabled
+04-08 11:35:52.569  1312  1356 E libPowerHal: [getCPUFreq] error cid:2, nClusterNum:2
+04-08 11:35:52.585  1340  1410 E surfaceflinger: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:52.595  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:35:52.603  1340  1410 E surfaceflinger: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:52.608  1340  1410 E surfaceflinger: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:52.610  1340  1410 E surfaceflinger: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:52.616  1340  1410 E surfaceflinger: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:35:52.618  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:35:53.100 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:35:53.108 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:35:53.121 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:35:53.144  1312  1356 E libPowerHal: [getCPUFreq] error cid:2, nClusterNum:2
+04-08 11:35:53.169 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:35:53.174  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:35:53.187  1899  2133 E TranCPUBooster: not support msg=3
+04-08 11:35:53.382  1899  4696 E ShortcutService: Invalid icon type in shortcut 167989726986384@lid. Bitmaps are not allowed in long-lived shortcuts. Use Resource icons, or Uri-based icons instead.
+04-08 11:35:53.520  4461  4461 E SP_ShortcutModel: onShortcutsChanged: com.whatsapp
+04-08 11:35:54.620  1340  1527 E SurfaceFlinger: MtkDuration override mode is disabled
+04-08 11:35:55.303  1340  1340 E SurfaceFlinger: MtkDuration override mode is disabled
+04-08 11:35:55.514 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:35:55.578 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:35:55.597 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:35:55.619 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:35:56.397  1340  1340 E SurfaceFlinger: MtkDuration override mode is disabled
+04-08 11:35:56.633  2985  2985 E MtkPhoneIntfMgrEx: MainThreadHandler.handleMessage : 3
+04-08 11:35:57.911 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:35:58.022 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:00.295 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:00.312 29802 29859 E SQLiteLog: (283) recovered 545 frames from WAL file /data/data/com.snapchat.android/databases/durable_job-wal
+04-08 11:36:00.328 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:00.381 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:00.435 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:00.439 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:00.765  2648  2648 E ContrastColorUtil: background can not be translucent: #f0252525
+04-08 11:36:01.109  2985  2985 E MtkPhoneIntfMgrEx: MainThreadHandler.handleMessage : 3
+04-08 11:36:01.110  4461  4461 E SP_ShortcutModel: onShortcutsChanged: com.snapchat.android
+04-08 11:36:01.276  1340  1340 E SurfaceFlinger: MtkDuration override mode is disabled
+04-08 11:36:01.460  2648 22405 E ndroid.systemui: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:36:01.498  2648  2789 E ndroid.systemui: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:36:01.499  2648  2789 E ndroid.systemui: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:36:01.513  2648  2789 E ndroid.systemui: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:36:01.514  2648  2789 E ndroid.systemui: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:36:01.527  2648  2789 E ndroid.systemui: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:36:01.529  2648  2789 E ndroid.systemui: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:36:01.539  2648  2789 E ndroid.systemui: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:36:01.541  2648  2789 E ndroid.systemui: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:36:01.550  2648  2648 E ContrastColorUtil: background can not be translucent: #f0252525
+04-08 11:36:01.552  2648  2648 E ContrastColorUtil: background can not be translucent: #f0252525
+04-08 11:36:01.553  2648  2648 E ContrastColorUtil: background can not be translucent: #f0252525
+04-08 11:36:01.555  2648  2648 E ContrastColorUtil: background can not be translucent: #f0252525
+04-08 11:36:01.557  2648  2648 E ContrastColorUtil: background can not be translucent: #f0252525
+04-08 11:36:01.558  2648  2648 E ContrastColorUtil: background can not be translucent: #f0252525
+04-08 11:36:01.560  2648  2648 E ContrastColorUtil: background can not be translucent: #f0252525
+04-08 11:36:01.562  2648  2648 E ContrastColorUtil: background can not be translucent: #f0252525
+04-08 11:36:01.564  2648  2648 E ContrastColorUtil: background can not be translucent: #f0252525
+04-08 11:36:01.566  2648  2648 E ContrastColorUtil: background can not be translucent: #f0252525
+04-08 11:36:01.568  2648  2648 E ContrastColorUtil: background can not be translucent: #f0252525
+04-08 11:36:01.570  2648  2648 E ContrastColorUtil: background can not be translucent: #f0252525
+04-08 11:36:01.571  2648  2648 E ContrastColorUtil: background can not be translucent: #f0252525
+04-08 11:36:01.573  2648  2648 E ContrastColorUtil: background can not be translucent: #f0252525
+04-08 11:36:01.575  2648  2648 E ContrastColorUtil: background can not be translucent: #f0252525
+04-08 11:36:01.577  2648  2648 E ContrastColorUtil: background can not be translucent: #f0252525
+04-08 11:36:01.675  2648  2791 E ndroid.systemui: == MALI DEBUG ===eglp_winsys_populate_image_templates ==12288
+04-08 11:36:01.885  2985  2985 E MtkPhoneIntfMgrEx: MainThreadHandler.handleMessage : 3
+04-08 11:36:01.893  2985  2985 E MtkPhoneIntfMgrEx: MainThreadHandler.handleMessage : 3
+04-08 11:36:02.425  2985  2985 E MtkPhoneIntfMgrEx: MainThreadHandler.handleMessage : 3
+04-08 11:36:02.430  2985  2985 E MtkPhoneIntfMgrEx: MainThreadHandler.handleMessage : 3
+04-08 11:36:02.431  2985  2985 E MtkPhoneIntfMgrEx: MainThreadHandler.handleMessage : 3
+04-08 11:36:02.433  2985  2985 E MtkPhoneIntfMgrEx: MainThreadHandler.handleMessage : 3
+04-08 11:36:02.675 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:02.771 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:03.076  2985  2985 E MtkPhoneIntfMgrEx: MainThreadHandler.handleMessage : 3
+04-08 11:36:03.077  2985  2985 E MtkPhoneIntfMgrEx: MainThreadHandler.handleMessage : 3
+04-08 11:36:03.129  2985  2985 E MtkPhoneIntfMgrEx: MainThreadHandler.handleMessage : 3
+04-08 11:36:03.249  1340  1527 E SurfaceFlinger: MtkDuration override mode is disabled
+04-08 11:36:03.803  2985  2985 E MtkPhoneIntfMgrEx: MainThreadHandler.handleMessage : 3
+04-08 11:36:04.139 14661 14661 E Athena  : ------------------------------------------------------------
+04-08 11:36:04.139 14661 14661 E Athena  : 
+04-08 11:36:04.139 14661 14661 E Athena  :   - Athena is in Release mode with log enabled. Please set AthenaAnalytics.setDebug(false) to release this APK （Debug模式）[com.android.settings]
+04-08 11:36:04.139 14661 14661 E Athena  : 
+04-08 11:36:04.139 14661 14661 E Athena  : ------------------------------------------------------------
+04-08 11:36:05.080 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:05.106 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:05.188 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:05.197 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:05.239 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:05.348  1340  1340 E SurfaceFlinger: MtkDuration override mode is disabled
+04-08 11:36:06.228  2985  2985 E MtkPhoneIntfMgrEx: MainThreadHandler.handleMessage : 3
+04-08 11:36:06.577  1340  1527 E SurfaceFlinger: MtkDuration override mode is disabled
+04-08 11:36:06.744  1340  1340 E SurfaceFlinger: MtkDuration override mode is disabled
+04-08 11:36:07.363  2648  2648 E ContrastColorUtil: background can not be translucent: #f0252525
+04-08 11:36:07.365  2648  2648 E ContrastColorUtil: background can not be translucent: #f0252525
+04-08 11:36:07.368  2648  2648 E ContrastColorUtil: background can not be translucent: #f0252525
+04-08 11:36:07.370  2648  2648 E ContrastColorUtil: background can not be translucent: #f0252525
+04-08 11:36:07.373  2648  2648 E ContrastColorUtil: background can not be translucent: #f0252525
+04-08 11:36:07.374  2648  2648 E ContrastColorUtil: background can not be translucent: #f0252525
+04-08 11:36:07.377  2648  2648 E ContrastColorUtil: background can not be translucent: #f0252525
+04-08 11:36:07.379  2648  2648 E ContrastColorUtil: background can not be translucent: #f0252525
+04-08 11:36:07.381  2648  2648 E ContrastColorUtil: background can not be translucent: #f0252525
+04-08 11:36:07.383  2648  2648 E ContrastColorUtil: background can not be translucent: #f0252525
+04-08 11:36:07.386  2648  2648 E ContrastColorUtil: background can not be translucent: #f0252525
+04-08 11:36:07.387  2648  2648 E ContrastColorUtil: background can not be translucent: #f0252525
+04-08 11:36:07.390  2648  2648 E ContrastColorUtil: background can not be translucent: #f0252525
+04-08 11:36:07.392  2648  2648 E ContrastColorUtil: background can not be translucent: #f0252525
+04-08 11:36:07.394  2648  2648 E ContrastColorUtil: background can not be translucent: #f0252525
+04-08 11:36:07.396  2648  2648 E ContrastColorUtil: background can not be translucent: #f0252525
+04-08 11:36:07.476 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:07.585 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:07.601 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:08.969  1340  1527 E SurfaceFlinger: MtkDuration override mode is disabled
+04-08 11:36:09.891 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:09.900 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:09.932 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:09.998 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:10.028 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:10.339  1340  1340 E SurfaceFlinger: MtkDuration override mode is disabled
+04-08 11:36:11.355  2985  2985 E MtkPhoneIntfMgrEx: MainThreadHandler.handleMessage : 3
+04-08 11:36:11.591  1340  1527 E SurfaceFlinger: MtkDuration override mode is disabled
+04-08 11:36:12.377 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:12.382 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:12.430 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:12.734  1340  1340 E SurfaceFlinger: MtkDuration override mode is disabled
+04-08 11:36:14.580  1340  1527 E SurfaceFlinger: MtkDuration override mode is disabled
+04-08 11:36:14.773 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:14.799 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:15.799  1340  1340 E SurfaceFlinger: MtkDuration override mode is disabled
+04-08 11:36:16.471  2985  2985 E MtkPhoneIntfMgrEx: MainThreadHandler.handleMessage : 3
+04-08 11:36:17.026  1340  1527 E SurfaceFlinger: MtkDuration override mode is disabled
+04-08 11:36:17.178 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:17.218 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:17.223 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:17.554  1340  1340 E SurfaceFlinger: MtkDuration override mode is disabled
+04-08 11:36:18.780  1340  1527 E SurfaceFlinger: MtkDuration override mode is disabled
+04-08 11:36:19.448  1340  1340 E SurfaceFlinger: MtkDuration override mode is disabled
+04-08 11:36:19.492 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:19.499 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:19.531 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:19.594 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:20.674  1340  1527 E SurfaceFlinger: MtkDuration override mode is disabled
+04-08 11:36:21.596  2985  2985 E MtkPhoneIntfMgrEx: MainThreadHandler.handleMessage : 3
+04-08 11:36:21.898 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:21.903 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:21.962 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:21.994 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:22.010 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:22.019 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:24.316 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:24.319 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:24.421 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:24.471 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:26.380  3186  3186 E Athena  : ------------------------------------------------------------
+04-08 11:36:26.380  3186  3186 E Athena  : 
+04-08 11:36:26.380  3186  3186 E Athena  : Athena is in DEBUG or TEST mode, should not release this APK [com.transsion.multiwindow]
+04-08 11:36:26.380  3186  3186 E Athena  : 
+04-08 11:36:26.381  3186  3186 E Athena  : ------------------------------------------------------------
+04-08 11:36:26.707 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:26.718  2985  2985 E MtkPhoneIntfMgrEx: MainThreadHandler.handleMessage : 3
+04-08 11:36:26.732 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:26.844 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:26.850 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:29.080 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:29.085 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:29.114 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:29.183 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:29.245 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:29.250 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:30.375  1340  1340 E SurfaceFlinger: MtkDuration override mode is disabled
+04-08 11:36:31.499 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:31.506 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:31.536 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:31.598 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:31.645 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:31.835  2985  2985 E MtkPhoneIntfMgrEx: MainThreadHandler.handleMessage : 3
+04-08 11:36:32.454  1340  1527 E SurfaceFlinger: MtkDuration override mode is disabled
+04-08 11:36:33.879 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:33.883 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:33.899 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:33.904 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:34.032 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:35.377  1340  1340 E SurfaceFlinger: MtkDuration override mode is disabled
+04-08 11:36:36.212  2985  2985 E MtkPhoneIntfMgrEx: MainThreadHandler.handleMessage : 3
+04-08 11:36:36.226  2985  2985 E MtkPhoneIntfMgrEx: MainThreadHandler.handleMessage : 3
+04-08 11:36:36.226  2985  2985 E MtkPhoneIntfMgrEx: MainThreadHandler.handleMessage : 3
+04-08 11:36:36.227  2985  2985 E MtkPhoneIntfMgrEx: MainThreadHandler.handleMessage : 3
+04-08 11:36:36.227  2985  2985 E MtkPhoneIntfMgrEx: MainThreadHandler.handleMessage : 3
+04-08 11:36:36.228  2985  2985 E MtkPhoneIntfMgrEx: MainThreadHandler.handleMessage : 3
+04-08 11:36:36.288 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:36.325 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:36.371 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:36.376 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:36.382 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:36.539  2985  2985 E MtkPhoneIntfMgrEx: MainThreadHandler.handleMessage : 3
+04-08 11:36:36.827  2985  2985 E MtkPhoneIntfMgrEx: MainThreadHandler.handleMessage : 3
+04-08 11:36:36.836  2985  2985 E MtkPhoneIntfMgrEx: MainThreadHandler.handleMessage : 3
+04-08 11:36:36.837  2985  2985 E MtkPhoneIntfMgrEx: MainThreadHandler.handleMessage : 3
+04-08 11:36:36.843  2985  2985 E MtkPhoneIntfMgrEx: MainThreadHandler.handleMessage : 3
+04-08 11:36:36.844  2985  2985 E MtkPhoneIntfMgrEx: MainThreadHandler.handleMessage : 3
+04-08 11:36:36.948  2985  2985 E MtkPhoneIntfMgrEx: MainThreadHandler.handleMessage : 3
+04-08 11:36:36.998  2985  2985 E MtkPhoneIntfMgrEx: MainThreadHandler.handleMessage : 3
+04-08 11:36:37.008  2985  2985 E MtkPhoneIntfMgrEx: MainThreadHandler.handleMessage : 3
+04-08 11:36:37.008  2985  2985 E MtkPhoneIntfMgrEx: MainThreadHandler.handleMessage : 3
+04-08 11:36:37.623  2985  2985 E MtkPhoneIntfMgrEx: MainThreadHandler.handleMessage : 3
+04-08 11:36:37.636  2985  2985 E MtkPhoneIntfMgrEx: MainThreadHandler.handleMessage : 3
+04-08 11:36:37.637  2985  2985 E MtkPhoneIntfMgrEx: MainThreadHandler.handleMessage : 3
+04-08 11:36:38.709 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:38.734  1340  1527 E SurfaceFlinger: MtkDuration override mode is disabled
+04-08 11:36:40.373  1340  1340 E SurfaceFlinger: MtkDuration override mode is disabled
+04-08 11:36:41.080 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:41.084 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:41.114 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:41.177 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:41.183 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:41.224 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:41.234 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:41.756  1340  1527 E SurfaceFlinger: MtkDuration override mode is disabled
+04-08 11:36:42.076  2985  2985 E MtkPhoneIntfMgrEx: MainThreadHandler.handleMessage : 3
+04-08 11:36:42.894 12768 12944 E msys    : E[N WA]_WAJMNSStreamImplOnMNSFailure(287)=>[LogLevel:I] WAJMNSStream/impl/callback/onMNSFailure/p=0xb400007bc2857490 (error=MNSTCPSocketReceive(): Received EOF)
+04-08 11:36:42.895 12768 12944 E msys    : E[N WA]_WAJMNSStreamImplCreateConnectionReport(194)=>[LogLevel:I] WAJMNSStream/impl/report port=5222, connectedIPVersion=6, resolvedIPAddressCount=2, dnsResolutionStartTimeMS=2535837681, dnsResolutionEndTimeMS=2535837683, dnsCacheHit=Yes, connectStartTimeMS=2535837683, connectEndTimeMS=2535837708, proxyConnectStartTimeMS=0, proxyConnectEndTimeMS=0
+04-08 11:36:42.895 12768 12944 E msys    : E[N WA]_WAJMNSStreamImplUpdateStreamState(230)=>[LogLevel:I] WAJMNSStream/impl/state-changed/p=0xb400007bc2857490 (connected=>disconnected)
+04-08 11:36:42.903 12768 12921 E msys    : E[N WA]WAJMNSStreamImplDisconnectSync(497)=>[LogLevel:W] WAJMNSStream/impl/disconnect/p=0xb400007bc2857490 (bytesSent=20468)(bytesRecv=49784)
+04-08 11:36:43.482 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:43.574 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:43.593 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:45.373  1340  1340 E SurfaceFlinger: MtkDuration override mode is disabled
+04-08 11:36:45.894 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:45.899 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:45.904 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:45.909 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:45.929 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:46.002 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:46.007 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:46.064 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:46.600  1340  1527 E SurfaceFlinger: MtkDuration override mode is disabled
+04-08 11:36:47.199  2985  2985 E MtkPhoneIntfMgrEx: MainThreadHandler.handleMessage : 3
+04-08 11:36:48.308 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:48.381 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:50.388  1340  1340 E SurfaceFlinger: MtkDuration override mode is disabled
+04-08 11:36:50.694 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:50.704 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:51.614  1340  1527 E SurfaceFlinger: MtkDuration override mode is disabled
+04-08 11:36:52.148  1340  1340 E SurfaceFlinger: MtkDuration override mode is disabled
+04-08 11:36:52.317  2985  2985 E MtkPhoneIntfMgrEx: MainThreadHandler.handleMessage : 3
+04-08 11:36:53.091 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:53.114 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:53.121 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:53.180 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:53.201 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:53.831  1340  1527 E SurfaceFlinger: MtkDuration override mode is disabled
+04-08 11:36:55.509 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:55.514 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:55.601 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:55.677  1340  1340 E SurfaceFlinger: MtkDuration override mode is disabled
+04-08 11:36:56.904  1340  1527 E SurfaceFlinger: MtkDuration override mode is disabled
+04-08 11:36:57.435  2985  2985 E MtkPhoneIntfMgrEx: MainThreadHandler.handleMessage : 3
+04-08 11:36:57.906 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:57.923 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:57.996 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:58.016 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:36:58.707  1340  1340 E SurfaceFlinger: MtkDuration override mode is disabled
+04-08 11:36:58.735 19224 19654 E msys    : E[N mns:TigonMNS]_CacheRefreshTimerCallback(869)=>Start active cache refresh DNS resolution
+04-08 11:36:58.735 19224 19654 E msys    : E[N mns:TigonMNS]_CacheRefreshTimerCallback(869)=>Start active cache refresh DNS resolution
+04-08 11:36:58.735 19224 19654 E msys    : E[N mns:TigonMNS]_CacheRefreshTimerCallback(869)=>Start active cache refresh DNS resolution
+04-08 11:36:58.736 19224 19654 E msys    : E[N mns:TigonMNS]_CacheRefreshTimerCallback(869)=>Start active cache refresh DNS resolution
+04-08 11:36:58.736 19224 19654 E msys    : E[N mns:TigonMNS]_CacheRefreshTimerCallback(869)=>Start active cache refresh DNS resolution
+04-08 11:36:58.736 19224 19654 E msys    : E[N mns:TigonMNS]_CacheRefreshTimerCallback(869)=>Start active cache refresh DNS resolution
+04-08 11:36:59.934  1340  1527 E SurfaceFlinger: MtkDuration override mode is disabled
+04-08 11:37:00.315 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:37:00.320 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:37:00.590  2985  2985 E MtkPhoneIntfMgrEx: MainThreadHandler.handleMessage : 3
+04-08 11:37:00.603  2985  2985 E MtkPhoneIntfMgrEx: MainThreadHandler.handleMessage : 3
+04-08 11:37:00.603  2985  2985 E MtkPhoneIntfMgrEx: MainThreadHandler.handleMessage : 3
+04-08 11:37:00.603  2985  2985 E MtkPhoneIntfMgrEx: MainThreadHandler.handleMessage : 3
+04-08 11:37:00.603  2985  2985 E MtkPhoneIntfMgrEx: MainThreadHandler.handleMessage : 3
+04-08 11:37:01.239  2985  2985 E MtkPhoneIntfMgrEx: MainThreadHandler.handleMessage : 3
+04-08 11:37:01.245  2985  2985 E MtkPhoneIntfMgrEx: MainThreadHandler.handleMessage : 3
+04-08 11:37:01.246  2985  2985 E MtkPhoneIntfMgrEx: MainThreadHandler.handleMessage : 3
+04-08 11:37:01.252  2985  2985 E MtkPhoneIntfMgrEx: MainThreadHandler.handleMessage : 3
+04-08 11:37:01.716  1340  1340 E SurfaceFlinger: MtkDuration override mode is disabled
+04-08 11:37:01.860  2985  2985 E MtkPhoneIntfMgrEx: MainThreadHandler.handleMessage : 3
+04-08 11:37:01.862  2985  2985 E MtkPhoneIntfMgrEx: MainThreadHandler.handleMessage : 3
+04-08 11:37:01.915  2985  2985 E MtkPhoneIntfMgrEx: MainThreadHandler.handleMessage : 3
+04-08 11:37:02.558  2985  2985 E MtkPhoneIntfMgrEx: MainThreadHandler.handleMessage : 3
+04-08 11:37:02.624  2985  2985 E MtkPhoneIntfMgrEx: MainThreadHandler.handleMessage : 3
+04-08 11:37:02.686 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:37:02.691 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:37:02.723 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:37:02.796 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:37:02.822 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:37:02.945  1340  1527 E SurfaceFlinger: MtkDuration override mode is disabled
+04-08 11:37:03.767 19224 19654 E msys    : E[N mns:TigonMNS]_OnResolverSuccess(313)=>Cache refresh succeeded with system DNS resolver. IP count: 2
+04-08 11:37:03.768 19224 19654 E msys    : E[N mns:TigonMNS]_OnResolverSuccess(313)=>Cache refresh succeeded with system DNS resolver. IP count: 2
+04-08 11:37:03.770 19224 19654 E msys    : E[N mns:TigonMNS]_OnResolverSuccess(313)=>Cache refresh succeeded with system DNS resolver. IP count: 2
+04-08 11:37:03.770 19224 19654 E msys    : E[N mns:TigonMNS]_OnResolverSuccess(313)=>Cache refresh succeeded with system DNS resolver. IP count: 2
+04-08 11:37:03.793 19224 19654 E msys    : E[N mns:TigonMNS]_OnResolverSuccess(313)=>Cache refresh succeeded with system DNS resolver. IP count: 2
+04-08 11:37:03.794 19224 19654 E msys    : E[N mns:TigonMNS]_OnResolverSuccess(313)=>Cache refresh succeeded with system DNS resolver. IP count: 2
+04-08 11:37:04.140 14661 14661 E Athena  : ------------------------------------------------------------
+04-08 11:37:04.140 14661 14661 E Athena  : 
+04-08 11:37:04.140 14661 14661 E Athena  :   - Athena is in Release mode with log enabled. Please set AthenaAnalytics.setDebug(false) to release this APK （Debug模式）[com.android.settings]
+04-08 11:37:04.140 14661 14661 E Athena  : 
+04-08 11:37:04.141 14661 14661 E Athena  : ------------------------------------------------------------
+04-08 11:37:05.104 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:37:05.108 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:37:05.180 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:37:05.220 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:37:05.241 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:37:05.269 25345 25490 E BluetoothAdapterService: isSupported: Remote Device Uuids Empty
+04-08 11:37:05.397  1340  1340 E SurfaceFlinger: MtkDuration override mode is disabled
+04-08 11:37:06.396  2985  2985 E MtkPhoneIntfMgrEx: MainThreadHandler.handleMessage : 3

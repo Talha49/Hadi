@@ -1,0 +1,34 @@
+[
+    {
+        "id": "hotel_1",
+        "type": "hotel",
+        "name": "Madinah Royal Hotel",
+        "latitude": 21.4190,
+        "longitude": 39.8250,
+        "address": "Makkah Royal Clock Tower, Makkah"
+    },
+    {
+        "id": "hospital_1",
+        "type": "hospital",
+        "name": "Madinah Royal Hospital",
+        "latitude": 21.4220,
+        "longitude": 39.8280,
+        "address": "Near Al Haram, Makkah"
+    },
+    {
+        "id": "hospital_2",
+        "type": "hospital",
+        "name": "Ajyad Emergency Hospital",
+        "latitude": 21.4215,
+        "longitude": 39.8260,
+        "address": "Ajyad, Makkah"
+    },
+    {
+        "id": "bus_stop_1",
+        "type": "bus_stop",
+        "name": "Idari Brimler",
+        "latitude": 21.4205,
+        "longitude": 39.8265,
+        "address": "Main Road, Makkah"
+    }
+]

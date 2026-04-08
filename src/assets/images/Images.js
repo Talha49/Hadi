@@ -61,4 +61,20 @@ export const Images = {
     scan: require('./scan.png'),
     galllery: require('../icons/gallery.png'),
     flash: require('../icons/flash.png'),    
+    mapBg: require('./map_bg.png'),
+    bus: require('../icons/bus.png'),
+    car: require('../icons/car.png'),
+   threeDots: require('../icons/3dots.png'),
+   currentlocation: require('../icons/currentlocation.png'),
+   hospital: require('../icons/hospital.png'),
+   localbus: require('../icons/local.png'),
+   lost: require('../icons/lost.png'),
+reachlocation: require('../icons/reachlocation.png'),
+search: require('../icons/search.png'),
+updown: require('../icons/updown.png'),
+walk: require('../icons/walk.png'),
+start: require('../icons/start.png'),
+
+   
+
 };

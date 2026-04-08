@@ -2,7 +2,7 @@ import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { Image, StyleSheet, View, Text } from 'react-native';
 import HomeStack from '../stacks/HomeStack';
-import MapScreen from '../../screens/Shared/Map/MapScreen';
+import MapStack from '../stacks/MapStack';
 import RitualsStack from '../stacks/RitualsStack';
 import HealthScreen from '../../screens/Pilgrim/Health/HealthScreen';
 import GroupScreen from '../../screens/Pilgrim/Group/GroupScreen';
@@ -10,6 +10,7 @@ import { Colors, Spacing, Typography } from '../../theme';
 import { Images } from '../../assets/images/Images';
 import { t } from '../../i18n/translations';
 import { sWidth, sHeight } from '../../utils/responsive';
+import MapScreen from '../../screens/Pilgrim/Map/MapScreen';
 
 const Tab = createBottomTabNavigator();
 
@@ -54,7 +55,7 @@ const MainTabNavigator = () => {
             />
             <Tab.Screen
                 name="MapTab"
-                component={MapScreen}
+                component={MapStack}
                 options={{
                     tabBarIcon: ({ focused }) => (
                         <TabBarIcon source={Images.map} focused={focused} label={t('tabs.map')} />

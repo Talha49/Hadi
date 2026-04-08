@@ -1,0 +1,38 @@
+[
+    {
+        "id": "33478",
+        "name": "Abdullah Ahmed",
+        "latitude": 21.4235,
+        "longitude": 39.8270,
+        "status": "lost",
+        "timeReported": "12:30 PM",
+        "battery": "15%"
+    },
+    {
+        "id": "89332",
+        "name": "Fatima Hassan",
+        "latitude": 21.4180,
+        "longitude": 39.8220,
+        "status": "lost",
+        "timeReported": "01:15 PM",
+        "battery": "40%"
+    },
+    {
+        "id": "41221",
+        "name": "Ali Al-Saud",
+        "latitude": 21.4250,
+        "longitude": 39.8250,
+        "status": "medical",
+        "timeReported": "02:45 PM",
+        "battery": "80%"
+    },
+    {
+        "id": "11902",
+        "name": "Zaid Jabir",
+        "latitude": 21.4175,
+        "longitude": 39.8300,
+        "status": "lost",
+        "timeReported": "03:20 PM",
+        "battery": "5%"
+    }
+]

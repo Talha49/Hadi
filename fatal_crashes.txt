@@ -1,0 +1,307 @@
+
+> crash_log.txt:2:02-13 09:00:33.822 13964 13964 E AndroidRuntime: FATAL EXCEPTION: main
+  crash_log.txt:3:02-13 09:00:33.822 13964 13964 E AndroidRuntime: Process: com.docxreader.documentreader.wordoffice, PID: 13964
+  crash_log.txt:4:02-13 09:00:33.822 13964 13964 E AndroidRuntime: java.lang.NullPointerException
+  crash_log.txt:5:02-13 09:00:33.822 13964 13964 E AndroidRuntime: 	at com.ezt.lib.officeviewer.base.OfficeApp.getMyApp(SourceFile:11)
+  crash_log.txt:6:02-13 09:00:33.822 13964 13964 E AndroidRuntime: 	at com.ezt.lib.officeviewer.OfficeThumbLoader.loadPage(SourceFile:27)
+  crash_log.txt:7:02-13 09:00:33.822 13964 13964 E AndroidRuntime: 	at com.ezt.lib.officeviewer.OfficePreviewPageAdapter.onBindViewHolder(SourceFile:2)
+  crash_log.txt:8:02-13 09:00:33.822 13964 13964 E AndroidRuntime: 	at com.ezt.lib.officeviewer.OfficePreviewPageAdapter.onBindViewHolder(SourceFile:1)
+  crash_log.txt:9:02-13 09:00:33.822 13964 13964 E AndroidRuntime: 	at androidx.recyclerview.widget.RecyclerView$Adapter.onBindViewHolder(SourceFile:1)
+  crash_log.txt:10:02-13 09:00:33.822 13964 13964 E AndroidRuntime: 	at androidx.recyclerview.widget.RecyclerView$Adapter.bindViewHolder(SourceFile:169)
+  crash_log.txt:11:02-13 09:00:33.822 13964 13964 E AndroidRuntime: 	at androidx.recyclerview.widget.RecyclerView$Recycler.tryBindViewHolderByDeadline(SourceFile:68)
+  crash_log.txt:12:02-13 09:00:33.822 13964 13964 E AndroidRuntime: 	at androidx.recyclerview.widget.RecyclerView$Recycler.tryGetViewHolderForPositionByDeadline(SourceFile:526)
+  crash_log.txt:13:02-13 09:00:33.822 13964 13964 E AndroidRuntime: 	at androidx.recyclerview.widget.RecyclerView$Recycler.getViewForPosition(SourceFile:2)
+  crash_log.txt:14:02-13 09:00:33.822 13964 13964 E AndroidRuntime: 	at androidx.recyclerview.widget.RecyclerView$Recycler.getViewForPosition(SourceFile:1)
+  crash_log.txt:15:02-13 09:00:33.822 13964 13964 E AndroidRuntime: 	at androidx.recyclerview.widget.LinearLayoutManager$LayoutState.next(SourceFile:12)
+  crash_log.txt:16:02-13 09:00:33.822 13964 13964 E AndroidRuntime: 	at androidx.recyclerview.widget.LinearLayoutManager.layoutChunk(SourceFile:1)
+  crash_log.txt:17:02-13 09:00:33.822 13964 13964 E AndroidRuntime: 	at androidx.recyclerview.widget.LinearLayoutManager.fill(SourceFile:39)
+> crash_log.txt:191:02-17 12:32:15.388  6911  6911 E AndroidRuntime: FATAL EXCEPTION: main
+  crash_log.txt:192:02-17 12:32:15.388  6911  6911 E AndroidRuntime: Process: com.thetrainline, PID: 6911
+  crash_log.txt:193:02-17 12:32:15.388  6911  6911 E AndroidRuntime: kotlin.UninitializedPropertyAccessException: lateinit property cachedTicketOptionsDomain has not been initialized
+  crash_log.txt:194:02-17 12:32:15.388  6911  6911 E AndroidRuntime: 	at com.thetrainline.ticket_options.v2.presentation.viewmodel.TicketOptionsViewModel.k0(r8-map-id-b7f87a51dbe15724e172f927265d4eac0e638722ae562322f34052e68d43cec1:7)
+  crash_log.txt:195:02-17 12:32:15.388  6911  6911 E AndroidRuntime: 	at com.thetrainline.ticket_options.v2.presentation.viewmodel.TicketOptionsViewModel.m0(r8-map-id-b7f87a51dbe15724e172f927265d4eac0e638722ae562322f34052e68d43cec1:3)
+  crash_log.txt:196:02-17 12:32:15.388  6911  6911 E AndroidRuntime: 	at com.thetrainline.ticket_options.v2.presentation.view.TicketOptionsScreenKt$TicketOptionsScreen$onBackCallback$1.invoke(r8-map-id-b7f87a51dbe15724e172f927265d4eac0e638722ae562322f34052e68d43cec1:2)
+  crash_log.txt:197:02-17 12:32:15.388  6911  6911 E AndroidRuntime: 	at com.thetrainline.ticket_options.v2.presentation.view.TicketOptionsScreenKt$TicketOptionsScreen$onBackCallback$1.invoke(r8-map-id-b7f87a51dbe15724e172f927265d4eac0e638722ae562322f34052e68d43cec1:1)
+  crash_log.txt:198:02-17 12:32:15.388  6911  6911 E AndroidRuntime: 	at com.thetrainline.ticket_options.v2.presentation.view.TicketOptionsScreenKt$TicketOptionsScreen$1$1.invoke(r8-map-id-b7f87a51dbe15724e172f927265d4eac0e638722ae562322f34052e68d43cec1:2)
+  crash_log.txt:199:02-17 12:32:15.388  6911  6911 E AndroidRuntime: 	at com.thetrainline.ticket_options.v2.presentation.view.TicketOptionsScreenKt$TicketOptionsScreen$1$1.invoke(r8-map-id-b7f87a51dbe15724e172f927265d4eac0e638722ae562322f34052e68d43cec1:1)
+  crash_log.txt:200:02-17 12:32:15.388  6911  6911 E AndroidRuntime: 	at androidx.activity.compose.BackHandlerKt$BackHandler$backCallback$1$1.d(r8-map-id-b7f87a51dbe15724e172f927265d4eac0e638722ae562322f34052e68d43cec1:7)
+  crash_log.txt:201:02-17 12:32:15.388  6911  6911 E AndroidRuntime: 	at androidx.activity.OnBackPressedDispatcher.p(r8-map-id-b7f87a51dbe15724e172f927265d4eac0e638722ae562322f34052e68d43cec1:44)
+  crash_log.txt:202:02-17 12:32:15.388  6911  6911 E AndroidRuntime: 	at androidx.activity.OnBackPressedDispatcher$3.invoke(r8-map-id-b7f87a51dbe15724e172f927265d4eac0e638722ae562322f34052e68d43cec1:2)
+  crash_log.txt:203:02-17 12:32:15.388  6911  6911 E AndroidRuntime: 	at androidx.activity.OnBackPressedDispatcher$3.invoke(r8-map-id-b7f87a51dbe15724e172f927265d4eac0e638722ae562322f34052e68d43cec1:1)
+  crash_log.txt:204:02-17 12:32:15.388  6911  6911 E AndroidRuntime: 	at androidx.activity.OnBackPressedDispatcher$Api34Impl$createOnBackAnimationCallback$1.onBackInvoked(r8-map-id-b7f87a51dbe15724e172f927265d4eac0e638722ae562322f34052e68d43cec1:3)
+  crash_log.txt:205:02-17 12:32:15.388  6911  6911 E AndroidRuntime: 	at android.view.ViewRootImpl$NativePreImeInputStage.doOnBackKeyEvent(ViewRootImpl.java:7116)
+  crash_log.txt:206:02-17 12:32:15.388  6911  6911 E AndroidRuntime: 	at android.view.ViewRootImpl$NativePreImeInputStage.onProcess(ViewRootImpl.java:7084)
+> crash_log.txt:222:02-17 12:35:37.145 17014 17014 E AndroidRuntime: FATAL EXCEPTION: main
+  crash_log.txt:223:02-17 12:35:37.145 17014 17014 E AndroidRuntime: Process: com.thetrainline, PID: 17014
+  crash_log.txt:224:02-17 12:35:37.145 17014 17014 E AndroidRuntime: kotlin.UninitializedPropertyAccessException: lateinit property cachedTicketOptionsDomain has not been initialized
+  crash_log.txt:225:02-17 12:35:37.145 17014 17014 E AndroidRuntime: 	at com.thetrainline.ticket_options.v2.presentation.viewmodel.TicketOptionsViewModel.k0(r8-map-id-b7f87a51dbe15724e172f927265d4eac0e638722ae562322f34052e68d43cec1:7)
+  crash_log.txt:226:02-17 12:35:37.145 17014 17014 E AndroidRuntime: 	at com.thetrainline.ticket_options.v2.presentation.viewmodel.TicketOptionsViewModel.m0(r8-map-id-b7f87a51dbe15724e172f927265d4eac0e638722ae562322f34052e68d43cec1:3)
+  crash_log.txt:227:02-17 12:35:37.145 17014 17014 E AndroidRuntime: 	at com.thetrainline.ticket_options.v2.presentation.view.TicketOptionsScreenKt$TicketOptionsScreen$onBackCallback$1.invoke(r8-map-id-b7f87a51dbe15724e172f927265d4eac0e638722ae562322f34052e68d43cec1:2)
+  crash_log.txt:228:02-17 12:35:37.145 17014 17014 E AndroidRuntime: 	at com.thetrainline.ticket_options.v2.presentation.view.TicketOptionsScreenKt$TicketOptionsScreen$onBackCallback$1.invoke(r8-map-id-b7f87a51dbe15724e172f927265d4eac0e638722ae562322f34052e68d43cec1:1)
+  crash_log.txt:229:02-17 12:35:37.145 17014 17014 E AndroidRuntime: 	at com.thetrainline.ticket_options.v2.presentation.view.TicketOptionsScreenKt$TicketOptionsScreen$1$1.invoke(r8-map-id-b7f87a51dbe15724e172f927265d4eac0e638722ae562322f34052e68d43cec1:2)
+  crash_log.txt:230:02-17 12:35:37.145 17014 17014 E AndroidRuntime: 	at com.thetrainline.ticket_options.v2.presentation.view.TicketOptionsScreenKt$TicketOptionsScreen$1$1.invoke(r8-map-id-b7f87a51dbe15724e172f927265d4eac0e638722ae562322f34052e68d43cec1:1)
+  crash_log.txt:231:02-17 12:35:37.145 17014 17014 E AndroidRuntime: 	at androidx.activity.compose.BackHandlerKt$BackHandler$backCallback$1$1.d(r8-map-id-b7f87a51dbe15724e172f927265d4eac0e638722ae562322f34052e68d43cec1:7)
+  crash_log.txt:232:02-17 12:35:37.145 17014 17014 E AndroidRuntime: 	at androidx.activity.OnBackPressedDispatcher.p(r8-map-id-b7f87a51dbe15724e172f927265d4eac0e638722ae562322f34052e68d43cec1:44)
+  crash_log.txt:233:02-17 12:35:37.145 17014 17014 E AndroidRuntime: 	at androidx.activity.OnBackPressedDispatcher$3.invoke(r8-map-id-b7f87a51dbe15724e172f927265d4eac0e638722ae562322f34052e68d43cec1:2)
+  crash_log.txt:234:02-17 12:35:37.145 17014 17014 E AndroidRuntime: 	at androidx.activity.OnBackPressedDispatcher$3.invoke(r8-map-id-b7f87a51dbe15724e172f927265d4eac0e638722ae562322f34052e68d43cec1:1)
+  crash_log.txt:235:02-17 12:35:37.145 17014 17014 E AndroidRuntime: 	at androidx.activity.OnBackPressedDispatcher$Api34Impl$createOnBackAnimationCallback$1.onBackInvoked(r8-map-id-b7f87a51dbe15724e172f927265d4eac0e638722ae562322f34052e68d43cec1:3)
+  crash_log.txt:236:02-17 12:35:37.145 17014 17014 E AndroidRuntime: 	at android.view.ViewRootImpl$NativePreImeInputStage.doOnBackKeyEvent(ViewRootImpl.java:7116)
+  crash_log.txt:237:02-17 12:35:37.145 17014 17014 E AndroidRuntime: 	at android.view.ViewRootImpl$NativePreImeInputStage.onProcess(ViewRootImpl.java:7084)
+> crash_log.txt:253:02-17 15:14:26.358  2966  2966 E AndroidRuntime: FATAL EXCEPTION: main
+  crash_log.txt:254:02-17 15:14:26.358  2966  2966 E AndroidRuntime: Process: com.thetrainline, PID: 2966
+  crash_log.txt:255:02-17 15:14:26.358  2966  2966 E AndroidRuntime: kotlin.UninitializedPropertyAccessException: lateinit property cachedTicketOptionsDomain has not been initialized
+  crash_log.txt:256:02-17 15:14:26.358  2966  2966 E AndroidRuntime: 	at com.thetrainline.ticket_options.v2.presentation.viewmodel.TicketOptionsViewModel.k0(r8-map-id-b7f87a51dbe15724e172f927265d4eac0e638722ae562322f34052e68d43cec1:7)
+  crash_log.txt:257:02-17 15:14:26.358  2966  2966 E AndroidRuntime: 	at com.thetrainline.ticket_options.v2.presentation.viewmodel.TicketOptionsViewModel.m0(r8-map-id-b7f87a51dbe15724e172f927265d4eac0e638722ae562322f34052e68d43cec1:3)
+  crash_log.txt:258:02-17 15:14:26.358  2966  2966 E AndroidRuntime: 	at com.thetrainline.ticket_options.v2.presentation.view.TicketOptionsScreenKt$TicketOptionsScreen$onBackCallback$1.invoke(r8-map-id-b7f87a51dbe15724e172f927265d4eac0e638722ae562322f34052e68d43cec1:2)
+  crash_log.txt:259:02-17 15:14:26.358  2966  2966 E AndroidRuntime: 	at com.thetrainline.ticket_options.v2.presentation.view.TicketOptionsScreenKt$TicketOptionsScreen$onBackCallback$1.invoke(r8-map-id-b7f87a51dbe15724e172f927265d4eac0e638722ae562322f34052e68d43cec1:1)
+  crash_log.txt:260:02-17 15:14:26.358  2966  2966 E AndroidRuntime: 	at com.thetrainline.ticket_options.v2.presentation.view.TicketOptionsScreenKt$TicketOptionsScreen$1$1.invoke(r8-map-id-b7f87a51dbe15724e172f927265d4eac0e638722ae562322f34052e68d43cec1:2)
+  crash_log.txt:261:02-17 15:14:26.358  2966  2966 E AndroidRuntime: 	at com.thetrainline.ticket_options.v2.presentation.view.TicketOptionsScreenKt$TicketOptionsScreen$1$1.invoke(r8-map-id-b7f87a51dbe15724e172f927265d4eac0e638722ae562322f34052e68d43cec1:1)
+  crash_log.txt:262:02-17 15:14:26.358  2966  2966 E AndroidRuntime: 	at androidx.activity.compose.BackHandlerKt$BackHandler$backCallback$1$1.d(r8-map-id-b7f87a51dbe15724e172f927265d4eac0e638722ae562322f34052e68d43cec1:7)
+  crash_log.txt:263:02-17 15:14:26.358  2966  2966 E AndroidRuntime: 	at androidx.activity.OnBackPressedDispatcher.p(r8-map-id-b7f87a51dbe15724e172f927265d4eac0e638722ae562322f34052e68d43cec1:44)
+  crash_log.txt:264:02-17 15:14:26.358  2966  2966 E AndroidRuntime: 	at androidx.activity.OnBackPressedDispatcher$3.invoke(r8-map-id-b7f87a51dbe15724e172f927265d4eac0e638722ae562322f34052e68d43cec1:2)
+  crash_log.txt:265:02-17 15:14:26.358  2966  2966 E AndroidRuntime: 	at androidx.activity.OnBackPressedDispatcher$3.invoke(r8-map-id-b7f87a51dbe15724e172f927265d4eac0e638722ae562322f34052e68d43cec1:1)
+  crash_log.txt:266:02-17 15:14:26.358  2966  2966 E AndroidRuntime: 	at androidx.activity.OnBackPressedDispatcher$Api34Impl$createOnBackAnimationCallback$1.onBackInvoked(r8-map-id-b7f87a51dbe15724e172f927265d4eac0e638722ae562322f34052e68d43cec1:3)
+  crash_log.txt:267:02-17 15:14:26.358  2966  2966 E AndroidRuntime: 	at android.view.ViewRootImpl$NativePreImeInputStage.doOnBackKeyEvent(ViewRootImpl.java:7116)
+  crash_log.txt:268:02-17 15:14:26.358  2966  2966 E AndroidRuntime: 	at android.view.ViewRootImpl$NativePreImeInputStage.onProcess(ViewRootImpl.java:7084)
+> crash_log.txt:283:02-24 20:33:59.953 25150 25150 E AndroidRuntime: FATAL EXCEPTION: main
+  crash_log.txt:284:02-24 20:33:59.953 25150 25150 E AndroidRuntime: Process: com.hajj, PID: 25150
+  crash_log.txt:285:02-24 20:33:59.953 25150 25150 E AndroidRuntime: java.lang.NullPointerException: java.lang.NullPointerException
+  crash_log.txt:286:02-24 20:33:59.953 25150 25150 E AndroidRuntime: 	at com.facebook.react.devsupport.CxxInspectorPackagerConnection$WebSocketDelegate.didReceiveMessage(Native Method)
+  crash_log.txt:287:02-24 20:33:59.953 25150 25150 E AndroidRuntime: 	at com.facebook.react.devsupport.CxxInspectorPackagerConnection$DelegateImpl$connectWebSocket$webSocket$1.onMessage$lambda$1(CxxInspectorPackagerConnection.kt:208)
+  crash_log.txt:288:02-24 20:33:59.953 25150 25150 E AndroidRuntime: 	at com.facebook.react.devsupport.CxxInspectorPackagerConnection$DelegateImpl$connectWebSocket$webSocket$1.$r8$lambda$O31gJ9mPudNC5xHMm3nPJgxbPDI(Unknown Source:0)
+  crash_log.txt:289:02-24 20:33:59.953 25150 25150 E AndroidRuntime: 	at com.facebook.react.devsupport.CxxInspectorPackagerConnection$DelegateImpl$connectWebSocket$webSocket$1$$ExternalSyntheticLambda3.run(D8$$SyntheticClass:0)
+  crash_log.txt:290:02-24 20:33:59.953 25150 25150 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:958)
+  crash_log.txt:291:02-24 20:33:59.953 25150 25150 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+  crash_log.txt:292:02-24 20:33:59.953 25150 25150 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:243)
+  crash_log.txt:293:02-24 20:33:59.953 25150 25150 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:338)
+  crash_log.txt:294:02-24 20:33:59.953 25150 25150 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8506)
+  crash_log.txt:295:02-24 20:33:59.953 25150 25150 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+  crash_log.txt:296:02-24 20:33:59.953 25150 25150 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:602)
+  crash_log.txt:297:02-24 20:33:59.953 25150 25150 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1064)
+> crash_log.txt:298:03-02 13:27:32.936 31201 31201 E AndroidRuntime: FATAL EXCEPTION: main
+  crash_log.txt:299:03-02 13:27:32.936 31201 31201 E AndroidRuntime: Process: com.hajj, PID: 31201
+  crash_log.txt:300:03-02 13:27:32.936 31201 31201 E AndroidRuntime: java.lang.RuntimeException: Unable to start activity ComponentInfo{com.hajj/com.hajj.MainActivity}: androidx.fragment.app.Fragment$InstantiationException: Unable to instantiate fragment com.swmansion.rnscreens.ScreenStackFragment: calling Fragment constructor caused an exception
+  crash_log.txt:301:03-02 13:27:32.936 31201 31201 E AndroidRuntime: 	at android.app.ActivityThread.performLaunchActivity(ActivityThread.java:3939)
+  crash_log.txt:302:03-02 13:27:32.936 31201 31201 E AndroidRuntime: 	at android.app.ActivityThread.handleLaunchActivity(ActivityThread.java:4079)
+  crash_log.txt:303:03-02 13:27:32.936 31201 31201 E AndroidRuntime: 	at android.app.servertransaction.LaunchActivityItem.execute(LaunchActivityItem.java:114)
+  crash_log.txt:304:03-02 13:27:32.936 31201 31201 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.executeCallbacks(TransactionExecutor.java:139)
+  crash_log.txt:305:03-02 13:27:32.936 31201 31201 E AndroidRuntime: 	at android.app.servertransaction.TransactionExecutor.execute(TransactionExecutor.java:96)
+  crash_log.txt:306:03-02 13:27:32.936 31201 31201 E AndroidRuntime: 	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:2552)
+  crash_log.txt:307:03-02 13:27:32.936 31201 31201 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:106)
+  crash_log.txt:308:03-02 13:27:32.936 31201 31201 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:243)
+  crash_log.txt:309:03-02 13:27:32.936 31201 31201 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:338)
+  crash_log.txt:310:03-02 13:27:32.936 31201 31201 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8506)
+  crash_log.txt:311:03-02 13:27:32.936 31201 31201 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+  crash_log.txt:312:03-02 13:27:32.936 31201 31201 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:602)
+  crash_log.txt:313:03-02 13:27:32.936 31201 31201 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1064)
+> crash_log.txt:343:03-03 15:18:10.720 21942 21942 E AndroidRuntime: FATAL EXCEPTION: main
+  crash_log.txt:344:03-03 15:18:10.720 21942 21942 E AndroidRuntime: Process: com.hajj, PID: 21942
+  crash_log.txt:345:03-03 15:18:10.720 21942 21942 E AndroidRuntime: java.lang.NullPointerException: java.lang.NullPointerException
+  crash_log.txt:346:03-03 15:18:10.720 21942 21942 E AndroidRuntime: 	at com.facebook.react.devsupport.CxxInspectorPackagerConnection$WebSocketDelegate.didReceiveMessage(Native Method)
+  crash_log.txt:347:03-03 15:18:10.720 21942 21942 E AndroidRuntime: 	at com.facebook.react.devsupport.CxxInspectorPackagerConnection$DelegateImpl$connectWebSocket$webSocket$1.onMessage$lambda$1(CxxInspectorPackagerConnection.kt:208)
+  crash_log.txt:348:03-03 15:18:10.720 21942 21942 E AndroidRuntime: 	at com.facebook.react.devsupport.CxxInspectorPackagerConnection$DelegateImpl$connectWebSocket$webSocket$1.$r8$lambda$O31gJ9mPudNC5xHMm3nPJgxbPDI(Unknown Source:0)
+  crash_log.txt:349:03-03 15:18:10.720 21942 21942 E AndroidRuntime: 	at com.facebook.react.devsupport.CxxInspectorPackagerConnection$DelegateImpl$connectWebSocket$webSocket$1$$ExternalSyntheticLambda3.run(D8$$SyntheticClass:0)
+  crash_log.txt:350:03-03 15:18:10.720 21942 21942 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:958)
+  crash_log.txt:351:03-03 15:18:10.720 21942 21942 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+  crash_log.txt:352:03-03 15:18:10.720 21942 21942 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:243)
+  crash_log.txt:353:03-03 15:18:10.720 21942 21942 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:338)
+  crash_log.txt:354:03-03 15:18:10.720 21942 21942 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8506)
+  crash_log.txt:355:03-03 15:18:10.720 21942 21942 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+  crash_log.txt:356:03-03 15:18:10.720 21942 21942 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:602)
+  crash_log.txt:357:03-03 15:18:10.720 21942 21942 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1064)
+  crash_log.txt:358:03-06 14:43:30.077   600   600 F libc    : crash_dump helper failed to exec, or was killed
+> crash_log.txt:360:03-10 16:36:31.006 15401 15401 E AndroidRuntime: FATAL EXCEPTION: main
+  crash_log.txt:361:03-10 16:36:31.006 15401 15401 E AndroidRuntime: Process: com.hajj, PID: 15401
+  crash_log.txt:362:03-10 16:36:31.006 15401 15401 E AndroidRuntime: java.lang.NullPointerException: java.lang.NullPointerException
+  crash_log.txt:363:03-10 16:36:31.006 15401 15401 E AndroidRuntime: 	at com.facebook.react.devsupport.CxxInspectorPackagerConnection$WebSocketDelegate.didReceiveMessage(Native Method)
+  crash_log.txt:364:03-10 16:36:31.006 15401 15401 E AndroidRuntime: 	at com.facebook.react.devsupport.CxxInspectorPackagerConnection$DelegateImpl$connectWebSocket$webSocket$1.onMessage$lambda$1(CxxInspectorPackagerConnection.kt:208)
+  crash_log.txt:365:03-10 16:36:31.006 15401 15401 E AndroidRuntime: 	at com.facebook.react.devsupport.CxxInspectorPackagerConnection$DelegateImpl$connectWebSocket$webSocket$1.$r8$lambda$O31gJ9mPudNC5xHMm3nPJgxbPDI(Unknown Source:0)
+  crash_log.txt:366:03-10 16:36:31.006 15401 15401 E AndroidRuntime: 	at com.facebook.react.devsupport.CxxInspectorPackagerConnection$DelegateImpl$connectWebSocket$webSocket$1$$ExternalSyntheticLambda3.run(D8$$SyntheticClass:0)
+  crash_log.txt:367:03-10 16:36:31.006 15401 15401 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:958)
+  crash_log.txt:368:03-10 16:36:31.006 15401 15401 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+  crash_log.txt:369:03-10 16:36:31.006 15401 15401 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:243)
+  crash_log.txt:370:03-10 16:36:31.006 15401 15401 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:338)
+  crash_log.txt:371:03-10 16:36:31.006 15401 15401 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8506)
+  crash_log.txt:372:03-10 16:36:31.006 15401 15401 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+  crash_log.txt:373:03-10 16:36:31.006 15401 15401 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:602)
+  crash_log.txt:374:03-10 16:36:31.006 15401 15401 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1064)
+> crash_log.txt:375:03-10 17:42:43.761   936   936 E AndroidRuntime: FATAL EXCEPTION: main
+  crash_log.txt:376:03-10 17:42:43.761   936   936 E AndroidRuntime: Process: com.hajj, PID: 936
+  crash_log.txt:377:03-10 17:42:43.761   936   936 E AndroidRuntime: java.lang.NullPointerException: java.lang.NullPointerException
+  crash_log.txt:378:03-10 17:42:43.761   936   936 E AndroidRuntime: 	at com.facebook.react.devsupport.CxxInspectorPackagerConnection$WebSocketDelegate.didReceiveMessage(Native Method)
+  crash_log.txt:379:03-10 17:42:43.761   936   936 E AndroidRuntime: 	at com.facebook.react.devsupport.CxxInspectorPackagerConnection$DelegateImpl$connectWebSocket$webSocket$1.onMessage$lambda$1(CxxInspectorPackagerConnection.kt:208)
+  crash_log.txt:380:03-10 17:42:43.761   936   936 E AndroidRuntime: 	at com.facebook.react.devsupport.CxxInspectorPackagerConnection$DelegateImpl$connectWebSocket$webSocket$1.$r8$lambda$O31gJ9mPudNC5xHMm3nPJgxbPDI(Unknown Source:0)
+  crash_log.txt:381:03-10 17:42:43.761   936   936 E AndroidRuntime: 	at com.facebook.react.devsupport.CxxInspectorPackagerConnection$DelegateImpl$connectWebSocket$webSocket$1$$ExternalSyntheticLambda3.run(D8$$SyntheticClass:0)
+  crash_log.txt:382:03-10 17:42:43.761   936   936 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:958)
+  crash_log.txt:383:03-10 17:42:43.761   936   936 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+  crash_log.txt:384:03-10 17:42:43.761   936   936 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:243)
+  crash_log.txt:385:03-10 17:42:43.761   936   936 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:338)
+  crash_log.txt:386:03-10 17:42:43.761   936   936 E AndroidRuntime: 	at android.app.ActivityThread.main(ActivityThread.java:8506)
+  crash_log.txt:387:03-10 17:42:43.761   936   936 E AndroidRuntime: 	at java.lang.reflect.Method.invoke(Native Method)
+  crash_log.txt:388:03-10 17:42:43.761   936   936 E AndroidRuntime: 	at com.android.internal.os.RuntimeInit$MethodAndArgsCaller.run(RuntimeInit.java:602)
+  crash_log.txt:389:03-10 17:42:43.761   936   936 E AndroidRuntime: 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1064)
+  crash_log.txt:390:03-25 23:24:35.585 10768 16193 F libc    : Fatal signal 6 (SIGABRT), code -6 (SI_TKILL) in tid 16193 (milo-handler-th), pid 10768 (aoapp.musically)
+> crash_log.txt:445:03-26 13:11:39.139  4080  6036 E AndroidRuntime: FATAL EXCEPTION: AR-Frame-Lite-Renderer-Render-Thread-190646563
+  crash_log.txt:446:03-26 13:11:39.139  4080  6036 E AndroidRuntime: Process: com.instagram.android, PID: 4080
+  crash_log.txt:447:03-26 13:11:39.139  4080  6036 E AndroidRuntime: java.lang.ClassCastException: X.60c cannot be cast to X.A9R
+  crash_log.txt:448:03-26 13:11:39.139  4080  6036 E AndroidRuntime: 	at X.Itx.ANb(Unknown Source:80)
+  crash_log.txt:449:03-26 13:11:39.139  4080  6036 E AndroidRuntime: 	at X.Iti.ANb(Unknown Source:23)
+  crash_log.txt:450:03-26 13:11:39.139  4080  6036 E AndroidRuntime: 	at X.5Z2.run(Unknown Source:157)
+  crash_log.txt:451:03-26 13:11:39.139  4080  6036 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:958)
+  crash_log.txt:452:03-26 13:11:39.139  4080  6036 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+  crash_log.txt:453:03-26 13:11:39.139  4080  6036 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:243)
+  crash_log.txt:454:03-26 13:11:39.139  4080  6036 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:338)
+  crash_log.txt:455:03-26 13:11:39.139  4080  6036 E AndroidRuntime: 	at android.os.HandlerThread.run(HandlerThread.java:67)
+> crash_log.txt:456:04-05 02:37:33.405 15279 15279 E AndroidRuntime: FATAL EXCEPTION: main
+  crash_log.txt:457:04-05 02:37:33.405 15279 15279 E AndroidRuntime: Process: com.hajj, PID: 15279
+  crash_log.txt:458:04-05 02:37:33.405 15279 15279 E AndroidRuntime: java.lang.RuntimeException: Unable to load script.
+  crash_log.txt:459:04-05 02:37:33.405 15279 15279 E AndroidRuntime: 
+  crash_log.txt:460:04-05 02:37:33.405 15279 15279 E AndroidRuntime: Make sure you're running Metro or that your bundle 'index.android.bundle' is packaged correctly for release.
+  crash_log.txt:461:04-05 02:37:33.405 15279 15279 E AndroidRuntime: 
+  crash_log.txt:462:04-05 02:37:33.405 15279 15279 E AndroidRuntime: The device must either be USB connected (with bundler set to "localhost:8081") or be on the same Wi-Fi network as your computer (with bundler set to your computer IP) to connect to Metro.
+  crash_log.txt:463:04-05 02:37:33.405 15279 15279 E AndroidRuntime: 
+  crash_log.txt:464:04-05 02:37:33.405 15279 15279 E AndroidRuntime: If you're using USB on a physical device, make sure you also run this command:
+  crash_log.txt:465:04-05 02:37:33.405 15279 15279 E AndroidRuntime:   adb reverse tcp:8081 tcp:8081
+  crash_log.txt:466:04-05 02:37:33.405 15279 15279 E AndroidRuntime: 	at com.facebook.react.runtime.ReactInstance.loadJSBundleFromAssets(Native Method)
+  crash_log.txt:467:04-05 02:37:33.405 15279 15279 E AndroidRuntime: 	at com.facebook.react.runtime.ReactInstance.access$loadJSBundleFromAssets(ReactInstance.kt:84)
+  crash_log.txt:468:04-05 02:37:33.405 15279 15279 E AndroidRuntime: 	at com.facebook.react.runtime.ReactInstance$loadJSBundle$1.loadScriptFromAssets(ReactInstance.kt:324)
+  crash_log.txt:469:04-05 02:37:33.405 15279 15279 E AndroidRuntime: 	at com.facebook.react.bridge.JSBundleLoader$Companion$createAssetLoader$1.loadScript(JSBundleLoader.kt:33)
+  crash_log.txt:470:04-05 02:37:33.405 15279 15279 E AndroidRuntime: 	at com.facebook.react.runtime.ReactInstance.loadJSBundle(ReactInstance.kt:303)
+  crash_log.txt:471:04-05 02:37:33.405 15279 15279 E AndroidRuntime: 	at com.facebook.react.runtime.ReactHostImpl.getOrCreateReactInstanceTask$lambda$44$lambda$40(ReactHostImpl.kt:1019)
+> crash_log.txt:491:04-05 03:01:19.608 21261 25463 E AndroidRuntime: FATAL EXCEPTION: androidmapsapi-ula-1
+  crash_log.txt:492:04-05 03:01:19.608 21261 25463 E AndroidRuntime: Process: com.hajj, PID: 21261
+  crash_log.txt:493:04-05 03:01:19.608 21261 25463 E AndroidRuntime: java.lang.IllegalStateException: API key not found.  Check that <meta-data android:name="com.google.android.geo.API_KEY" android:value="your API key"/> is in the <application> element of AndroidManifest.xml
+  crash_log.txt:494:04-05 03:01:19.608 21261 25463 E AndroidRuntime: 	at com.google.maps.api.android.lib6.common.h.b(:com.google.android.gms.policy_maps_core_dynamite@260830204@260830201025.878499810.878499810:117)
+  crash_log.txt:495:04-05 03:01:19.608 21261 25463 E AndroidRuntime: 	at com.google.maps.api.android.lib6.impl.hq.run(:com.google.android.gms.policy_maps_core_dynamite@260830204@260830201025.878499810.878499810:586)
+  crash_log.txt:496:04-05 03:01:19.608 21261 25463 E AndroidRuntime: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+  crash_log.txt:497:04-05 03:01:19.608 21261 25463 E AndroidRuntime: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+  crash_log.txt:498:04-05 03:01:19.608 21261 25463 E AndroidRuntime: 	at java.lang.Thread.run(Thread.java:1563)
+> crash_log.txt:499:04-05 03:01:59.464 22749 25649 E AndroidRuntime: FATAL EXCEPTION: mqt_v_native
+  crash_log.txt:500:04-05 03:01:59.464 22749 25649 E AndroidRuntime: Process: com.hajj, PID: 22749
+  crash_log.txt:501:04-05 03:01:59.464 22749 25649 E AndroidRuntime: java.lang.IncompatibleClassChangeError: Found interface com.google.android.gms.location.SettingsClient, but class was expected (declaration of 'com.google.android.gms.location.SettingsClient' appears in /data/app/~~vpK9zA9ZLyifFoYRN-UDCg==/com.hajj-wKxUoBBZEgKJ6dcam6HFJA==/base.apk!classes7.dex)
+  crash_log.txt:502:04-05 03:01:59.464 22749 25649 E AndroidRuntime: 	at com.agontuk.RNFusedLocation.FusedLocationProvider.checkLocationSettings(FusedLocationProvider.java:177)
+  crash_log.txt:503:04-05 03:01:59.464 22749 25649 E AndroidRuntime: 	at com.agontuk.RNFusedLocation.FusedLocationProvider.requestLocationUpdates(FusedLocationProvider.java:152)
+  crash_log.txt:504:04-05 03:01:59.464 22749 25649 E AndroidRuntime: 	at com.agontuk.RNFusedLocation.RNFusedLocationModule.startObserving(RNFusedLocationModule.java:133)
+  crash_log.txt:505:04-05 03:01:59.464 22749 25649 E AndroidRuntime: 	at com.facebook.jni.NativeRunnable.run(Native Method)
+  crash_log.txt:506:04-05 03:01:59.464 22749 25649 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:958)
+  crash_log.txt:507:04-05 03:01:59.464 22749 25649 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+  crash_log.txt:508:04-05 03:01:59.464 22749 25649 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadHandler.dispatchMessage(MessageQueueThreadHandler.kt:21)
+  crash_log.txt:509:04-05 03:01:59.464 22749 25649 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:243)
+  crash_log.txt:510:04-05 03:01:59.464 22749 25649 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:338)
+  crash_log.txt:511:04-05 03:01:59.464 22749 25649 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion.startNewBackgroundThread$lambda$0(MessageQueueThreadImpl.kt:152)
+  crash_log.txt:512:04-05 03:01:59.464 22749 25649 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion.$r8$lambda$YYXYCFexeoKtAeDpeNYkxZZlpbA(Unknown Source:0)
+  crash_log.txt:513:04-05 03:01:59.464 22749 25649 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+  crash_log.txt:514:04-05 03:01:59.464 22749 25649 E AndroidRuntime: 	at java.lang.Thread.run(Thread.java:1563)
+> crash_log.txt:515:04-05 03:05:29.752 25196 27842 E AndroidRuntime: FATAL EXCEPTION: mqt_v_native
+  crash_log.txt:516:04-05 03:05:29.752 25196 27842 E AndroidRuntime: Process: com.hajj, PID: 25196
+  crash_log.txt:517:04-05 03:05:29.752 25196 27842 E AndroidRuntime: java.lang.IncompatibleClassChangeError: Found interface com.google.android.gms.location.SettingsClient, but class was expected (declaration of 'com.google.android.gms.location.SettingsClient' appears in /data/app/~~vpK9zA9ZLyifFoYRN-UDCg==/com.hajj-wKxUoBBZEgKJ6dcam6HFJA==/base.apk!classes7.dex)
+  crash_log.txt:518:04-05 03:05:29.752 25196 27842 E AndroidRuntime: 	at com.agontuk.RNFusedLocation.FusedLocationProvider.checkLocationSettings(FusedLocationProvider.java:177)
+  crash_log.txt:519:04-05 03:05:29.752 25196 27842 E AndroidRuntime: 	at com.agontuk.RNFusedLocation.FusedLocationProvider.requestLocationUpdates(FusedLocationProvider.java:152)
+  crash_log.txt:520:04-05 03:05:29.752 25196 27842 E AndroidRuntime: 	at com.agontuk.RNFusedLocation.RNFusedLocationModule.startObserving(RNFusedLocationModule.java:133)
+  crash_log.txt:521:04-05 03:05:29.752 25196 27842 E AndroidRuntime: 	at com.facebook.jni.NativeRunnable.run(Native Method)
+  crash_log.txt:522:04-05 03:05:29.752 25196 27842 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:958)
+  crash_log.txt:523:04-05 03:05:29.752 25196 27842 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+  crash_log.txt:524:04-05 03:05:29.752 25196 27842 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadHandler.dispatchMessage(MessageQueueThreadHandler.kt:21)
+  crash_log.txt:525:04-05 03:05:29.752 25196 27842 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:243)
+  crash_log.txt:526:04-05 03:05:29.752 25196 27842 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:338)
+  crash_log.txt:527:04-05 03:05:29.752 25196 27842 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion.startNewBackgroundThread$lambda$0(MessageQueueThreadImpl.kt:152)
+  crash_log.txt:528:04-05 03:05:29.752 25196 27842 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion.$r8$lambda$YYXYCFexeoKtAeDpeNYkxZZlpbA(Unknown Source:0)
+  crash_log.txt:529:04-05 03:05:29.752 25196 27842 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+  crash_log.txt:530:04-05 03:05:29.752 25196 27842 E AndroidRuntime: 	at java.lang.Thread.run(Thread.java:1563)
+> crash_log.txt:531:04-05 03:09:05.392 25642 29160 E AndroidRuntime: FATAL EXCEPTION: mqt_v_native
+  crash_log.txt:532:04-05 03:09:05.392 25642 29160 E AndroidRuntime: Process: com.hajj, PID: 25642
+  crash_log.txt:533:04-05 03:09:05.392 25642 29160 E AndroidRuntime: java.lang.IncompatibleClassChangeError: Found interface com.google.android.gms.location.SettingsClient, but class was expected (declaration of 'com.google.android.gms.location.SettingsClient' appears in /data/app/~~RcPQuOBXZwMCMhtIFWeuHg==/com.hajj-UTzwxIWBWSgHCAuOukmfWQ==/base.apk!classes7.dex)
+  crash_log.txt:534:04-05 03:09:05.392 25642 29160 E AndroidRuntime: 	at com.agontuk.RNFusedLocation.FusedLocationProvider.checkLocationSettings(FusedLocationProvider.java:177)
+  crash_log.txt:535:04-05 03:09:05.392 25642 29160 E AndroidRuntime: 	at com.agontuk.RNFusedLocation.FusedLocationProvider.requestLocationUpdates(FusedLocationProvider.java:152)
+  crash_log.txt:536:04-05 03:09:05.392 25642 29160 E AndroidRuntime: 	at com.agontuk.RNFusedLocation.RNFusedLocationModule.startObserving(RNFusedLocationModule.java:133)
+  crash_log.txt:537:04-05 03:09:05.392 25642 29160 E AndroidRuntime: 	at com.facebook.jni.NativeRunnable.run(Native Method)
+  crash_log.txt:538:04-05 03:09:05.392 25642 29160 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:958)
+  crash_log.txt:539:04-05 03:09:05.392 25642 29160 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+  crash_log.txt:540:04-05 03:09:05.392 25642 29160 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadHandler.dispatchMessage(MessageQueueThreadHandler.kt:21)
+  crash_log.txt:541:04-05 03:09:05.392 25642 29160 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:243)
+  crash_log.txt:542:04-05 03:09:05.392 25642 29160 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:338)
+  crash_log.txt:543:04-05 03:09:05.392 25642 29160 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion.startNewBackgroundThread$lambda$0(MessageQueueThreadImpl.kt:152)
+  crash_log.txt:544:04-05 03:09:05.392 25642 29160 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion.$r8$lambda$YYXYCFexeoKtAeDpeNYkxZZlpbA(Unknown Source:0)
+  crash_log.txt:545:04-05 03:09:05.392 25642 29160 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+  crash_log.txt:546:04-05 03:09:05.392 25642 29160 E AndroidRuntime: 	at java.lang.Thread.run(Thread.java:1563)
+> crash_log.txt:547:04-05 03:10:24.807 25954 29434 E AndroidRuntime: FATAL EXCEPTION: mqt_v_native
+  crash_log.txt:548:04-05 03:10:24.807 25954 29434 E AndroidRuntime: Process: com.hajj, PID: 25954
+  crash_log.txt:549:04-05 03:10:24.807 25954 29434 E AndroidRuntime: java.lang.IncompatibleClassChangeError: Found interface com.google.android.gms.location.SettingsClient, but class was expected (declaration of 'com.google.android.gms.location.SettingsClient' appears in /data/app/~~RcPQuOBXZwMCMhtIFWeuHg==/com.hajj-UTzwxIWBWSgHCAuOukmfWQ==/base.apk!classes7.dex)
+  crash_log.txt:550:04-05 03:10:24.807 25954 29434 E AndroidRuntime: 	at com.agontuk.RNFusedLocation.FusedLocationProvider.checkLocationSettings(FusedLocationProvider.java:177)
+  crash_log.txt:551:04-05 03:10:24.807 25954 29434 E AndroidRuntime: 	at com.agontuk.RNFusedLocation.FusedLocationProvider.requestLocationUpdates(FusedLocationProvider.java:152)
+  crash_log.txt:552:04-05 03:10:24.807 25954 29434 E AndroidRuntime: 	at com.agontuk.RNFusedLocation.RNFusedLocationModule.startObserving(RNFusedLocationModule.java:133)
+  crash_log.txt:553:04-05 03:10:24.807 25954 29434 E AndroidRuntime: 	at com.facebook.jni.NativeRunnable.run(Native Method)
+  crash_log.txt:554:04-05 03:10:24.807 25954 29434 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:958)
+  crash_log.txt:555:04-05 03:10:24.807 25954 29434 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+  crash_log.txt:556:04-05 03:10:24.807 25954 29434 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadHandler.dispatchMessage(MessageQueueThreadHandler.kt:21)
+  crash_log.txt:557:04-05 03:10:24.807 25954 29434 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:243)
+  crash_log.txt:558:04-05 03:10:24.807 25954 29434 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:338)
+  crash_log.txt:559:04-05 03:10:24.807 25954 29434 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion.startNewBackgroundThread$lambda$0(MessageQueueThreadImpl.kt:152)
+  crash_log.txt:560:04-05 03:10:24.807 25954 29434 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion.$r8$lambda$YYXYCFexeoKtAeDpeNYkxZZlpbA(Unknown Source:0)
+  crash_log.txt:561:04-05 03:10:24.807 25954 29434 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+  crash_log.txt:562:04-05 03:10:24.807 25954 29434 E AndroidRuntime: 	at java.lang.Thread.run(Thread.java:1563)
+> crash_log.txt:563:04-05 03:18:37.212 27812 31719 E AndroidRuntime: FATAL EXCEPTION: mqt_v_native
+  crash_log.txt:564:04-05 03:18:37.212 27812 31719 E AndroidRuntime: Process: com.hajj, PID: 27812
+  crash_log.txt:565:04-05 03:18:37.212 27812 31719 E AndroidRuntime: java.lang.IncompatibleClassChangeError: Found interface com.google.android.gms.location.SettingsClient, but class was expected (declaration of 'com.google.android.gms.location.SettingsClient' appears in /data/app/~~_bOyqi01L8_6k_Y4y-lc0w==/com.hajj-4Tw3fFfzqOGw8fyVLkcidA==/base.apk!classes7.dex)
+  crash_log.txt:566:04-05 03:18:37.212 27812 31719 E AndroidRuntime: 	at com.agontuk.RNFusedLocation.FusedLocationProvider.checkLocationSettings(FusedLocationProvider.java:177)
+  crash_log.txt:567:04-05 03:18:37.212 27812 31719 E AndroidRuntime: 	at com.agontuk.RNFusedLocation.FusedLocationProvider.requestLocationUpdates(FusedLocationProvider.java:152)
+  crash_log.txt:568:04-05 03:18:37.212 27812 31719 E AndroidRuntime: 	at com.agontuk.RNFusedLocation.RNFusedLocationModule.startObserving(RNFusedLocationModule.java:133)
+  crash_log.txt:569:04-05 03:18:37.212 27812 31719 E AndroidRuntime: 	at com.facebook.jni.NativeRunnable.run(Native Method)
+  crash_log.txt:570:04-05 03:18:37.212 27812 31719 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:958)
+  crash_log.txt:571:04-05 03:18:37.212 27812 31719 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+  crash_log.txt:572:04-05 03:18:37.212 27812 31719 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadHandler.dispatchMessage(MessageQueueThreadHandler.kt:21)
+  crash_log.txt:573:04-05 03:18:37.212 27812 31719 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:243)
+  crash_log.txt:574:04-05 03:18:37.212 27812 31719 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:338)
+  crash_log.txt:575:04-05 03:18:37.212 27812 31719 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion.startNewBackgroundThread$lambda$0(MessageQueueThreadImpl.kt:152)
+  crash_log.txt:576:04-05 03:18:37.212 27812 31719 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion.$r8$lambda$YYXYCFexeoKtAeDpeNYkxZZlpbA(Unknown Source:0)
+  crash_log.txt:577:04-05 03:18:37.212 27812 31719 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+  crash_log.txt:578:04-05 03:18:37.212 27812 31719 E AndroidRuntime: 	at java.lang.Thread.run(Thread.java:1563)
+> crash_log.txt:579:04-05 03:19:23.821 29439 32393 E AndroidRuntime: FATAL EXCEPTION: mqt_v_native
+  crash_log.txt:580:04-05 03:19:23.821 29439 32393 E AndroidRuntime: Process: com.hajj, PID: 29439
+  crash_log.txt:581:04-05 03:19:23.821 29439 32393 E AndroidRuntime: java.lang.IncompatibleClassChangeError: Found interface com.google.android.gms.location.SettingsClient, but class was expected (declaration of 'com.google.android.gms.location.SettingsClient' appears in /data/app/~~_bOyqi01L8_6k_Y4y-lc0w==/com.hajj-4Tw3fFfzqOGw8fyVLkcidA==/base.apk!classes7.dex)
+  crash_log.txt:582:04-05 03:19:23.821 29439 32393 E AndroidRuntime: 	at com.agontuk.RNFusedLocation.FusedLocationProvider.checkLocationSettings(FusedLocationProvider.java:177)
+  crash_log.txt:583:04-05 03:19:23.821 29439 32393 E AndroidRuntime: 	at com.agontuk.RNFusedLocation.FusedLocationProvider.requestLocationUpdates(FusedLocationProvider.java:152)
+  crash_log.txt:584:04-05 03:19:23.821 29439 32393 E AndroidRuntime: 	at com.agontuk.RNFusedLocation.RNFusedLocationModule.startObserving(RNFusedLocationModule.java:133)
+  crash_log.txt:585:04-05 03:19:23.821 29439 32393 E AndroidRuntime: 	at com.facebook.jni.NativeRunnable.run(Native Method)
+  crash_log.txt:586:04-05 03:19:23.821 29439 32393 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:958)
+  crash_log.txt:587:04-05 03:19:23.821 29439 32393 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+  crash_log.txt:588:04-05 03:19:23.821 29439 32393 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadHandler.dispatchMessage(MessageQueueThreadHandler.kt:21)
+  crash_log.txt:589:04-05 03:19:23.821 29439 32393 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:243)
+  crash_log.txt:590:04-05 03:19:23.821 29439 32393 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:338)
+  crash_log.txt:591:04-05 03:19:23.821 29439 32393 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion.startNewBackgroundThread$lambda$0(MessageQueueThreadImpl.kt:152)
+  crash_log.txt:592:04-05 03:19:23.821 29439 32393 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion.$r8$lambda$YYXYCFexeoKtAeDpeNYkxZZlpbA(Unknown Source:0)
+  crash_log.txt:593:04-05 03:19:23.821 29439 32393 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+  crash_log.txt:594:04-05 03:19:23.821 29439 32393 E AndroidRuntime: 	at java.lang.Thread.run(Thread.java:1563)
+> crash_log.txt:803:04-08 11:34:43.052 25881 29303 E AndroidRuntime: FATAL EXCEPTION: mqt_v_native
+  crash_log.txt:804:04-08 11:34:43.052 25881 29303 E AndroidRuntime: Process: com.hajj, PID: 25881
+  crash_log.txt:805:04-08 11:34:43.052 25881 29303 E AndroidRuntime: java.lang.IncompatibleClassChangeError: Found interface com.google.android.gms.location.SettingsClient, but class was expected (declaration of 'com.google.android.gms.location.SettingsClient' appears in /data/app/~~MhyxCWFEpQEwY85BNRfoiQ==/com.hajj-2TRXkonqz4V98kAZBh3aLw==/base.apk!classes7.dex)
+  crash_log.txt:806:04-08 11:34:43.052 25881 29303 E AndroidRuntime: 	at com.agontuk.RNFusedLocation.FusedLocationProvider.checkLocationSettings(FusedLocationProvider.java:177)
+  crash_log.txt:807:04-08 11:34:43.052 25881 29303 E AndroidRuntime: 	at com.agontuk.RNFusedLocation.FusedLocationProvider.requestLocationUpdates(FusedLocationProvider.java:152)
+  crash_log.txt:808:04-08 11:34:43.052 25881 29303 E AndroidRuntime: 	at com.agontuk.RNFusedLocation.RNFusedLocationModule.startObserving(RNFusedLocationModule.java:133)
+  crash_log.txt:809:04-08 11:34:43.052 25881 29303 E AndroidRuntime: 	at com.facebook.jni.NativeRunnable.run(Native Method)
+  crash_log.txt:810:04-08 11:34:43.052 25881 29303 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:958)
+  crash_log.txt:811:04-08 11:34:43.052 25881 29303 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+  crash_log.txt:812:04-08 11:34:43.052 25881 29303 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadHandler.dispatchMessage(MessageQueueThreadHandler.kt:21)
+  crash_log.txt:813:04-08 11:34:43.052 25881 29303 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:243)
+  crash_log.txt:814:04-08 11:34:43.052 25881 29303 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:338)
+  crash_log.txt:815:04-08 11:34:43.052 25881 29303 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion.startNewBackgroundThread$lambda$0(MessageQueueThreadImpl.kt:152)
+  crash_log.txt:816:04-08 11:34:43.052 25881 29303 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion.$r8$lambda$YYXYCFexeoKtAeDpeNYkxZZlpbA(Unknown Source:0)
+  crash_log.txt:817:04-08 11:34:43.052 25881 29303 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+  crash_log.txt:818:04-08 11:34:43.052 25881 29303 E AndroidRuntime: 	at java.lang.Thread.run(Thread.java:1563)
+> crash_log.txt:1146:04-08 11:35:42.318 25882 29933 E AndroidRuntime: FATAL EXCEPTION: mqt_v_native
+  crash_log.txt:1147:04-08 11:35:42.318 25882 29933 E AndroidRuntime: Process: com.hajj, PID: 25882
+  crash_log.txt:1148:04-08 11:35:42.318 25882 29933 E AndroidRuntime: java.lang.IncompatibleClassChangeError: Found interface com.google.android.gms.location.SettingsClient, but class was expected (declaration of 'com.google.android.gms.location.SettingsClient' appears in /data/app/~~MhyxCWFEpQEwY85BNRfoiQ==/com.hajj-2TRXkonqz4V98kAZBh3aLw==/base.apk!classes7.dex)
+  crash_log.txt:1149:04-08 11:35:42.318 25882 29933 E AndroidRuntime: 	at com.agontuk.RNFusedLocation.FusedLocationProvider.checkLocationSettings(FusedLocationProvider.java:177)
+  crash_log.txt:1150:04-08 11:35:42.318 25882 29933 E AndroidRuntime: 	at com.agontuk.RNFusedLocation.FusedLocationProvider.requestLocationUpdates(FusedLocationProvider.java:152)
+  crash_log.txt:1151:04-08 11:35:42.318 25882 29933 E AndroidRuntime: 	at com.agontuk.RNFusedLocation.RNFusedLocationModule.startObserving(RNFusedLocationModule.java:133)
+  crash_log.txt:1152:04-08 11:35:42.318 25882 29933 E AndroidRuntime: 	at com.facebook.jni.NativeRunnable.run(Native Method)
+  crash_log.txt:1153:04-08 11:35:42.318 25882 29933 E AndroidRuntime: 	at android.os.Handler.handleCallback(Handler.java:958)
+  crash_log.txt:1154:04-08 11:35:42.318 25882 29933 E AndroidRuntime: 	at android.os.Handler.dispatchMessage(Handler.java:99)
+  crash_log.txt:1155:04-08 11:35:42.318 25882 29933 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadHandler.dispatchMessage(MessageQueueThreadHandler.kt:21)
+  crash_log.txt:1156:04-08 11:35:42.318 25882 29933 E AndroidRuntime: 	at android.os.Looper.loopOnce(Looper.java:243)
+  crash_log.txt:1157:04-08 11:35:42.318 25882 29933 E AndroidRuntime: 	at android.os.Looper.loop(Looper.java:338)
+  crash_log.txt:1158:04-08 11:35:42.318 25882 29933 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion.startNewBackgroundThread$lambda$0(MessageQueueThreadImpl.kt:152)
+  crash_log.txt:1159:04-08 11:35:42.318 25882 29933 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion.$r8$lambda$YYXYCFexeoKtAeDpeNYkxZZlpbA(Unknown Source:0)
+  crash_log.txt:1160:04-08 11:35:42.318 25882 29933 E AndroidRuntime: 	at com.facebook.react.bridge.queue.MessageQueueThreadImpl$Companion$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+  crash_log.txt:1161:04-08 11:35:42.318 25882 29933 E AndroidRuntime: 	at java.lang.Thread.run(Thread.java:1563)
+

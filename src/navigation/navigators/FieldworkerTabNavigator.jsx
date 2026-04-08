@@ -2,7 +2,7 @@ import React from 'react';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { Image, StyleSheet, View, Text } from 'react-native';
 import FieldworkerHomeStack from '../stacks/FieldworkerHomeStack';
-import MapScreen from '../../screens/Shared/Map/MapScreen';
+import FieldworkerMapStack from '../stacks/FieldworkerMapStack';
 import FieldworkerHealthStack from '../stacks/FieldworkerHealthStack';
 import { Colors, Typography } from '../../theme';
 import { Images } from '../../assets/images/Images';
@@ -52,7 +52,7 @@ const FieldworkerTabNavigator = () => {
             />
             <Tab.Screen
                 name="MapTab"
-                component={MapScreen}
+                component={FieldworkerMapStack}
                 options={{
                     tabBarIcon: ({ focused }) => (
                         <TabBarIcon source={Images.map} focused={focused} label={t('tabs.map')} />
